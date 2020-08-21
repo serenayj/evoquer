@@ -1,0 +1,3712 @@
+0,3MSZA,R5,R5,person turn a light on.
+1,3MSZA,R7,R5,person flipped the light switch near the door.
+2,3MSZA,R5,R5,person turn the light switch on.
+3,3MSZA,R7,R7,person is playing with the switch for the light.
+4,AMT7R,R5,R7,a person is putting a picture onto the wall.
+5,YVKIV,R5,R5,the person puts down the bag.
+6,VXJS4,R7,R7,a person walks through the doorway.
+7,VXJS4,R7,R7,a person opens the door.
+8,GBD1Y,R5,R5,person closes the door.
+9,GBD1Y,R5,R5,person closing the door.
+10,KVXJ9,R7,R7,person runs up the stairs.
+11,KVXJ9,R7,R7,a person watches another run up some stairs.
+12,E6DLK,Else,Else,person runs to the window to look out.
+13,E6DLK,R7,R7,a person sits in a chair.
+14,E6DLK,R5,R5,person runs to the window.
+15,E6DLK,R3,R3,person runs to the door.
+16,E6DLK,R7,R7,a person sits on a chair.
+17,E6DLK,R7,R7,the person sits in the chair momentarily.
+18,AKO6M,R7,R7,a person stands in the bathroom holding a glass.
+19,AKO6M,R5,R5,the person takes a bag from the bottom cabinet.
+20,F7TG5,R7,R7,person sits in a chair.
+21,F7TG5,R7,R3,person sits down on a chair.
+22,F7TG5,R3,R5,person throwing a blanket onto the vacuum.
+23,F7TG5,R7,Else,person they throw their clothes on to a nearby desk.
+24,KOVTR,R7,R7,person they stand up.
+25,KOVTR,R7,R7,a person awakens in their sofa.
+26,KOVTR,R5,R5,person takes some medicine.
+27,FPJ9D,R7,R5,person sit on a chair.
+28,5NV2Z,R7,R5,person takes a cup off a desk.
+29,5NV2Z,R5,R5,person opens the front door.
+30,5NV2Z,R5,R7,the person opens a door leading outside.
+31,5NV2Z,R7,R3,a person takes a cup from a table.
+32,Y1HGC,R5,R5,a person walks in a doorway drinking some coffee.
+33,Y1HGC,R7,R7,person drinking a glass of water.
+34,9JZO2,Else,R7,person put on their shoes.
+35,9JZO2,R5,R5,person holding a glass cup.
+36,9JZO2,R7,R7,a person eats some food.
+37,9JZO2,R7,R7,a person is in a entryway eating a sandwich.
+38,9JZO2,R7,R5,person holding a glass of water.
+39,9JZO2,R3,R5,the person puts the cup down.
+40,9JZO2,R5,Else,person stands in doorway holding a glass.
+41,9JZO2,R7,R7,person eating a sandwich.
+42,9JZO2,Else,Else,person puts on some shoes.
+43,9JZO2,Else,R3,person holding a cup in the doorway.
+44,9JZO2,R5,Else,the person walks into the house puts down the food.
+45,9JZO2,R3,R5,person start smiling as the dress.
+46,4J1AP,R7,R7,person drinking a glass of water.
+47,4J1AP,R3,R3,lastly the person takes a drink from a cup.
+48,V1WN7,R7,R7,person sitting on bed.
+49,V1WN7,R7,R7,a person is dressing.
+50,V1WN7,R5,R7,person sitting on their bed.
+51,BL7OF,R7,R5,a person throws a pair of shoes under the window.
+52,BL7OF,R5,R5,the person throws shoes under the window.
+53,5C4EK,R5,R7,a person reads a book.
+54,S591U,Else,Else,person sitting on top of bed closes laptop.
+55,DLFPX,R7,R5,a person is standing on their stairs holding a bag.
+56,9HG4Z,R3,Else,a person is closing a door.
+57,I7AS7,R7,R7,a person runs through a doorway.
+58,I7AS7,R7,R7,a person runs into the dining room.
+59,I7AS7,R3,R5,the person opens the bag.
+60,J48N6,Else,Else,the same person was laughing as he was undressing.
+61,J48N6,R5,R5,person begins to undress.
+62,J48N6,R5,R3,the person was putting the bag into the cabinet.
+63,JVLAZ,R5,R5,person laying on the bed sneezing.
+64,JVLAZ,R5,R5,person is lying on bed sneezing.
+65,JVLAZ,R7,R7,person drinks water from a cup.
+66,2RFLZ,R3,R5,a person picks up their phone talks on it.
+67,2RFLZ,Else,Else,person takes a phone off a desk.
+68,N3U9S,R7,R7,person opens a cabinet door twice.
+69,J9T5D,R7,R7,person start laughing.
+70,1CYLM,R7,R5,a person sits down on a couch.
+71,1CYLM,R7,R7,the person is drinking something from a cup.
+72,V2GC9,R5,R5,person putting groceries away.
+73,V2GC9,Else,Else,person opening a pantry door.
+74,V2GC9,R7,R3,a person walks through the house holding a bag.
+75,V2GC9,R7,R7,person put groceries away.
+76,LGJAR,R7,R7,person turns on the light.
+77,ZHRPD,Else,Else,the person puts the towel onto the shelf.
+78,ZHRPD,R5,R7,the person takes a phone.
+79,43CCM,R7,R7,person undressing by the shelf beside the doorway.
+80,43CCM,R7,R7,a person opens a door.
+81,YZ8HK,R3,Else,the person closes the laptop.
+82,2P7A9,R5,R3,person take a picture from the top of a cabinet.
+83,2P7A9,R5,R3,person sit down in a chair at a desk.
+84,2P7A9,Else,Else,person looking at the picture for a second.
+85,2P7A9,Else,Else,the person puts a picture on their desk.
+86,2P7A9,Else,Else,person they put down the broom.
+87,2P7A9,Else,Else,person put the picture on the desk.
+88,1ZWPP,Else,Else,a person is smiling in the mirror of their bathroom.
+89,1ZWPP,R7,R7,person opens the door.
+90,1ZWPP,R7,R7,person they open the door.
+91,QUXYH,Else,Else,person laughs in the kitchen.
+92,QUXYH,R7,R3,person seems to be laughing into the blanket.
+93,QUXYH,R7,R7,person eats one.
+94,QUXYH,R3,R7,person takes some food.
+95,QUXYH,R7,R7,a person snuggles with a blanket.
+96,QUXYH,R7,R7,person eats it.
+97,V3SOF,Else,Else,person opened up the refrigerator.
+98,SY5QP,R5,R7,a person is standing in the room holding a sandwich.
+99,SY5QP,R7,R7,the person puts the sandwich down.
+100,AOK1L,Else,Else,person drinking from a cup.
+101,AOK1L,Else,Else,person drinking from a glass.
+102,NBSPH,Else,R3,person sits on the table.
+103,NBSPH,R5,R7,person takes a towel from a container.
+104,NBSPH,R7,R3,person takes out a towel.
+105,HY4FS,R3,R3,person the open the cabinet.
+106,HY4FS,R5,R5,a person walks into a bathroom holding dishes.
+107,YSE1G,R7,R7,person closed the door.
+108,XMYXI,Else,Else,a person sits in a chair.
+109,XMYXI,R3,R3,person he begins to laugh at something.
+110,XMYXI,Else,Else,a man is sitting at a chair.
+111,XMYXI,R3,R3,a person is smiling.
+112,QLEN3,R5,R7,person open the closet.
+113,YSKX3,R7,Else,person throws pillow on it.
+114,HBWLV,Else,Else,person puts the shoes on the floor.
+115,XE19C,Else,Else,person puts a cup in the sink.
+116,XE19C,Else,Else,person closes the door.
+117,XE19C,Else,Else,person puts the cup in the sink.
+118,W3SC3,R7,R3,the person immediately opened a window.
+119,W3SC3,R5,R5,person opens a window.
+120,W3SC3,R5,R5,person opens the window.
+121,WKPQ3,Else,Else,person they talk on the phone.
+122,WKPQ3,Else,Else,person close the closet door.
+123,WKPQ3,R5,R7,person turns on the light.
+124,FXZI5,R3,R3,a person is dressing in a towel.
+125,OE2M1,R5,R7,another person comes in takes the box away.
+126,OE2M1,R5,R7,person takes the tray of food.
+127,OE2M1,R5,R7,person takes the box.
+128,ZF7YA,R5,R3,the person sits on a pillow on the floor.
+129,ZF7YA,R7,R7,a person runs down a few stairs.
+130,ZF7YA,R3,R3,person sitting on the floor.
+131,B82GJ,R5,R5,the person takes a paper towel from the table.
+132,FYYFX,Else,Else,person opens a window.
+133,FYYFX,R7,R5,person takes a camera from a table.
+134,FYYFX,R3,R3,person get something to look out the window with.
+135,FYYFX,Else,Else,person upon awakening.
+136,FYYFX,R7,Else,person looks out the window.
+137,Q7IQI,Else,Else,person looks at some books open it.
+138,Q7IQI,Else,Else,person start sneezing with looking at the papers.
+139,Q7IQI,R5,R5,a person is sneezing into a blanket.
+140,HSEH1,R5,R5,person is fixing a light bulb.
+141,HSEH1,R5,R5,a person is fixing a light on the room.
+142,HSEH1,R5,R5,a person is fixing a light.
+143,6ZWSU,R3,Else,person puts the books down.
+144,6ZWSU,Else,Else,person they immediately put their books down.
+145,6ZWSU,R7,R3,the person takes their phone out.
+146,6ZWSU,R7,R7,person take their shoes off.
+147,6ZWSU,R3,R7,person closes the door.
+148,6ZWSU,R7,R3,the person takes their phone.
+149,6ZWSU,R7,R7,person plays with their phone.
+150,V0ZD9,R7,R7,person washes a cup.
+151,V0ZD9,R5,R5,person putting on clothes in a dining room.
+152,AK2KG,R7,R7,person opens up the window.
+153,AK2KG,R7,R7,a person is sitting on a bed.
+154,AK2KG,R7,R5,this person is sitting on their bed in the bedroom.
+155,AK2KG,R7,R7,person begins opening the window.
+156,AK2KG,R7,R7,person opened the window.
+157,AK2KG,R7,R5,a person was sitting on a bed.
+158,8MQH6,R7,R7,a person opens a closet door.
+159,8MQH6,R5,R7,a person opens up the closet.
+160,8MQH6,R7,R7,a person opens a closet.
+161,8MQH6,Else,Else,person they hold the shoes.
+162,MAUMO,R7,R7,person takes a drink from a glass.
+163,EHS68,Else,Else,another person is throwing a pair of shoes.
+164,G30NS,Else,Else,person puts it into a box.
+165,G30NS,Else,R3,person puts the box down.
+166,G30NS,Else,Else,person putting things on a shelf.
+167,G30NS,R5,R3,the person takes a large blanket.
+168,SUJWY,R7,R7,the person laughs at something on the screen multiple times.
+169,SUJWY,R7,R7,the person begins laughing at something on the screen.
+170,KERO6,Else,Else,the person puts some food onto a pan.
+171,SV6KF,R3,R5,a person throws a broom at the stairs.
+172,SV6KF,R7,R7,this person throws the broom down.
+173,VCYH8,Else,Else,person turns off the light as they're leaving.
+174,VCYH8,Else,Else,person turns off a light.
+175,G852Y,Else,Else,one person is wrapped in a blanket sneezing.
+176,OKXIQ,Else,Else,person they use the doorknob to open the cabinet.
+177,KB7WQ,Else,Else,person they close the box.
+178,KB7WQ,Else,Else,the person closes a box that's been searched through.
+179,27DCQ,Else,R5,a person awakens in bed.
+180,UM5II,Else,Else,the person eats a few bite.
+181,UM5II,R7,R7,a person is sneezing on the medicine.
+182,UM5II,Else,Else,person starts sneezing.
+183,UM5II,Else,Else,a person is sneezing.
+184,XT9D4,Else,Else,a person is putting food into the refrigerator.
+185,XT9D4,Else,Else,a person is putting away groceries in the fridge.
+186,XT9D4,Else,R5,person their phone rings so they close the fridge door.
+187,XT9D4,R7,R7,person closed the refrigerator door.
+188,1W6YY,Else,Else,person closes the cabinet door.
+189,YOCRB,R7,R7,person sit down in a chair.
+190,YOCRB,R7,R7,person sitting in a chair.
+191,ZDV60,R5,R7,a person opens a closet door.
+192,ZDV60,R5,R7,person start dressing themselves.
+193,ZDV60,R7,R7,person opens the door.
+194,ZDV60,R3,Else,the person puts shoes on.
+195,GHC5X,Else,Else,a person takes a glass of water.
+196,6IOV0,R5,R7,person working on a laptop.
+197,6IOV0,R7,Else,person playing a casual game on their laptop.
+198,6IOV0,R7,R7,person drinking a bottle of soda.
+199,OP2SS,Else,R3,the person takes out their laptop.
+200,PPY0W,R5,R5,a person is holding a bag.
+201,DCV2M,R7,R7,person start undressing.
+202,DCV2M,R7,R7,a person is awakening.
+203,TEV5K,Else,R7,person begings to drink a glass of water.
+204,TEV5K,R7,R5,a person opens their kitchen window.
+205,TEV5K,R7,R5,a person opens the window.
+206,Q3BCC,R7,R7,a person closes a door.
+207,Q3BCC,Else,Else,person trying to close the door.
+208,M8OYC,R3,R5,a person walks in holding a bag of groceries.
+209,FBOF0,Else,R7,a person awakens in bed.
+210,FBOF0,Else,Else,the person throws the blanket off of the bed.
+211,D1NT7,Else,Else,a person is putting some dishes into a box.
+212,D1NT7,R5,Else,person they put the box on a bed.
+213,D1NT7,R3,Else,a person is putting some plates in a box.
+214,3UACJ,Else,Else,person takes a drink from a glass.
+215,U2AO1,Else,Else,closes the doors.the person takes the food.
+216,U2AO1,R7,R7,person starts eating.
+217,U2AO1,R7,R5,a person closed a cabinet.
+218,U2AO1,R7,R7,person looks for something to eat.
+219,U2AO1,R7,R7,the person eats it.
+220,U2AO1,Else,R3,person a opens the door bites into a snack.
+221,3J9L5,R7,R7,a person is eating.
+222,3J9L5,R7,R7,a person is throwing the bag at the light switch.
+223,XQVXF,R7,R5,person opens a fridge door.
+224,XQVXF,Else,R7,another person opens an oven door to look inside.
+225,XQVXF,R7,R7,one person is cooking.
+226,9LWQ6,R7,R7,a person undresses.
+227,9LWQ6,R7,R7,person takes their shoes off.
+228,9LWQ6,R7,R7,person takes off their shoes.
+229,9LWQ6,R3,R5,person puts the clothes on the bed.
+230,2ADJI,Else,Else,person putting away groceries.
+231,2ADJI,Else,Else,person drinking from a glass of water.
+232,B1AMA,R5,R7,person dresses in pajamas.
+233,LA6AA,R5,R5,a person was holding a blanket.
+234,LA6AA,R5,R5,a person is holding a blanket.
+235,YNWMW,R5,R5,the person takes a broom.
+236,YNWMW,R5,R7,a person eats some food.
+237,YNWMW,R7,R7,a person is in a basement eating.
+238,LUTIO,Else,Else,the person lays on the floor the gets up.
+239,Q6290,R7,R7,person watching the television eating an apple.
+240,Q6290,R7,R7,a person is standing eating something as they watch tv.
+241,Q6290,R7,R7,person eating a sandwich out of a dish.
+242,TAQ25,R5,R7,the person closes the laptop.
+243,TAQ25,R5,R7,the person closes the laptop screen.
+244,TAQ25,R3,Else,person smiling at their laptop.
+245,EEVD3,R7,R7,person begins to eat it.
+246,EEVD3,R5,R7,a person is holding the door to the refrigerator open.
+247,EEVD3,R7,R7,person removes a snack to eat.
+248,EEVD3,R7,R7,person eat the food.
+249,EEVD3,R7,R7,person they begin eating the fruit.
+250,EEVD3,Else,R5,person closing the door.
+251,IOGR7,R5,R5,person they stand up.
+252,2OREK,Else,Else,looking out the window in a curious manner.
+253,JCT0K,R7,R7,a person is opening the closet door.
+254,JCT0K,R3,R5,person opens the closet.
+255,H0P5D,R7,R7,one person was running into the table.
+256,H0P5D,R3,Else,person they laugh.
+257,BFCU9,R7,R7,person eating it.
+258,BFCU9,R7,R7,a person is eating from a can.
+259,BFCU9,R7,R7,a person eats something from a jar.
+260,BFCU9,Else,Else,person puts the jar down on a table.
+261,BFCU9,R7,R7,person the put the food down.
+262,BFCU9,R7,R7,person eats it.
+263,BFCU9,R7,R7,a person is holding some food.
+264,TUD6M,R7,R7,person throws their blanket inside.
+265,TUD6M,R5,R5,person throwing a blanket into a closet.
+266,A3XXB,R7,R3,person puts them away on a shelf in a closet.
+267,A3XXB,R7,R7,a person is tidying a blanket.
+268,L5YHH,R5,R3,a person is turns on the light in their closet.
+269,L5YHH,Else,Else,person open the door.
+270,L5YHH,Else,Else,person opens the closet.
+271,GL2JW,R7,R7,person closes a cupboard door.
+272,GL2JW,R7,R7,the person closes a cupboard door.
+273,GL2JW,R5,R7,a person is closing a cabinet.
+274,FAJEA,R3,R3,person they take some medicine.
+275,FAJEA,R7,R3,person drink from a cup.
+276,RXELU,R5,R5,person turns the light on.
+277,RXELU,R5,R5,person turns on the light.
+278,RXELU,R7,Else,person smiling in the mirror.
+279,RXELU,R7,R7,the person drinks from a cup of coffee.
+280,QCVZN,R5,R3,a person takes a book off a shelf.
+281,5B9XE,Else,Else,person turns off the ceiling light.
+282,5B9XE,R3,Else,person turns the light off.
+283,5B9XE,R5,Else,person turns off the light.
+284,5B9XE,R3,R5,a person runs into a room.
+285,5B9XE,R3,R5,a person runs into the bedroom.
+286,LKNZD,R7,R5,a person is throwing clothes on the floor.
+287,0DVVD,R3,R3,a person closes a window.
+288,0DVVD,R7,R5,a person is opening a window in the bathroom.
+289,U8M2P,Else,Else,another person is sneezing on a sandwich.
+290,VAV4C,Else,Else,person eating a sandwich.
+291,VAV4C,Else,Else,the person is sitting on a closed toilet eating.
+292,VAV4C,R3,Else,a person is in a bathroom drinking from a cup.
+293,VAV4C,Else,Else,person repeats the process until he is finished with both.
+294,VAV4C,R3,Else,person walk out the doorway.
+295,6C0BK,R7,R7,a person is putting a towel on a towel rack.
+296,5CN21,Else,Else,a person is standing in their garage holding a pillow.
+297,5CN21,Else,Else,person holding a pillow.
+298,OTIA2,R7,R7,person turns on a lightswitch.
+299,OTIA2,R7,R7,a person walks through the doorway into the home office.
+300,OTIA2,R7,R7,person turns on the light.
+301,OTIA2,R7,R7,a person is walking to turn on the light.
+302,B4ED1,Else,Else,a person is pouring water into a cup.
+303,86E2E,R7,R7,the person is sitting on the floor.
+304,86E2E,R3,R3,person snuggling with a pillow.
+305,86E2E,R5,R3,person begins to eat from a bowl on the floor.
+306,86E2E,Else,Else,person eats something.
+307,86E2E,R3,R5,person holds a pillow.
+308,86E2E,R7,R7,a person sits on the floor.
+309,86E2E,Else,Else,person eating as they are laying down.
+310,86E2E,R5,Else,person eating food in a home office / study.
+311,YJ1KW,R5,R7,person sits down in a chair.
+312,YJ1KW,R5,R7,person sits down in a red chair.
+313,DJ87X,R7,R7,a person is looking out the window.
+314,DJ87X,R7,R7,a person looks out the bathroom window.
+315,DJ87X,R3,R5,person takes their phone out of the cabinet.
+316,N0ZPI,R5,R5,person take a drink from the cup.
+317,N0ZPI,R5,R5,person throw it on the floor.
+318,OVD84,R7,R7,a person turns on some lights.
+319,OVD84,R7,R7,person turns on the light.
+320,OVD84,R7,R7,person turns on a light.
+321,NW0KT,R5,R5,person takes book out.
+322,NW0KT,R5,R7,person takes a book out from the entertainment center.
+323,NW0KT,Else,Else,a person is tidying some books on a shelf.
+324,8SDK5,R5,Else,person sits down in a chair.
+325,8SDK5,R3,Else,person laughing so hard.
+326,95GB4,R5,R7,person takes a picture with a camera.
+327,95GB4,R5,R3,the person takes a picture of something.
+328,95GB4,Else,Else,the person puts the phone away.
+329,95GB4,R7,R7,person washes their hands with hand sanitizer.
+330,95GB4,R7,R7,person playing with a phone.
+331,95GB4,R3,R5,person takes a picture.
+332,95GB4,R7,R7,person playing with their phone.
+333,TDAY1,R5,Else,person working on a laptop.
+334,TDAY1,R3,R7,person stand up from the laying position.
+335,NRGQB,Else,Else,person throws their shoes off by kicking them.
+336,5R8BL,R7,Else,person begin undressing.
+337,5R8BL,R7,R5,a person opens their closet door.
+338,5R8BL,R7,R7,person they throw the pillow behind them.
+339,BI4KK,R7,R7,person drinking from a glass of water.
+340,DU416,R7,R7,person holding a bag.
+341,NO1GJ,Else,Else,person washes clothes.
+342,NO1GJ,Else,Else,a person is washing the clothes.
+343,NO1GJ,Else,Else,a person is undressing in their laundry room.
+344,NO1GJ,Else,Else,person they take a towel from a cabinet.
+345,NO1GJ,Else,Else,a person is undressing in the laundry room.
+346,NO1GJ,Else,Else,person their other clothes into the washer.
+347,NO1GJ,R5,Else,person talking a towel off the shelf.
+348,7SNIO,R7,R5,one person runs into the room laughing.
+349,7SNIO,R7,R5,the person runs into the room.
+350,7SNIO,R5,R5,a person runs into a living.
+351,QOYH2,R5,R5,person takes a drink from a cup.
+352,QWKVM,R7,R7,person closes the door.
+353,QWKVM,R7,Else,person puts a glass on the desk.
+354,QWKVM,R7,R7,one person opens the door.
+355,QWKVM,R7,R7,a man opens a door.
+356,COBS0,Else,R7,a smiling person takes a towel.
+357,TJZ0P,R7,R3,the person is seated in a chair.
+358,TJZ0P,R3,Else,person eats some food.
+359,TJZ0P,R5,R3,person takes a bite of food.
+360,TJZ0P,Else,R3,person they start sneezing.
+361,759MY,Else,Else,person put something on the table.
+362,759MY,R5,R5,person putting on their shoes.
+363,759MY,R5,R5,person put on their shoes.
+364,759MY,R5,R5,a person awakens in their home office.
+365,F1V30,Else,Else,a person holding a towel walks up to a counter.
+366,F1V30,Else,R7,person washing a glass.
+367,U502L,Else,R5,a person awakens in their bathroom holding their phone.
+368,U502L,R7,R5,person takes a towel off the shower rod.
+369,OPPVW,R7,R7,person laugh about it.
+370,NI15V,R5,R3,person holding a towel in the other hand.
+371,NI15V,Else,R5,the person in the doorway walks away holding the towel.
+372,6HT0J,R7,R7,person start reading a book.
+373,6HT0J,Else,Else,person holding a cup.
+374,BM3UJ,R5,R5,a person walks through the entryway holding a glass.
+375,BM3UJ,R7,R7,a person opens the door to their study.
+376,BM3UJ,R7,R7,a person opens the front door to their residence.
+377,DM2XL,R5,R5,person opens the front door.
+378,DM2XL,R5,R7,person opening a door.
+379,RQRRD,R3,R5,person quickly undressing.
+380,RQRRD,R5,R5,a person runs into the bedroom.
+381,RQRRD,Else,R5,the person throws their dirty clothes onto a sofa.
+382,RQRRD,R7,R5,a person runs into the the living room.
+383,RQRRD,Else,Else,person takes new clothes from a box.
+384,S2FUO,R7,R7,a person kneeling on the floor talks on a phone.
+385,S2FUO,R7,R7,person talking on the phone.
+386,S2FUO,R5,R3,the person pours something into a glass.
+387,S2FUO,R5,R5,a person talks on their phone in the kitchen.
+388,36T5X,Else,Else,person starts undressing out of their outdoor clothes.
+389,36T5X,R7,R7,person closes the door.
+390,36T5X,R5,R7,person another closes the door.
+391,36T5X,R5,R7,person closing the door.
+392,36T5X,Else,Else,person begins to undress.
+393,AL1WC,Else,R7,the person closes the door.
+394,HOYUT,R7,R5,person closes the pantry door.
+395,L39A4,Else,Else,a person sits on the floor reading a book.
+396,4H64T,R5,Else,person eating some leftovers from a take-out carton.
+397,4H64T,R5,Else,person takes out some food.
+398,4H64T,R7,Else,person opens a refrigerator.
+399,4H64T,R7,R3,person start to eat the food with a plastic fork.
+400,4H64T,R7,Else,person opens the refrigerator.
+401,AIJ0M,R7,R5,that same person takes a towel.
+402,AIJ0M,Else,Else,person opens the door.
+403,AIJ0M,R7,R7,person holding a towel over one arm.
+404,FXGQI,R3,R3,person sneezing into the mirror they are holding.
+405,FXGQI,Else,Else,person they start sneezing.
+406,KY2KA,Else,R5,person knees takes a book from a cabinet.
+407,KY2KA,R3,R7,a person takes a book from a shelf.
+408,KY2KA,R3,R5,one person takes a book from a wardrobe.
+409,MNNJS,Else,R7,person pouring coffee into a cup in the dining room.
+410,MNNJS,R3,R5,the person puts the cups onto a table.
+411,MNNJS,Else,Else,person pour a cup of coffee.
+412,QMIKJ,R7,R5,a person is putting their laptop on their desk.
+413,QMIKJ,Else,R3,person watching television.
+414,QMIKJ,R7,R7,person puts a laptop down on a table.
+415,HRASP,R7,R7,a person turns on the light to an entryway.
+416,HRASP,Else,R7,person seen closing a door.
+417,HRASP,R7,R7,person turns on a light.
+418,HRASP,Else,Else,person are seen throwing shoes on the floor.
+419,UY0SK,R5,Else,the person takes a bite out of the sandwich.
+420,UY0SK,R7,Else,person sit to eat a sandwich.
+421,UY0SK,R3,R5,person watch the television in the next room.
+422,YQT32,Else,Else,person takes several pictures of different things in the room.
+423,SJ4QF,R7,R7,person washes a glass.
+424,69R8T,Else,Else,person eats it from a plate.
+425,2Z8G8,R5,R7,person they put the bag on a shelf.
+426,2Z8G8,R3,R7,person tidying up a blanket.
+427,XVI3M,R5,R5,person they put the laptop on the pillow.
+428,XVI3M,R7,R7,person stand up.
+429,XVI3M,Else,R5,the person puts the laptop down.
+430,Y3M3W,R3,R5,the person is looking at an opened book.
+431,URK3G,Else,Else,person open the books.
+432,URK3G,Else,Else,person start drinking from the glass.
+433,URK3G,R5,R5,another person runs in with homework.
+434,URK3G,R7,R7,one person opens the refrigerator.
+435,G8NEV,R7,R5,the person starts reading a book.
+436,G8NEV,R5,Else,person a few moments later laughs.
+437,G8NEV,Else,Else,person laughs a little bit.
+438,C0CMQ,R7,R7,person open the door at the bottom of the stairs.
+439,C0CMQ,R5,Else,person walks through the doorway.
+440,C0CMQ,R5,R5,person opens a door.
+441,7XMBM,Else,Else,person starts eating.
+442,7XMBM,Else,Else,person eating from a bowl.
+443,7XMBM,Else,Else,another person walks into a room eating some food.
+444,61IVZ,R5,R7,person closes the door.
+445,61IVZ,R7,R5,person they set down the bag they're holding.
+446,61IVZ,R7,R5,person put down the bag they were holding.
+447,61IVZ,R7,Else,the person puts a bag down.
+448,61IVZ,R5,R5,a person opens the door.
+449,A33VQ,R7,Else,person holding a chair opened a refrigerator.
+450,A33VQ,R5,R7,person opening a refrigerator in the dining room.
+451,A33VQ,R3,R7,person closes the refrigerator.
+452,ZMY8M,R5,R7,person takes some food from a bowl.
+453,ZMY8M,R5,R7,a person eats a sandwich from the table.
+454,ZMY8M,R7,R7,the person eats some food.
+455,ZMY8M,Else,R5,person opening a cabinet in a kitchen.
+456,ZMY8M,R5,R7,person eating breakfast.
+457,ZMY8M,Else,R3,person opens cabinets above it.
+458,39E0I,R7,R5,a person runs around covered in a blanket.
+459,T9Y1N,Else,Else,the person starts smiling.
+460,T9Y1N,Else,Else,the person opens the box.
+461,T9Y1N,Else,Else,a person is sneezing on a box.
+462,T9Y1N,R5,R7,a person opens the doors to the pantry.
+463,0PU21,R3,R3,the person puts the cup down.
+464,AX46Z,R3,R3,person starts laughing.
+465,AX46Z,Else,R5,person laughs as they lean against the dresser.
+466,AX46Z,R3,R5,the animal sitting on the bed climbs on the person.
+467,AX46Z,R5,R3,a person is awakening in their bed.
+468,9POJB,Else,Else,the person sits in a chair for a moment.
+469,9POJB,Else,Else,person takes a blanket.
+470,9POJB,Else,Else,person sitting in a chair drinking a something.
+471,9POJB,Else,Else,person stand up.
+472,K0FAG,R3,Else,a person is smiling.
+473,K0FAG,R5,Else,a person is standing in their kitchen laughing.
+474,N0G70,R7,R7,a person puts food into a sandwich maker.
+475,N0G70,R7,R7,a person cooks a sandwich on a panini maker.
+476,SJ51G,Else,Else,person puts the blanket into a closet.
+477,SJ51G,R5,R7,a person is seen snuggling up to a blanket.
+478,SJ51G,R5,R7,a person opens a door.
+479,SJ51G,R5,R7,person open their closet door.
+480,SJ51G,R3,R3,person close the door.
+481,SJ51G,R5,R3,person put the blanket away.
+482,SJ51G,R7,R7,a person is snuggling with a blanket.
+483,30I35,Else,Else,person took a drink from the glass.
+484,30I35,R3,Else,person poured its contents into the glass.
+485,30I35,R5,Else,person pours a glass of something.
+486,30I35,Else,R3,person takes a drink from the glass.
+487,30I35,Else,Else,person pours water into a glass.
+488,MUWG4,Else,Else,person pours soda into a cup.
+489,WD35N,R3,R5,a person opens a cabinet.
+490,WD35N,Else,Else,person closes the cabinet.
+491,WD35N,Else,R5,person takes a pillow from inside.
+492,WD35N,R3,R5,person takes out a pillow like object.
+493,LLT3E,R5,R7,person walks through a doorway to leave the room.
+494,LLT3E,R5,R3,person they walk through a doorway.
+495,8UCK1,R7,R7,a person opens a cabinet.
+496,8UCK1,R7,R7,a person is opening a cabinet.
+497,8UCK1,R7,R7,person closing the cabinet.
+498,4U8WV,R7,R7,person holding a small hand towel.
+499,4U8WV,R7,Else,the person puts the towel down on the couch.
+500,LSFJG,Else,Else,person starts running in place.
+501,LSFJG,R5,R7,a person puts on a pair of shoes.
+502,LSFJG,Else,Else,person begins running in place.
+503,LSFJG,Else,Else,person they start running in place again.
+504,LSFJG,R5,R5,person start watching themselves in a mirror.
+505,LSFJG,Else,Else,person start running in palce again.
+506,LSFJG,Else,Else,person starts running in place again.
+507,W0QSB,R7,R7,a person is cooking on a stove.
+508,5IPJA,R7,R5,person puts a pillow on their head.
+509,S7JTZ,R7,R7,person uses it to take pictures of their self.
+510,S7JTZ,R7,R7,person take a timed picture.
+511,S7JTZ,R3,R3,a person walks into the bathroom holding a camera.
+512,RVVDR,Else,R3,person puts the bag on the table.
+513,RVVDR,R7,R3,person putting it on a table.
+514,RVVDR,R5,R7,a person was holding a bag which he.
+515,RVVDR,R7,R7,a person is putting groceries in a bag.
+516,RVVDR,R7,R7,a person opens a bag.
+517,T06AT,R5,R5,one person runs into the bathroom grasping a pillow.
+518,T06AT,R5,R5,a man runs into a bathroom holding a pillow.
+519,T06AT,R5,Else,another person is inside holding a blanket.
+520,TZ9FE,R7,R5,a person runs to the closet.
+521,TZ9FE,R7,R5,a person runs into a room.
+522,TZ9FE,Else,Else,person puts the clothes away.
+523,TZ9FE,R3,Else,person holding a stack of clothes.
+524,T7ST5,R3,R7,the person used the spoon to eat from the cup.
+525,T7ST5,R5,R7,person eating a piece of pie.
+526,IQA16,R5,R5,person putting them on a table.
+527,IQA16,R5,R5,person turns off the light.
+528,IQA16,R5,R5,person switch the light off.
+529,IQA16,R5,R5,the person turns off the light.
+530,M3OMM,R7,R7,a man begins to undress.
+531,J7BOV,R7,R7,a person is putting a camera next to a towel.
+532,RPXAC,R7,R5,person dressing themselves.
+533,RLQ9K,R5,R5,the person takes out a bottle of medicine.
+534,RLQ9K,R5,R5,person take some medicine.
+535,PRTAJ,Else,R5,a person opens a cabinet.
+536,PRTAJ,Else,Else,person closes the cabinet.
+537,PRTAJ,Else,R5,person looks out the window.
+538,PRTAJ,R7,R7,person gets dressed.
+539,KZ36U,R7,R7,a person runs into the garage.
+540,KZ36U,R7,R7,the person takes a picture of something.
+541,CD9GP,R7,R5,person stand up.
+542,7NXWU,R7,R7,person drinking from a cup.
+543,OHNUQ,R3,R5,a person is eating some food.
+544,OHNUQ,Else,Else,person they are watching television in the living room.
+545,OHNUQ,Else,Else,person eating it out of the box.
+546,OHNUQ,R3,Else,person watching the television.
+547,OHNUQ,Else,Else,person watching television.
+548,5VUT9,R7,R7,the person is holding a broom.
+549,5VUT9,R7,R5,person put the broom aside.
+550,5VUT9,R7,Else,person open a cabinet door get a cup out.
+551,5VUT9,R7,R7,a person standing in the doorway holds a broom.
+552,5VUT9,R3,R5,person pour a cup of coffee.
+553,FQS7O,R5,R5,person closes a book.
+554,55NRK,Else,Else,person begins sneezing.
+555,UNWMJ,R7,R7,the person was undressing by the wardrobe.
+556,X9M5B,R5,R5,the person is sitting in the couch with the laptop.
+557,9RRED,R7,R5,person sits down on a sofa.
+558,9RRED,Else,R5,person takes off his shoes.
+559,9RRED,Else,Else,this person takes off their shoes.
+560,9RRED,R3,Else,person drinking from a water bottle.
+561,9RRED,Else,Else,the person takes off a pair of shoes.
+562,9RRED,R7,R7,person sits on a couch.
+563,9RRED,R5,Else,person drinking from a plastic water bottle.
+564,IALUY,R7,R3,person holding a towel.
+565,IALUY,R7,R5,a person is sneezing.
+566,IALUY,R5,R5,person takes a towel from a rack.
+567,HHNTA,R5,R3,person open a box.
+568,HHNTA,R7,R7,person eating something.
+569,HHNTA,R5,R5,a person is walking around the room eating a sandwich.
+570,HHNTA,Else,Else,person removes a sweatshirt.
+571,HHNTA,R7,R7,person start undressing.
+572,HHNTA,Else,Else,person takes off a sweatshirt.
+573,HHNTA,Else,Else,the person takes off their hoodie/sweater.
+574,BM9NZ,R7,R5,the person eats food.
+575,BM9NZ,R7,R7,a person is snuggling with their pillow in bed.
+576,BM9NZ,R7,R7,person snuggling with a pillow.
+577,BM9NZ,R5,R5,person they start eating.
+578,318CP,R7,R7,person pick up a cup to drink.
+579,318CP,R5,R5,person eat it.
+580,318CP,R7,R5,person eats it.
+581,318CP,R5,R5,person drinks from a cup.
+582,H608V,R7,R7,a person is running in the living room in circles.
+583,H608V,Else,Else,person eats a sandwich.
+584,H608V,R7,R7,person begins to run around in a circle again.
+585,H608V,R7,R7,a person runs around the room in a circle.
+586,H608V,Else,Else,person take a bite of a sandwich.
+587,H608V,R7,R7,person continue to run.
+588,H608V,R7,R7,person start running again.
+589,IGZZG,Else,Else,person reading a book.
+590,IGZZG,Else,R3,person reading books.
+591,IGZZG,Else,R5,the person is sitting on the floor watching television.
+592,MPHFU,R7,R7,a person looks at a picture in a picture frame.
+593,MPHFU,R7,R7,a person holds a picture.
+594,YYLKT,R5,R3,person begin to eat a sandwich.
+595,YYLKT,Else,Else,the person puts the blanket on the floor.
+596,TUJF4,R7,R7,a person opens a door.
+597,TUJF4,R5,R3,person takes a pair of shoes from under a chair.
+598,A2X7Q,Else,Else,person put a sandwich in the bag.
+599,A2X7Q,R7,R7,person take a bag out.
+600,A2X7Q,R7,R5,a person walks into the kitchen they open the cabinet.
+601,URAIM,Else,Else,the person takes a picture from the table.
+602,URAIM,Else,R3,the person takes a picture from a coffee table.
+603,URAIM,R7,R7,person puts it back on the table.
+604,MBAA5,Else,Else,a person is smiling.
+605,MBAA5,Else,Else,person opens a closet door.
+606,MBAA5,R5,R5,person closing a closet door in the hallway.
+607,MBAA5,R5,R5,person closes the door.
+608,MBAA5,R5,Else,the person opens a closet.
+609,MBAA5,R5,R5,person puts it on a shelf.
+610,YE6TZ,R5,R3,a person is putting a book on a chair.
+611,YE6TZ,Else,Else,person start drinking from a cup.
+612,YE6TZ,R3,R7,a person put a book into a closet.
+613,0TDOP,R5,R7,a person is putting a box on the table.
+614,0TDOP,R5,R7,a person holding a brown cardboard box enters a kitchen.
+615,8B4ZP,R3,R5,person they stand up.
+616,8B4ZP,R3,R3,person turn off the light.
+617,8B4ZP,R5,R5,person start undressing.
+618,8B4ZP,R3,R5,person turning off the light.
+619,8B4ZP,R5,Else,the person puts the book down.
+620,N0NLE,R5,R5,person laughs at cellphone.
+621,N0NLE,Else,Else,person laughing a lot.
+622,N0NLE,Else,Else,person is laughing at the camera.
+623,AVL8A,R5,R7,person opens a book.
+624,AVL8A,R3,R5,person smiling at the book.
+625,7ZL8E,R3,R5,person putting the shoes down on the floor.
+626,7ZL8E,Else,Else,a person takes off their shoes.
+627,7ZL8E,Else,R3,person they hold each shoe.
+628,7ZL8E,R3,R7,person takes off their shoes.
+629,V0WK7,R7,R5,another person stands by them smiling.
+630,3JXKZ,Else,R5,a person is opening a bag.
+631,KQ6XW,R7,R7,person take a drink from their water bottle.
+632,9TM1K,R7,Else,the person opens a box.
+633,9TM1K,R7,R3,person closes the book.
+634,YMD74,R5,R5,a person is awakening.
+635,YMD74,Else,Else,person putting on shoes.
+636,YMD74,R3,Else,person awakening.
+637,ATIAW,R5,R3,person turn on the light.
+638,ATIAW,R5,R5,person turning on a light.
+639,0UK3H,R5,R5,person taping the box closed.
+640,KWZSA,R5,R7,person walks to the doorway.
+641,KWZSA,Else,Else,a person was sitting at a table.
+642,KWZSA,R7,R7,person begins tidying the table.
+643,12XD3,R7,R5,person looks outy the window.
+644,12XD3,Else,Else,person eating some food.
+645,12XD3,Else,R5,the person is look at a picture.
+646,12XD3,Else,Else,a person is eating.
+647,12XD3,Else,Else,the person begins eating the sandwich.
+648,12XD3,R5,Else,person watching something out the window.
+649,12XD3,Else,R5,person looks at the picture.
+650,3Q6N1,Else,R5,a person opens their laptop to do their work.
+651,3Q6N1,Else,Else,a person starts working on a laptop.
+652,7XCAP,Else,Else,a person is smiling.
+653,7XCAP,R7,R7,person they are drinking a glass of water.
+654,7XCAP,R7,R7,person drinks from a glass.
+655,7XCAP,R7,R7,person begin to drink water from a glass cup.
+656,GY8P2,Else,Else,person is sneezing.
+657,GY8P2,R7,R5,the sneezing person picks up a broom as well.
+658,XK0QV,R5,R5,person drinking a glass of water.
+659,1HZGH,R5,R5,person putting on their shoes.
+660,1HZGH,R5,R5,person begin putting on their shoes.
+661,1HZGH,R5,R3,person proceeds to stand put on a pair of shoes.
+662,J5K87,Else,Else,a person is laughing on the phone.
+663,J5K87,R5,R7,person drinking a glass of orange juice.
+664,DR1ZU,Else,Else,person turns the light on.
+665,DR1ZU,R3,R7,a person is fixing the light near the stairs.
+666,DR1ZU,R5,R7,a person turns on the light.
+667,874F1,R3,R3,the person drinks from a glass.
+668,QJM3B,Else,Else,person closes the book.
+669,J6JNK,R7,R7,person closing a wood door.
+670,J6JNK,R7,R5,a person is awakening with clothes on.
+671,J6JNK,R7,R7,person closing the door.
+672,J6JNK,R7,R7,person closing the door next to their bed.
+673,JVH7Q,Else,Else,the person looks out the window.
+674,FQM2N,R5,R7,a person sits in a chair.
+675,FQM2N,R3,R3,person sitting on the bed.
+676,21WN7,R5,R7,person put the plate on a table.
+677,21WN7,R7,R7,a person sitting in a chair eating something.
+678,21WN7,R7,R7,a person is sitting on the couch eating food.
+679,21WN7,R7,R7,person eating food.
+680,21WN7,R5,R3,person puts the food on a table.
+681,ECFMO,R5,R7,person closes the door.
+682,ECFMO,R3,R5,person simultaneously being interrupted by sneezing.
+683,GIIF8,R5,R7,a person puts a bag on a shelf.
+684,75M1Z,R7,R5,person sat on the sofa to read a book.
+685,75M1Z,R7,R5,person sits on the sofa.
+686,75M1Z,R5,R3,person opens a box with a book.
+687,75M1Z,R5,R5,person opens the book.
+688,J3Y7L,R7,R5,a smiling person opens a box.
+689,J3Y7L,R5,R5,a person opens a box.
+690,TQYV1,R5,R3,person starts sneezing.
+691,GKH0F,Else,Else,one person takes a phone from a bag.
+692,RPY8D,R7,R7,person fixes their hair.
+693,RPY8D,Else,Else,person sitting on a couch.
+694,UMTLM,R7,R7,person so he is closing the bathroom door.
+695,UMTLM,R7,R7,person close the door.
+696,FORXE,R7,R7,person runs around with a bag in their hand.
+697,FORXE,R7,R7,person decides to run with a bag of groceries.
+698,FORXE,R3,R3,a person is throwing a picture on the floor.
+699,3WMV4,R3,R7,a person is eating.
+700,3WMV4,R5,R7,person eating a snack.
+701,3WMV4,R5,R5,person drinking a glass of water.
+702,3WMV4,R5,R7,person eating a sandwich.
+703,C7G1S,R3,R7,this person washed the dishes over the sink.
+704,3AKML,Else,Else,person takes a box off of a shelf.
+705,NDDHA,R7,R7,person put on shoes.
+706,NDDHA,R7,R5,person runs out.
+707,NDDHA,R7,R7,person running out of the room.
+708,NDDHA,R7,R7,person putting shoes on.
+709,NDDHA,R7,R7,person puts on some shoes.
+710,NDDHA,R7,R7,person putting on shoes.
+711,W8CWW,Else,Else,a person opens a door goes into a room.
+712,W8CWW,Else,Else,a person opens a door.
+713,W8CWW,Else,Else,person opens turns doorknob.
+714,11L5M,R7,R7,person starts running in place.
+715,11L5M,R7,R7,person start running in place.
+716,11L5M,Else,Else,person they throw the broom down.
+717,E6ZBZ,R7,R7,person they start sneezing.
+718,H0L5S,R7,R7,person opens the door.
+719,H0L5S,R7,R3,person opening the door.
+720,SW8VM,R7,R7,a smiling person is grasping a pillow.
+721,F19VE,Else,R3,the person takes food from a box.
+722,F19VE,Else,Else,person puts other food away in a cupboard.
+723,44T8B,R5,R3,a person washes their hands in a bathroom.
+724,O0349,R3,R7,a person is doing a lot of cooking.
+725,O0349,Else,R5,person cooks something.
+726,O0349,R7,R7,person so they must open the pantry door.
+727,DSZYT,R7,R5,a person drinking from a coffee cup.
+728,DSZYT,R7,R7,person they drink from a glass.
+729,KCRQU,R7,R7,the person opens the refrigerator.
+730,KCRQU,R7,R7,person they open the refrigerator.
+731,KCRQU,R7,R7,person opens the refrigerator.
+732,NBMH9,R5,R5,person opening a door.
+733,NBMH9,R5,R3,person closes the door.
+734,NBMH9,R7,R3,person sitting in a chair.
+735,NBMH9,R5,R3,person closing the door behind them.
+736,NBMH9,R7,R3,person sits in a chair.
+737,SW5TC,Else,Else,person laughs at a tv.
+738,SW5TC,Else,Else,person laughs at the television.
+739,SW5TC,R3,Else,a person awakens in a bedroom.
+740,SW5TC,Else,Else,person laughs at the tv.
+741,G2JR9,Else,Else,a person takes a lightbulb.
+742,G2JR9,Else,Else,a person tries to put a lightbulb in a fixture.
+743,G2JR9,Else,Else,person the light turns on.
+744,G2JR9,R5,R5,person the lightbulb lights up.
+745,G2JR9,Else,Else,a person fixing a light.
+746,G2JR9,R7,Else,the person throws some bread on the floor.
+747,M9NAG,R3,R5,the person walks through the doorway.
+748,M9NAG,Else,R5,person stretching arms as if awakening.
+749,MS4GA,R5,R3,a person opens a closet door.
+750,MS4GA,R3,R5,person puts a broom into the closet.
+751,MS4GA,R5,R5,a person opens a door.
+752,MS4GA,R7,R7,person closes the door.
+753,MS4GA,R7,R7,person puts a broom inside.
+754,MS4GA,R3,R5,a person opens a door with the doorknob.
+755,YW5QQ,Else,R5,person closes the door.
+756,YW5QQ,R3,R7,the person looks at a picture on the desk.
+757,FYHTC,Else,Else,person takes a sip from a glass of water.
+758,FYHTC,R5,Else,person jiggles the doorknob of the closed bathroom door.
+759,FYHTC,Else,Else,person opens the door.
+760,FYHTC,Else,Else,person try to open the door.
+761,FKK5R,R7,R7,the person is sitting in a chair.
+762,FKK5R,R7,R3,person turns on the light.
+763,FKK5R,R3,R7,person getting up to turn on light.
+764,FKK5R,R5,R5,person walks over to the lights.
+765,QYM5H,R7,R7,a person throws a blanket across the room.
+766,QYM5H,R5,Else,person take a picture of the towel.
+767,QYM5H,R5,R7,a person throws a towel on the floor.
+768,77Z0Z,R7,R7,person opens pantry grabs towel puts it on table.
+769,51RLB,R5,R5,the person takes a drink from a water bottle.
+770,3IPI3,R3,R5,a person drinks from a cup.
+771,3IPI3,Else,Else,the person eats a sandwich.
+772,L0HDB,R7,R7,person opening a cabinet.
+773,EZRQW,R7,R7,another person is playing at running back.
+774,I9CDV,R3,R3,a person is eating a sandwich at the bathroom mirror.
+775,I9CDV,R3,Else,person takes a picture in the mirror with a camera.
+776,I9CDV,R5,R5,person takes a picture of himself in the mirror.
+777,4683D,R3,Else,the person is cleaning off a chair to sit.
+778,4683D,R5,Else,person they sit down on a chair.
+779,3HRNV,R3,R5,a person is smiling in a study holding a bag.
+780,K8MZH,R7,R7,a person turns the lights on.
+781,1TIAK,Else,Else,the person fixes some messy homework papers on the table.
+782,TJJKK,Else,Else,person eating on the bed.
+783,TJJKK,R7,Else,the person eats something from off the bed.
+784,TJJKK,Else,Else,person sitting on a bed with a cell phone.
+785,TJJKK,R3,R7,person take a picture of the room.
+786,41F2M,R7,R7,finally the person washes their hands in the sink.
+787,41F2M,Else,R7,this person washer their hands.
+788,41F2M,R7,R5,person puts a book next to a toilet.
+789,SBM3M,R7,R5,person the other is putting shoes in a box.
+790,SBM3M,R5,R3,one person puts shoes in a box.
+791,W0XPU,R5,Else,the person puts the shoes on.
+792,W0XPU,Else,Else,a person holds a pair of shoes.
+793,W0XPU,R5,R5,person stand up.
+794,W0XPU,Else,Else,person puts on shoes.
+795,W0XPU,R5,R7,person eat some food off of a plate.
+796,87Y64,Else,R3,a person is throwing a book to another person.
+797,87Y64,R7,R7,person run to the other side of the room.
+798,87Y64,R7,R3,a person is sitting on a bed.
+799,ZQKVY,R5,Else,a person runs into the bedroom.
+800,2Y8XQ,Else,Else,person he pours something into a glass.
+801,2Y8XQ,Else,Else,a person pours some water in a glass.
+802,2Y8XQ,Else,Else,the person is sneezing.
+803,2Y8XQ,R7,R7,person drinking glass.
+804,JR6VG,R5,R7,a person goes running by.
+805,JR6VG,R3,R5,person as the door opens.
+806,JR6VG,R3,R3,person the door opens.
+807,JR6VG,R7,R7,another person runs into the room.
+808,AAQHJ,R7,R7,a person is seen eating.
+809,AAQHJ,Else,Else,a person is sitting on a chair.
+810,AAQHJ,R5,Else,a person eating something off of a plate.
+811,AAQHJ,R7,R5,person grab a pillow to snuggle with.
+812,AAQHJ,R7,R5,a person sits in a chair eating.
+813,AAQHJ,R7,R7,person holding a pillow.
+814,AAQHJ,R5,R5,person eating from a plate of food.
+815,GG3K5,Else,R7,person watches the television.
+816,GG3K5,R5,R3,the person start watching television.
+817,GG3K5,R3,R7,person watches television.
+818,GG3K5,Else,Else,person sits on the edge of the bed.
+819,1XBU2,R5,R7,person is drinking tea from glass mug.
+820,LLQBB,R7,R3,the person throws the bag down.
+821,LLQBB,R7,R7,person finally laughing to themselves.
+822,LLQBB,R3,R3,the person starts laughing as they put the bag down.
+823,LLQBB,R5,R7,person takes their shoes off.
+824,LLQBB,R5,R5,a person is holding a bag.
+825,LLQBB,R7,R7,person take off their shoes.
+826,BB7WL,R7,R3,a person opens a cabinet.
+827,ZX37G,R3,R5,the person puts the laptop down on the table.
+828,RX7TC,R3,R5,a person is eating some food.
+829,RX7TC,Else,Else,person takes several bites of an unknown food item.
+830,GFK4S,R7,R7,person opens the door.
+831,GFK4S,R3,R3,person holding a pillow.
+832,H5CJD,R5,R5,person closes the fridge door.
+833,F5UVQ,R5,R7,person that turn off the lights.
+834,F5UVQ,R7,R7,person wash their hands a little bit.
+835,F5UVQ,R5,R7,person turn off a light.
+836,MSACP,Else,Else,person they take the batteries out of the camera.
+837,VIN5T,R3,R5,a person is sitting on the floor throwing a pillow.
+838,D1WYU,Else,Else,the person takes off their shoes.
+839,D1WYU,R7,R7,person sits down on a chair.
+840,D1WYU,R7,R7,the person sits down in a chair.
+841,D1WYU,Else,Else,person takes their shoes off.
+842,D1WYU,R3,Else,a person is holding a bag walk to a bed.
+843,IONV9,Else,R3,a laughing person is drinking soda in their basement.
+844,IONV9,R5,R5,person continuing to drink from the bottle.
+845,IONV9,R3,R7,person drinking from a glass of water.
+846,IDXZK,R5,R7,person eating food from a dish.
+847,IDXZK,R7,R7,person eating a sandwich.
+848,79VVK,R7,R5,person run out of the closet.
+849,79VVK,R5,R7,a person takes a blanket.
+850,YACA8,R5,R5,person putting clothes.
+851,VG7S6,R5,Else,person takes a vacuum.
+852,VG7S6,R3,Else,person sneezing constantly.
+853,C46TD,R7,Else,person looks out the window above the sink.
+854,C46TD,R7,R3,the person washes their hands at the kitchen sink.
+855,C46TD,Else,R7,person continuing to look out the window.
+856,C46TD,R7,R7,a person is washing their hands in the sink.
+857,C46TD,R7,R7,a person washes their hands in the kitchen sink.
+858,C46TD,R7,R7,person looking out the window.
+859,9J0RB,R7,R3,a person is standing in a room watching television.
+860,9J0RB,R5,R7,person drinking something from a glass.
+861,9J0RB,R5,R5,person drinking a glass of milk.
+862,9J0RB,R5,R5,a person is watching a television in their bedroom.
+863,9J0RB,R5,R7,person throws the pillow to the side.
+864,ZIP18,R5,R3,person eat a sandwich.
+865,ZIP18,R7,R7,a person turns on a light.
+866,ZIP18,R7,R7,a person turns on a light in their bedroom.
+867,ZIP18,R7,R7,person turns on the light.
+868,ZIP18,R5,R3,person sit on their bed.
+869,3N1I2,R5,R7,the person puts the sandwich into the refrigerator.
+870,337O2,R7,R7,person they put them down on the table.
+871,LE7PM,Else,Else,person throws some food onto the table.
+872,VJ0LT,R5,R5,person closing the front door.
+873,VJ0LT,R7,R7,person pours it into a glass.
+874,VJ0LT,Else,R7,person pours a glass of soda.
+875,VJ0LT,R7,R5,the person drinks the coke from the glass.
+876,VJ0LT,R5,R5,person closes a door outside.
+877,TCI7K,Else,R5,person put a item on the table.
+878,QE4YE,R3,R3,a person is opening a bag.
+879,QE4YE,Else,R7,the person puts the bag on a counter.
+880,XO8NL,R5,R7,a person throws a pillow into a closet.
+881,XO8NL,R5,R7,a person is holding a pillow.
+882,XO8NL,R5,R5,the person throws the pillow into the closet.
+883,CM6T8,R7,R7,a person is opening their closet looking for a sandwich.
+884,CM6T8,R7,R7,a person opens a door to a closet.
+885,CM6T8,Else,R5,person open up the door.
+886,QI0EL,Else,R3,person watches television.
+887,QI0EL,R5,R3,person closes the laptop.
+888,ICQUJ,R7,Else,person starts eating some food.
+889,ICQUJ,R7,R3,person pick up a sandwich to eat.
+890,I87SH,R3,R5,a person awakens on the floor of their home office.
+891,I87SH,R5,R5,person walk near the window open the curtain.
+892,I87SH,R7,R7,the person is laying on the floor.
+893,I87SH,R5,R7,person opens the window.
+894,I87SH,R7,R7,person opens a curtain to look out the window.
+895,BDY1V,R5,R5,one person undresses in front of a wardrobe.
+896,BDY1V,R7,R7,person takes a pillow from the closet.
+897,BDY1V,Else,R3,person snuggles the pillow.
+898,AFCDN,R7,R7,person takes a picture of something.
+899,AFCDN,R3,R5,person eats it.
+900,AFCDN,Else,R5,person began to eat.
+901,KA09C,R7,R7,the person turns the light off.
+902,KA09C,R7,R5,person turning off the light.
+903,KA09C,R7,R5,person turns off the light.
+904,KA09C,R7,R7,the person turns off the light.
+905,CUSTU,R7,R5,person opens a laptop.
+906,CUSTU,R7,R5,person opening a laptop.
+907,CUSTU,R5,Else,the person puts the broom down.
+908,Q38XP,R5,R5,person eating food.
+909,SLHDI,Else,Else,person eating something.
+910,SLHDI,Else,Else,a person by the refrigerator was eating.
+911,SLHDI,R5,R7,person opening the refrigerator doors.
+912,SLHDI,Else,Else,a person is closing a door.
+913,SLHDI,R5,R5,person sneezing into a towel.
+914,SLHDI,R7,R7,person opens refrigerator.
+915,SLHDI,R5,R3,person sneezing on a towel.
+916,XKU2U,Else,R3,a person is sneezing as they dust a nearby mirror.
+917,XKU2U,R3,R5,person throws the bag.
+918,XKU2U,Else,R7,person puts it on a table.
+919,XKU2U,R3,R3,person they begin to put a bag on the table.
+920,ULD0T,R3,Else,person holding a bag.
+921,ULD0T,R5,Else,a person walks through a doorway.
+922,SLT0S,R3,R3,a person is looking in a book holding a pen.
+923,J3RP9,R3,Else,a person walks through a doorway.
+924,BI6Y4,Else,Else,a person is cooking something on the stove.
+925,BI6Y4,R5,R3,person drinks out of a cup.
+926,BI6Y4,Else,Else,person sits down at the table.
+927,BI6Y4,Else,Else,person sits on the chair at the dining table.
+928,BI6Y4,Else,Else,person cooking at the stove.
+929,735W9,R5,R5,person putting a blanket on the table.
+930,735W9,R7,Else,person puts it on the table.
+931,1FIGA,R7,R3,person puts it onto the shelf.
+932,1FIGA,Else,R3,the person closes the box.
+933,1FIGA,R7,R5,person put something in it closes the door.
+934,1FIGA,R7,R5,person closes the door.
+935,1FIGA,R5,R3,person puts the book inside.
+936,1FIGA,Else,R7,person takes it to a cabinet they open the cabinet.
+937,1FIGA,Else,Else,a person runs into the closet with a box.
+938,LZ2Y4,R7,R7,person runs to the kitchen.
+939,LZ2Y4,R7,R7,person begin running around.
+940,LZ2Y4,R7,R7,person runs out of the couch.
+941,LZ2Y4,R7,R3,the person puts the cup down.
+942,M4Z0M,R7,R5,a person walks by eating a sandwich.
+943,M4Z0M,R7,R7,a person is eating a sandwich in a hallway.
+944,YPRUL,R7,R7,person takes a drink from a glass.
+945,YPRUL,R7,R7,a person is sneezing.
+946,YPRUL,R7,R5,the person closes the door.
+947,YPRUL,R7,R5,person closes a door.
+948,K7NRW,Else,Else,another person tries to fix a loose doorknob.
+949,K7NRW,Else,Else,person eating it.
+950,K7NRW,Else,R7,person the other continues to eat.
+951,K7NRW,R7,R7,person eats a sandwich out of a bag.
+952,K7NRW,R7,R7,another person is fixing a doorknob.
+953,K7NRW,Else,Else,the eating man watches his friend fix the door.
+954,K7NRW,R5,R5,a person opens a bag.
+955,KZS5M,R7,R5,person eats some food.
+956,KZS5M,R5,R7,person eating something.
+957,KZS5M,R7,R7,watches the tv as the person eats a sandwich.
+958,KZS5M,Else,Else,person closes the door.
+959,KZS5M,R7,R7,person turning the light on.
+960,KZS5M,Else,Else,person closing the door.
+961,DO48Z,R7,R7,a person is smiling.
+962,DO48Z,Else,Else,person putting their shoes in a closet.
+963,DO48Z,Else,Else,the person was smiling.
+964,DO48Z,R5,R7,person putting shoes on the shelf.
+965,JNK11,R5,Else,person puts something onto a shelf.
+966,JNK11,R7,R7,a person puts a cup of coffee on the shelf.
+967,TH3M0,Else,R7,person sits on a chair.
+968,TH3M0,R3,R5,a person opens a door.
+969,TH3M0,R5,R5,the person sits down in a chair.
+970,TH3M0,R3,R3,person takes out a broom from a cabinet.
+971,TH3M0,Else,R7,person put the broom back into the cabinet.
+972,TH3M0,R3,R5,person sits down in chair.
+973,2B577,R7,R5,person puts it on a table.
+974,2B577,Else,R3,a person cooks on the stove.
+975,JXTAD,Else,R5,a person is holding a blanket.
+976,JXTAD,R5,R7,person turning off the light.
+977,5R7VN,R7,R7,person closing a door on the stairs.
+978,5R7VN,R7,R7,person closing a door.
+979,5R7VN,R7,R7,person closing the door.
+980,5R7VN,R7,R7,the person is throwing shoes.
+981,5R7VN,R7,R7,a person throws two shoes down the stairs.
+982,N56QO,Else,R3,person the individual takes a drink from a coffee cup.
+983,N56QO,R7,R7,a person is playing on their laptop.
+984,1RD2K,R7,R5,another person comes running in.
+985,1RD2K,R5,R5,a person closes the door to a house.
+986,TKAUR,Else,R3,person takes a cup of coffee off of the counter.
+987,TKAUR,R5,R7,person reads a book.
+988,TKAUR,R3,R7,person reading a book.
+989,TKAUR,R7,R7,person start dressing for the weather.
+990,TKAUR,R7,R7,person begins to dress.
+991,TKAUR,R5,Else,person puts the book down.
+992,TKAUR,R5,R5,a person reads a book.
+993,W7EDM,Else,Else,person sits on the bed.
+994,W7EDM,R7,R5,a person sits on a bed.
+995,W7EDM,R7,R3,person eats some food.
+996,W7EDM,R7,R7,a person sits down on a bed.
+997,W7EDM,R5,R7,person takes off their shoes.
+998,HSKVH,R3,Else,person turning off a light.
+999,HSKVH,R5,R7,a person is closing the door.
+1000,TQO6O,R7,Else,the person takes some paper.
+1001,P0CET,R3,R5,a person takes some clothes from a closet.
+1002,OEM65,R7,R7,a person is sneezing.
+1003,B6XQZ,R5,R5,person they laugh at something on the screen.
+1004,B6XQZ,R7,Else,person laughs to themselves multiple times.
+1005,G2DIN,R7,R7,person puts a box on the closet shelf.
+1006,G2DIN,Else,Else,person takes some clothes out.
+1007,G2DIN,R5,R5,person puts a box of medicine on the shelf.
+1008,G2DIN,R3,R3,a person opens the closet door.
+1009,3LN8C,Else,Else,person take off shoes.
+1010,3LN8C,Else,Else,person they take off their shoes.
+1011,3LN8C,Else,Else,person take off their shoes.
+1012,B0XI9,R7,R5,person they begin drinking the glass of water.
+1013,B0XI9,R7,R7,a person is running across a room.
+1014,B0XI9,R7,R7,a person in their bedroom is running towards their cabinet.
+1015,B0XI9,R7,R7,person start sneezing.
+1016,V8IGX,R7,R7,person sit on the sofa.
+1017,V8IGX,R5,R3,a person is sneezing as the person opens the door.
+1018,V8IGX,R5,R7,person walks through the doorway with a bag.
+1019,V8IGX,R7,R7,person proceeds to sit down on the couch.
+1020,V8IGX,R7,R7,person begins sitting on the sofa.
+1021,TCJCJ,R5,R7,a person throws a book on the sofa.
+1022,TCJCJ,R7,R7,a person reads a book.
+1023,J59UP,R7,R7,a person sits in a chair.
+1024,J59UP,R7,R7,person sitting in a chair gets up.
+1025,Z3H4P,Else,Else,person puts some food on a plate.
+1026,W65SM,R7,R5,a person is sitting a pouring water into a glass.
+1027,BIQGN,Else,Else,a person is smiling.
+1028,BIQGN,Else,Else,person closes the door.
+1029,BIQGN,R5,Else,a smiling person walks into a bathroom.
+1030,BIQGN,R5,R5,the person puts a towel on a shelf.
+1031,IKYAW,R5,R5,person closes the door.
+1032,IKYAW,R5,R3,a person is smiling in the doorway of the pantry.
+1033,7V4NJ,R5,R5,person throws the book.
+1034,7V4NJ,R7,R5,person throw the book at a door.
+1035,XGS3K,R3,R5,person opens a sliding glass door.
+1036,XGS3K,R7,R7,the person puts the picture down on the couch.
+1037,XGS3K,R3,R5,a person is putting a picture on a sofa.
+1038,LXEPT,R7,R5,person sits in a chair.
+1039,LXEPT,Else,Else,the person takes a notebook out.
+1040,LXEPT,R3,Else,the person puts a notebook on the table.
+1041,Y2MGC,R7,R7,person begins to eat it.
+1042,Y2MGC,Else,R5,person start eating food.
+1043,Y2MGC,R7,R7,a person closes their laptops lid.
+1044,Y2MGC,Else,R7,person the put the laptop down.
+1045,Y2MGC,R3,R5,the person takes some food out of a box.
+1046,Y2MGC,Else,Else,person is smiling.
+1047,IWTWJ,Else,Else,person later sits on the couch.
+1048,IWTWJ,R5,R7,a person is throwing a blanket onto the sofa.
+1049,IWTWJ,R3,Else,person suddenly run over to the sofa.
+1050,IWTWJ,Else,Else,the person begins running towards the sofa.
+1051,5HPZ1,Else,R7,person reads through some pages in a book.
+1052,5HPZ1,R7,R5,person reading a book.
+1053,5HPZ1,R7,R5,person a clicks a nearby light on.
+1054,5HPZ1,Else,Else,person they turn on the light.
+1055,5HPZ1,R3,R5,person turns on a light.
+1056,VNMNF,R5,R7,a person is watching television.
+1057,VNMNF,R7,R7,person sits down in a chair.
+1058,9U82D,Else,R3,this person takes their phone out.
+1059,9U82D,R7,R7,person they start drinking a glass of coffee.
+1060,FTYFA,R7,R7,a person opens a door.
+1061,FTYFA,R7,R7,person turns on the light.
+1062,FTYFA,R7,R7,person opens a door.
+1063,FTYFA,R7,R7,person turns on a light.
+1064,FTYFA,R7,R7,a person turns on a light.
+1065,GZF5F,R7,R5,person pours another glass out of a pitcher.
+1066,QSVXJ,R5,R7,person decides to throw the towel on the floor.
+1067,QSVXJ,R7,R7,person another holds a towel.
+1068,MHAGN,R5,R3,person they open the book.
+1069,MHAGN,R7,R7,person running away.
+1070,MHAGN,R7,R7,person run out of the room.
+1071,OZ02A,R3,R3,person closed the curtains on the window.
+1072,OZ02A,R3,R7,person closes a window blind.
+1073,OZ02A,Else,Else,person a light is turned on.
+1074,OZ02A,Else,Else,the person turned on the light in the dining room.
+1075,ODM20,Else,R5,person look out the window.
+1076,ODM20,R5,R5,person begins laughing.
+1077,ODM20,Else,Else,the person looks out the window.
+1078,ODM20,R7,R7,person drinking a cup of coffee.
+1079,MUE2B,R3,R3,person looking at the things at bathroom window.
+1080,MUE2B,Else,R7,person turned on the light.
+1081,MUE2B,R5,R3,person looking out the window that is behind the toilet.
+1082,MUE2B,Else,R7,the person turns on the light.
+1083,MUE2B,R7,R7,the person opens the door to the bathroom.
+1084,MUE2B,R3,Else,person they walked over to the window to look outside.
+1085,7RXMM,R5,R7,a person sits in a chair.
+1086,7RXMM,R7,Else,the person sits on a chair next to a sink.
+1087,ETDTU,Else,R5,the person begins holding a mirror.
+1088,9EEGQ,Else,Else,another person fixes the door.
+1089,9EEGQ,R3,Else,person fixing pantry door.
+1090,9EEGQ,R5,R3,person is putting dishes on shelf.
+1091,LV4U7,R5,R3,a person is holding a broom.
+1092,LV4U7,R7,R7,person standing in the open doorway of a pantry.
+1093,LV4U7,R5,R5,a person in a pantry is holding a broom.
+1094,LV4U7,Else,R3,a person holding a broom opens a pantry door.
+1095,I6TPS,R7,R7,person cooking something in the pan.
+1096,ZDWM7,R7,R7,person eating a sandwich.
+1097,ZDWM7,R7,R7,person talking on the phone.
+1098,ZDWM7,R7,R7,a person walks into a room holding a sandwich.
+1099,2AG8W,R5,R5,person throwing their clothes into the closet.
+1100,2AG8W,R7,R7,person start running through the hallway.
+1101,2AG8W,R7,R3,person runs down a hallway.
+1102,EFADI,R5,Else,that same person takes some medicine off a shelf.
+1103,D4D2T,R5,R7,person eats a sandwich.
+1104,D4D2T,R7,R3,person takes some food out of a box.
+1105,D4D2T,R5,R7,person eats it.
+1106,D4D2T,R5,R5,person opens a box.
+1107,3C1ZN,R5,R3,person puts the pillow down.
+1108,XJA7Z,R7,R7,person pours a glass of water.
+1109,XJA7Z,R3,R7,the person was pouring a bottle of beer.
+1110,XJA7Z,Else,Else,person drinking from the glass of water.
+1111,XJA7Z,R7,R7,a person pours water into a glass.
+1112,VD58Y,R7,R7,person puts the laptop aside.
+1113,VD58Y,R5,R7,person start sneezing as they get off the bed.
+1114,8HW76,R3,R5,a person is laughing.
+1115,NKE77,R7,R5,person puts it down on the table.
+1116,NKE77,R7,R7,the person puts the cup down.
+1117,NBKCK,R7,R7,person turns on the light.
+1118,NBKCK,R7,R7,the person turns on a light.
+1119,N2WXN,R5,R5,a person is awakening on top of their blanket.
+1120,X2JBJ,R5,R5,person smiling at the book.
+1121,DPLMM,R7,R7,person shuts the light off.
+1122,DPLMM,R7,R7,person turns off the light as he exits.
+1123,0SFYS,Else,R5,a person turns on the light.
+1124,1F706,R7,R7,person a girl runs into the room.
+1125,1F706,R7,R7,a person runs down the hall.
+1126,1F706,R7,R7,a person runs to the doorway of the pantry.
+1127,1F706,Else,Else,person closes the door.
+1128,1F706,R7,Else,person opens a pantry door.
+1129,XXS99,R7,R7,person looks at a picture hanging on the wall.
+1130,XXS99,R3,Else,the person takes the book.
+1131,XXS99,R7,R3,person open book.
+1132,727IZ,R7,R7,a person opens a cabinet.
+1133,727IZ,Else,Else,person sits on a chair to look at them.
+1134,727IZ,R7,R7,a person is opening a cabinet.
+1135,727IZ,R5,R5,person sits in a nearby computer chair.
+1136,N86ED,Else,R7,person starts to eat them.
+1137,N86ED,R3,R5,person eating a sandwich.
+1138,N86ED,R7,R7,person eating some cookies out of a box.
+1139,N86ED,R5,R3,the person opens a box of cookies.
+1140,NACLT,R7,R7,person runs out.
+1141,NACLT,R7,R7,person puts the shoes under the table.
+1142,KGO3W,R5,R5,person drinks out of a glass.
+1143,KGO3W,R3,R5,person they turn on a light.
+1144,KGO3W,R3,R5,a person turns on the light.
+1145,SCFIN,Else,Else,person open the refrigerator.
+1146,SCFIN,R3,Else,person opens up the refrigerator door.
+1147,TRHT1,R5,Else,person sitting on a chair watching television when suddenly rises.
+1148,TRHT1,R5,R3,person sitting on a couch.
+1149,A9YQJ,R7,R7,person they fix their hair.
+1150,A9YQJ,R7,R7,person fixes their hair.
+1151,A9YQJ,R7,R7,person start fixing their hair.
+1152,8RU1Q,Else,R5,a person opens a door.
+1153,8RU1Q,R3,R5,a person opens the door.
+1154,J5DOP,R5,R7,person walks into the kitchen to open the refrigerator door.
+1155,J5DOP,R7,R7,person putting their shoes on.
+1156,J5DOP,R5,R7,person putting on shoes.
+1157,J5DOP,R7,R7,person opening the door.
+1158,5TYXL,R5,Else,person takes the broom.
+1159,FV8CK,Else,Else,person taking a drink from a bottle of water.
+1160,H46LQ,Else,Else,person they stand up.
+1161,WUTHF,Else,Else,a person runs in.
+1162,WUTHF,Else,Else,a person runs into a room.
+1163,WUTHF,Else,Else,one person runs through.
+1164,1NJOQ,R5,R5,a person walks through the doorway.
+1165,1NJOQ,Else,R3,person they open the cabinet.
+1166,1NJOQ,Else,Else,person opens drawers on cabinet.
+1167,1NJOQ,Else,Else,person takes out a bottle of medicine.
+1168,1NJOQ,R3,R5,the person opens a cabinet.
+1169,LDNE2,Else,Else,person takes a book from the table.
+1170,13XM4,R3,R7,the person puts it on the table.
+1171,13XM4,R3,R3,person start laughing.
+1172,13XM4,R7,R7,person puts it on a table.
+1173,13XM4,Else,Else,person puts some food inside.
+1174,2443O,R7,R3,the person takes out their phone.
+1175,2443O,R7,R5,person takes out a phone.
+1176,3R4DD,R7,R7,person sit down in a chair.
+1177,3R4DD,R7,R7,person sits in a chair.
+1178,3R4DD,R7,R7,person sit in a chair.
+1179,SUG5S,R7,R7,person they stand up.
+1180,SUG5S,Else,Else,person washes their hands.
+1181,SUG5S,R7,R5,there is a person sitting on a bed.
+1182,SUG5S,R7,R5,a person is sitting on a bed.
+1183,SUG5S,Else,Else,person wash their hands.
+1184,X4BQG,R5,R7,person opens a cabinet.
+1185,X4BQG,R3,R3,the person opens a cabinet.
+1186,X4BQG,R5,R5,person puts some paper inside.
+1187,OETY6,R3,R7,person drinking from a cup.
+1188,OETY6,Else,Else,a person sits in a chair next to a table.
+1189,4UXE3,R5,R5,person putting a glass in the sink.
+1190,4UXE3,R5,R3,person putting a cup in the sink.
+1191,LFDQF,Else,R7,person drinking a glass of water.
+1192,LFDQF,Else,R7,the person is drinking a glass of water.
+1193,Y0MCG,R5,R7,a person puts a pillow down on the sofa.
+1194,5EEXF,R7,R5,a person opens a cabinet.
+1195,5EEXF,R7,R7,person is opening a cabinet.
+1196,5EEXF,Else,Else,the person opens a closet door.
+1197,5EEXF,Else,Else,person opens a closet door.
+1198,5EEXF,Else,Else,person puts the towel away.
+1199,5EEXF,Else,Else,person open their closet put the blanket inside it.
+1200,5EEXF,R5,R5,the person takes a towel from the cabinet.
+1201,5EEXF,R5,R3,person takes out a blanket.
+1202,YFJ9U,R7,R7,person puts on shoes.
+1203,4YBN9,R7,R5,one person opens a bag on a small desk.
+1204,4YBN9,R5,R5,person open a door.
+1205,XRU9O,Else,Else,person eats a sandwich.
+1206,XRU9O,Else,Else,a person is standing against a wall eating a sandwich.
+1207,XRU9O,Else,Else,person eating a sandwich.
+1208,PC7H2,R3,R5,person sits down on couch.
+1209,PC7H2,R5,R5,person sits on the couch.
+1210,PC7H2,R5,R5,a person sits down at a table.
+1211,PC7H2,R3,R5,a person is sitting at the table.
+1212,E002I,R5,R7,person snuggling up to a pillow.
+1213,E002I,R7,R7,a person runs into the bedroom.
+1214,E002I,R7,R7,person goes back to close the door.
+1215,E002I,R5,R5,person closes the door.
+1216,E002I,R7,R7,a person runs into a room.
+1217,E002I,R3,R5,person closes a door.
+1218,E002I,Else,R3,person lies down on the bed.
+1219,E002I,Else,Else,person lies down on a bed.
+1220,E002I,R7,R7,the person gets up to close the door.
+1221,5GHV3,R7,R7,a person is putting clothes on.
+1222,5GHV3,R7,R7,a person is dressing by the bed.
+1223,TDGNE,Else,R7,person eating an occasional bite from the pan.
+1224,TDGNE,R5,R3,person open the door to the refrigerator.
+1225,1P7GJ,R3,R7,person they open a door to grab a broom.
+1226,MB281,R5,R5,person turning the light off.
+1227,MB281,R7,R5,person turn off the light.
+1228,MB281,R5,R5,person turns off the light.
+1229,MB281,Else,R5,person puts it down on the shelf.
+1230,7E2AJ,R7,R5,person they stand up.
+1231,7E2AJ,R5,Else,a person is awakening on the floor.
+1232,7E2AJ,R3,R5,person start undressing by taking their jacket off.
+1233,7E2AJ,Else,Else,person eats sandwich that is seating on side of sink.
+1234,7E2AJ,Else,Else,person laying on bathroom floor.
+1235,ZZ3HT,R3,R3,person put it back closed the shelf.
+1236,ZZ3HT,R3,R5,person walk over to a cabinet take a towel out.
+1237,ZZ3HT,R3,R3,person closing the closet door.
+1238,0J471,R3,R3,person they stand up.
+1239,0J471,R7,R7,person running up.
+1240,0J471,R7,R7,person runs back.
+1241,0J471,R7,R7,person begin running.
+1242,HG7C2,R5,R7,a person is undressing in the doorway.
+1243,HG7C2,Else,Else,the person starts smiling.
+1244,HG7C2,R5,R5,person holding a broom.
+1245,S5KQ1,R5,R5,a person opens a box.
+1246,S5KQ1,Else,R5,person throws a broom down.
+1247,S5KQ1,R7,R5,person puts down the box.
+1248,S5KQ1,R3,R5,a person closes a box.
+1249,YIIFF,R7,R7,person began getting dressed.
+1250,YIIFF,R5,R5,a person is tidying up a shelf.
+1251,IIL9C,R5,R7,person eating a cookie.
+1252,IIL9C,Else,Else,person take out the bottle of medicine.
+1253,IIL9C,R7,R7,there is a person laying on the sofa eating something.
+1254,IIL9C,Else,Else,person takes a bottle of medicine from their shirt pocket.
+1255,SBI6Z,R7,R5,person pours a drink into a glass.
+1256,9J7EW,R3,R3,person sits in a chair.
+1257,9J7EW,R5,R3,person they sit on a chair.
+1258,9J7EW,Else,Else,there is a person holding a bag.
+1259,9J7EW,R3,R5,person takes off their shoes.
+1260,DLOS7,R5,R5,the person opens a pink laptop.
+1261,DLOS7,R3,R5,person they sit down holding a laptop.
+1262,DLOS7,R7,R7,person begins fixing the light that was not working.
+1263,DLOS7,R7,R7,person a persno is fixing a light.
+1264,1F4JZ,R5,R5,one person takes some medicine.
+1265,YHXU9,R5,R7,person throws it on the floor.
+1266,KS5JT,R7,R5,person turned on the light.
+1267,KS5JT,R7,R5,person turns on the light.
+1268,KS5JT,R7,R7,a person turns on the light.
+1269,HQ8BB,R3,R5,person turns on the light.
+1270,HQ8BB,Else,Else,the person opens the door.
+1271,HQ8BB,R3,R7,person turning the light on.
+1272,AGGSE,R7,R7,the person is sneezing.
+1273,3W1GP,Else,Else,person takes out a laptop.
+1274,3W1GP,R3,Else,a person opens the door.
+1275,3W1GP,R3,Else,a person opens a door.
+1276,3W1GP,Else,R3,person open a bag.
+1277,3W1GP,R5,R7,person closes the door.
+1278,3W1GP,Else,Else,person walks through the doorway carrying a bag.
+1279,3W1GP,Else,Else,person they put the bag on the ground.
+1280,3W1GP,R7,R7,person open the bag.
+1281,OQSXX,R3,R7,person puts a towel on their shoulder.
+1282,OQSXX,R7,R7,one person is sitting on the sofa.
+1283,OQSXX,R7,R7,a person sits on a couch.
+1284,ZXHCH,R3,R5,person sits down in a chair.
+1285,ZXHCH,R5,R3,the person takes their books out of their bag.
+1286,ZXHCH,R5,R5,person open up the books.
+1287,3MV13,R7,R7,the person starts walking to the doorway.
+1288,65ULK,R3,R5,person starts dressing in front of a mirror.
+1289,RMKOC,R3,R5,person holds a plastic bag.
+1290,RMKOC,Else,R5,person takes a towel to wrap a mug.
+1291,8O07M,R7,Else,person opens the door.
+1292,8O07M,R7,Else,person opens a door.
+1293,BEAAA,Else,Else,person eating food in a hallway.
+1294,BEAAA,Else,R5,the person undresses their jacket.
+1295,BEAAA,R7,R5,person sitting in a chair eating.
+1296,BEAAA,Else,Else,person eating a sandwich.
+1297,BEAAA,R5,R3,a person is sitting on a chair eating food.
+1298,BEAAA,R7,R7,a person is undressing.
+1299,BEAAA,Else,R5,person continues eating the food.
+1300,T96JC,Else,Else,person takes a vacuum.
+1301,0QAZ7,Else,Else,person closing the door.
+1302,0QAZ7,Else,Else,person finally opening a door leaving.
+1303,FRGXE,R7,R5,person drinking a glass of orange juice.
+1304,FRGXE,Else,Else,person takes out a box of cookies from the nightstand.
+1305,3T785,Else,Else,a person putting a towel on their head.
+1306,3T785,R3,Else,one person puts a towel on their head.
+1307,4NHRT,R7,Else,the person takes a bag off of a shelf.
+1308,4NHRT,Else,Else,person runs back down the stairs.
+1309,ONVGA,R5,R7,person eating from a plate.
+1310,WT46G,Else,Else,person holding a coffee cup.
+1311,WT46G,R7,R5,first person is awakening from long nap.
+1312,WT46G,R5,Else,person watching television.
+1313,8V8HC,R7,R7,a person is running through an entryway.
+1314,8V8HC,R5,R3,the person takes a pillow off a sofa.
+1315,8V8HC,R5,R7,person they both run in the house very quickly.
+1316,D7W4E,R3,Else,a person puts a cup into a  cupboard.
+1317,D7W4E,R5,R5,a person puts a coffee cup on a shelf.
+1318,D7W4E,Else,Else,person sneezing on it.
+1319,Q3Z4V,R5,R5,person drinks from a glass.
+1320,ZYJJF,R7,R7,a person puts clothes on a desk.
+1321,T9N9R,R3,Else,the person was laughing.
+1322,74WSB,Else,Else,person they start smiling because they are being somewhat irresponsible.
+1323,5D85P,Else,R7,person closes the laptop screen shortly.
+1324,VVQYB,Else,R3,another person is laughing.
+1325,P3CLM,R5,R5,person close the book.
+1326,P3CLM,R3,R5,person they close the book.
+1327,AWR2R,R7,R5,a person is standing in the bedroom holding a broom.
+1328,2KGV3,Else,Else,person takes another bite of their food.
+1329,2KGV3,R5,R3,person eating a sandwich.
+1330,2KGV3,Else,Else,the person puts the book down to continue eating.
+1331,2KGV3,R7,R5,a person is sitting on the couch eating a sandwich.
+1332,2KGV3,Else,Else,the person is doing their homework as the person eats.
+1333,2KGV3,R7,R7,person they put down the book.
+1334,D0AGO,Else,Else,person pours coke into glass.
+1335,D0AGO,Else,Else,person pour a glass of soda.
+1336,D0AGO,Else,Else,person seen pouring a can of soda into a glass.
+1337,D0AGO,Else,Else,person pours some into a glass.
+1338,EF7Q9,R5,Else,person begins washing their hands.
+1339,EF7Q9,R5,R3,person washes hands.
+1340,EF7Q9,Else,Else,person they take the glass.
+1341,G2AMK,R7,R5,person closing the door to it behind them.
+1342,FG9NT,Else,Else,person eats whats in the dish.
+1343,FG9NT,R5,R3,person eats from a bowl.
+1344,LLTBQ,R7,R7,a person opens a door.
+1345,LLTBQ,R5,Else,person holding a towel.
+1346,LLTBQ,R7,R7,a person opens the bedroom door.
+1347,HS14N,Else,R7,person closes the cabinet.
+1348,HS14N,R7,R5,a person runs into the kitchen.
+1349,HS14N,R3,R5,person opens the cabinet.
+1350,HS14N,R3,R3,the person takes a dish from the top shelf.
+1351,HS14N,R5,R5,person opens a cabinet.
+1352,L2502,R5,R7,person fixes their hair in a mirror.
+1353,L2502,Else,Else,person begins to undress.
+1354,GT43R,Else,R7,person turns off the light again.
+1355,GT43R,R3,Else,the person takes a box of tissues from the shelf.
+1356,GT43R,R7,R3,the person turns on a light.
+1357,X95D0,R5,R7,person drinking a glass of water.
+1358,DV6CH,R3,R3,person they begin smiling.
+1359,DV6CH,R7,R7,a person opens their closet.
+1360,DV6CH,R5,R7,person opens closet.
+1361,DV6CH,R3,R3,person is seen putting clothes in their closet.
+1362,DV6CH,R7,R7,this person opened up their closet.
+1363,HI4NV,R3,Else,person holding some food on some dishes.
+1364,HI4NV,R5,R3,the person is also holding some food.
+1365,96ATI,R5,R5,a person is sneezing.
+1366,B4XZD,Else,Else,person starts sneezing.
+1367,ICOX1,Else,Else,a person in their recreation room turns on the light.
+1368,ICOX1,R5,R5,person awakening o the sofa under a blanket sneezes.
+1369,ICOX1,R5,R7,person turns the light on.
+1370,QQGU3,R7,R7,a person opens a cabinet.
+1371,QQGU3,Else,Else,a person takes a box.
+1372,QQGU3,R7,R7,the person opens the doors to the cupboard.
+1373,QQGU3,Else,Else,person opens the box.
+1374,QQGU3,Else,Else,person holds a box.
+1375,QQGU3,R7,R7,a person opens a small cabinet door.
+1376,Z2KJ5,R7,R7,person takes food out of a bag.
+1377,7EJUR,R5,R7,person watching television on their laptop.
+1378,7EJUR,R3,R3,a person is cooking as the person watches television.
+1379,7EJUR,R3,R3,a person is cooking some food.
+1380,7EJUR,R3,R3,person takes some food from it.
+1381,7EJUR,R7,R7,person watching a video on a laptop.
+1382,FFYL6,R7,R7,a person puts a broom into the closet.
+1383,FFYL6,R5,R5,person takes out a box.
+1384,FFYL6,R7,R7,a person puts a broom away in a closet.
+1385,FFYL6,R5,R5,person takes a box out of the same  closet.
+1386,FFYL6,R7,R7,a person puts a broom inside a closet.
+1387,FFYL6,R5,R5,the person takes a box out.
+1388,FFYL6,R5,R5,person they pretend to start sneezing.
+1389,YN3AA,R3,Else,person eats a sandwich.
+1390,YN3AA,Else,Else,person they turn on the light.
+1391,YE6UZ,Else,Else,person she takes her phone from a drawer.
+1392,KMZDA,R3,R3,person puts the dish on the table.
+1393,LSCMZ,R7,R5,person holding a pair of shoes.
+1394,LSCMZ,R5,Else,the person takes a phone from somewhere.
+1395,5INX3,R3,R5,person dressing by putting a jacket on.
+1396,F3M1Q,R3,R7,person taking a drink out of a cup.
+1397,F3M1Q,R7,R7,person throws them on the floor.
+1398,F3M1Q,R7,R5,a person takes off their shoes.
+1399,F3M1Q,R7,R7,person takes a drink from a glass nearby.
+1400,F3M1Q,R5,R5,a person takes their shoes off in the kitchen.
+1401,IKJGO,Else,R5,the person puts the book down.
+1402,SR8IK,R5,R3,person takes a drink from a glass.
+1403,SR8IK,R5,R3,person drinking a glass of water.
+1404,SR8IK,Else,R5,person take a drink from a cup on the table.
+1405,WX711,R7,R5,person drinking out of a cup.
+1406,VNQTH,R7,R3,a person puts clothes into their closet on a shelf.
+1407,VNQTH,Else,Else,person puts it on a shelf.
+1408,VNQTH,R7,R5,a person is putting clothes on the shelf.
+1409,VNQTH,R7,R5,person takes out their cell phone.
+1410,VNQTH,R7,R7,person starts laughing.
+1411,BQA97,Else,Else,person open a laptop.
+1412,99B6U,R3,Else,this person puts some papers in the bag.
+1413,99B6U,R5,R7,a person runs down the stairs with a book.
+1414,99B6U,R3,R5,person puts the books into his backpack.
+1415,99B6U,R3,R7,person puts the book into it.
+1416,RO8Y6,Else,Else,person close the door.
+1417,JTXAM,R5,R7,person turn off the light.
+1418,JTXAM,R5,R7,person closed the book.
+1419,P6JGZ,Else,R5,person opening a cabinet.
+1420,P6JGZ,R7,R7,person closes the door.
+1421,P6JGZ,R7,R7,person closed the cabinets.
+1422,P6JGZ,R7,Else,the person opened some cabinets.
+1423,KO2MY,R5,R7,a person is standing in the dining room laughing.
+1424,KO2MY,R3,R3,a person laughs to themselves.
+1425,PNRFK,R7,R7,a person is dressing by a flight of stairs.
+1426,PNRFK,R7,R7,a person gets dressed in some clothes.
+1427,26RQN,R5,Else,the person starts washing a table.
+1428,EJY5V,Else,R3,person looks out the window.
+1429,J1KLV,R7,R7,the person opens the door at the top.
+1430,J1KLV,R7,R7,person closes the door behind them.
+1431,OXCDM,R7,R7,another person comes running into the entryway holding a box.
+1432,ENOLD,Else,Else,person watching television.
+1433,FRSBQ,Else,R3,the same person than starts undressing next to the cabinet.
+1434,0FM93,Else,Else,person closing the door behind them.
+1435,0FM93,Else,Else,person slowly closes the door.
+1436,0FM93,Else,Else,person closes a door.
+1437,3G1OQ,R3,R3,person walks towards the mirror to fix their hair.
+1438,3G1OQ,Else,Else,person fix their hair in the mirror.
+1439,MRZ44,R5,R7,person eating a sandwich.
+1440,MRZ44,R3,R7,person eating something.
+1441,KTDG0,R5,R3,person is closing door to closet.
+1442,W97NR,R7,R7,person takes a drink of a glass of water.
+1443,81R72,R7,R3,person close the open door to their right.
+1444,81R72,R7,R7,person closing the doorknob.
+1445,13IS9,R5,R3,person they stand up.
+1446,13IS9,R5,R7,person putting their shoes on.
+1447,13IS9,R7,R7,a person puts some shoes on.
+1448,13IS9,R5,R7,a person is sitting down putting on their shoes.
+1449,VHD24,R3,R3,person they begin pouring themselves some medicine from a bottle.
+1450,LQMXW,R5,R7,a person is walking in a room holding towel.
+1451,LQMXW,R3,R3,person put the towel on the chair.
+1452,SAO1A,Else,R5,person takes a drink from a cup.
+1453,FLLUJ,R7,R3,person closes a window.
+1454,FLLUJ,R5,Else,person closes the window.
+1455,FLLUJ,R5,R3,person tried to close the window.
+1456,REWLB,Else,Else,person eating food from a plate.
+1457,8TZSC,R7,R5,person fixing their hair.
+1458,2FPB3,R7,R7,a person holds an orange book.
+1459,2FPB3,R3,R7,person put the book down.
+1460,2FPB3,R5,R3,a person is sneezing into a book.
+1461,TNDT2,Else,Else,person eating food in a basement.
+1462,TNDT2,Else,R3,person finally eat something.
+1463,TNDT2,Else,R5,person open laptop.
+1464,TNDT2,Else,R5,person opening a laptop.
+1465,TNDT2,R3,Else,person eating food from a plate.
+1466,GHJ3Q,R5,R3,this person puts the pillow down.
+1467,GHJ3Q,R5,R3,person puts the pillow down.
+1468,X8JVY,R7,R7,person closes the door.
+1469,X8JVY,R5,R7,the person is opening a bag.
+1470,X8JVY,R7,R7,a person is closing a door.
+1471,QVBTC,R7,R7,there is a person looking out a bathroom window.
+1472,QVBTC,Else,R7,a person smiles as they watch something out the window.
+1473,OVFVJ,R7,R7,person begins undressing.
+1474,OVFVJ,R5,R3,person takes a towel from the cabinet.
+1475,4GLAP,Else,Else,a person throws some shoes down.
+1476,MLHCK,R7,R7,a person runs in place.
+1477,NJANX,R3,Else,a person is tidying the shelf.
+1478,BQZ52,R7,R7,a person opens the closet.
+1479,BQZ52,R7,R7,person opens the door bends down.
+1480,IUETR,R7,R5,a person opens a door.
+1481,IUETR,R7,R7,person opens up the door go into the bedroom sneeze.
+1482,IUETR,R7,R7,person walks through the doorway.
+1483,IUETR,R7,R5,a person opens the door.
+1484,KZR42,Else,R7,person she takes a bottle of something out.
+1485,FVINY,R7,R5,a person is sitting on a chair reading a book.
+1486,FVINY,R7,R7,a person is looking at a book.
+1487,FVINY,R5,R5,a person sat on a chair reading a book.
+1488,3OLX3,Else,R5,person puts it on a table.
+1489,POACA,Else,Else,person looking a a book.
+1490,R971Z,R5,R5,person they stand up.
+1491,R971Z,R7,R7,person fixing their hair.
+1492,R971Z,R7,Else,person puts on the shoes.
+1493,R971Z,R3,Else,person smile at themselves in the mirror.
+1494,R971Z,R7,R7,a person opens a closet.
+1495,R971Z,R3,R7,a person opens up a closet.
+1496,R971Z,R7,R5,a person opens the door to a walk-in closet.
+1497,R971Z,R5,Else,person adjusts their hair holding a mirror.
+1498,VXOE4,R7,R5,a person is in a pantry standing on a chair.
+1499,VXOE4,R7,R5,person start working on their laptop.
+1500,JT537,R7,R5,person put the broom down.
+1501,JT537,R7,R5,person put down broom.
+1502,W5P6B,R3,R3,a person sits in a chair.
+1503,U9NI5,R5,R7,person turned the lights on.
+1504,U9NI5,Else,Else,a person is standing in the kitchen eating a sandwich.
+1505,U9NI5,R3,Else,person watches themselves eat.
+1506,U9NI5,Else,Else,person drinking from a cup.
+1507,U9NI5,Else,Else,the person was eating a sandwich.
+1508,U9NI5,R7,R7,person the runs to a mirror on the wall.
+1509,WP5RH,R5,R5,a person runs through a doorway.
+1510,WP5RH,R5,R3,person runs into kitchen.
+1511,WP5RH,R5,R7,a person is running in place under a doorway.
+1512,WP5RH,R5,Else,person run out room.
+1513,E89S9,R7,R7,a person is sitting on a chair.
+1514,E89S9,R7,R7,the person sits in a chair.
+1515,0KZYF,R5,R3,person opens the door.
+1516,0KZYF,Else,R7,a person is eating a sandwich.
+1517,0KZYF,Else,Else,person eating something off of a plate.
+1518,0KZYF,Else,Else,proceeds to keep eating in a happy manner.
+1519,0KZYF,Else,R7,person continuing to eat the sandwich.
+1520,0KZYF,Else,R5,person eating a sandwich.
+1521,0KZYF,R5,R5,a person walks in holding dishes.
+1522,0KZYF,R3,Else,the person starts smiling.
+1523,0KZYF,R5,R3,person opens a door.
+1524,LD9EC,Else,Else,another person is sitting on the floor.
+1525,T56KO,Else,Else,the person begins undressing.
+1526,T56KO,Else,R3,person takes off some clothes.
+1527,KT2SV,R7,R7,a person awakens in their bedroom laying on a pillow.
+1528,VE6GK,R7,R7,person sitting down to open a book to read.
+1529,VE6GK,Else,Else,person read a book.
+1530,HXUI5,Else,R3,the person takes out their phone.
+1531,HXUI5,R5,R7,a person dresses up in a jacket.
+1532,HXUI5,R3,R5,person fixing their hair.
+1533,HXUI5,R7,R7,a person puts on shoes.
+1534,HXUI5,Else,Else,person takes out a phone.
+1535,HXUI5,Else,R3,person fixes their hair.
+1536,HXUI5,R7,R7,a person is putting on some shoes.
+1537,HXUI5,R7,R7,a person is also dressing.
+1538,TR652,R3,R3,the person takes a pillow from the shelf.
+1539,TR652,R7,R5,person reading book.
+1540,TR652,R7,R7,a person is reading a book in the laundry room.
+1541,3HLP7,R3,R3,a person closes the door.
+1542,3HLP7,R5,R3,a person closes the door to the room.
+1543,XPXWY,R5,R5,person opens the door.
+1544,XPXWY,R5,R5,person opened the door.
+1545,XPXWY,R3,R3,a person opened a pantry door.
+1546,XPXWY,R3,R5,a person opens a pantry door.
+1547,XPXWY,R5,Else,person pours the liquid in it into a cup.
+1548,XPXWY,R5,R5,a person starts sneezing into their phone.
+1549,FK143,R5,R5,person they take the medicine.
+1550,FK143,R3,R3,the person takes out a bottle of medicine.
+1551,FK143,R7,R7,a person is opening a closet door.
+1552,FK143,R5,R5,person pours some into a small cup.
+1553,FK143,R3,Else,person take out some medicine.
+1554,JEB7V,Else,Else,person sitting on bed looks out window.
+1555,JEB7V,Else,Else,person starts eating.
+1556,JEB7V,R5,R3,a person is sitting down eating.
+1557,JEB7V,Else,R5,person looks at box puts food in mouth multiple times.
+1558,JEB7V,R5,Else,a person is eating on the bed.
+1559,YMJ6E,R7,R3,person opens the door.
+1560,YMJ6E,R7,R7,a person opens the door.
+1561,47RAA,Else,Else,person takes out the phone.
+1562,47RAA,R3,Else,the person takes out their phone.
+1563,E5ZF5,Else,R5,person eats some food.
+1564,E5ZF5,R7,R7,person snuggles up with a blanket.
+1565,E5ZF5,R7,R7,person begin snuggling with a blanket on the couch.
+1566,E5ZF5,R5,R5,the person took a drink from a cup.
+1567,E5ZF5,Else,Else,person they put their food away.
+1568,E5ZF5,Else,Else,person eating food.
+1569,C6C7Q,R5,R7,a person awakens from a deep sleep.
+1570,C6C7Q,R3,R5,person they flip on a nightstand light.
+1571,C6C7Q,Else,Else,person flip the light off.
+1572,C6C7Q,Else,Else,person turns on a light.
+1573,C6C7Q,R7,R7,person they snuggle back into their blanket.
+1574,D0Y4L,R7,R7,person closes the door.
+1575,D0Y4L,R7,R7,a person closes the door to outside.
+1576,HSWPR,Else,Else,the person is playing with the switch for the light.
+1577,HSWPR,Else,Else,a person is putting a glass on a bedside shelf.
+1578,BIJYC,R7,R7,person that they start talking on their cell phone.
+1579,BIJYC,R7,R5,person next talking on a phone in a bedroom.
+1580,BIJYC,Else,Else,person begin running in place.
+1581,BIJYC,Else,Else,person running in place.
+1582,BIJYC,Else,Else,person beginning to run in place.
+1583,BIJYC,Else,Else,person continues running as he talks on it.
+1584,7MRKY,R5,R7,the person closes a laptop that is sitting open.
+1585,7MRKY,R7,R7,person close a laptop.
+1586,7MRKY,R7,R7,person closes a laptop.
+1587,FQ2Q3,R5,Else,person watching television instead.
+1588,2KMGY,R7,R5,a person was sitting on the floor.
+1589,2KMGY,R7,R7,person takes a cup from a table.
+1590,W019T,R7,R7,person start cooking.
+1591,R5WMI,R7,R5,a person takes some pictures on a camera.
+1592,5OV3M,R5,R3,person drinking water from a glass.
+1593,Q0IHP,R7,R7,person takes a drink from a glass.
+1594,Q0IHP,R7,R7,person proceeds to take a drink from a cup.
+1595,Q0IHP,Else,Else,person adjusts the heat.
+1596,Q0IHP,R7,R7,the person takes a drink from a glass of juice.
+1597,136V6,R7,R3,a person is walking through a doorway.
+1598,136V6,R5,R5,person reading a book.
+1599,136V6,R5,R5,person decompressing for a few minutes by reading a book.
+1600,136V6,R5,R5,the person puts the book down.
+1601,136V6,R7,R5,person closed the door behind them.
+1602,4BIMI,R5,R5,a person is laughing as they kick off their shoes.
+1603,4BIMI,R7,R3,person takes a cup.
+1604,4BIMI,R5,R5,person opens the pantry door.
+1605,4BIMI,Else,Else,a person laughs to themselves.
+1606,0Z1PC,R7,R5,person puts the pillow in there.
+1607,0Z1PC,R7,Else,the person opens a closet door.
+1608,0Z1PC,R7,R5,person opens the doors of a closet.
+1609,0Z1PC,Else,Else,person is holding a pillow.
+1610,0Z1PC,R5,R5,the person is also tidying up the closet.
+1611,0Z1PC,R7,R5,person closes the closet doors.
+1612,0Z1PC,R5,R3,person puts a pillow.
+1613,AF5BS,Else,Else,person they put down the phone.
+1614,2ZICJ,Else,R5,person close a cabinet.
+1615,2ZICJ,R7,R7,person they open up a refrigerator.
+1616,2ZICJ,R7,R7,person opens a refrigerator door.
+1617,2ZICJ,R7,R5,person stand up.
+1618,2ZICJ,R5,R5,person closes the cabinet door where the mug is.
+1619,CYCEV,R3,Else,another person is looking out the window.
+1620,CYCEV,R5,R5,person holding some food.
+1621,CYCEV,R5,R5,the person holding the tray drinks from the cup.
+1622,02DPI,R3,R3,person drinking a glass of water.
+1623,02DPI,Else,Else,person watching something on a laptop.
+1624,02DPI,Else,Else,the person is also watching television.
+1625,02DPI,R5,R5,person drinking water from a glass.
+1626,X9LP4,R5,R7,person reads a book.
+1627,X9LP4,R3,R5,a person takes a mini vacuum.
+1628,8SXHK,R7,R5,person they put the laptop down.
+1629,8SXHK,R5,R5,a person sits typing on a laptop computer.
+1630,8SXHK,R7,R5,the person puts the laptop down.
+1631,9ZE0J,R7,R7,a person runs up stairs.
+1632,9ZE0J,R7,R7,a person runs up a staircase.
+1633,9ZE0J,R5,R5,starts to talk to another person holding a towel.
+1634,9ZE0J,R7,R7,one person runs up the stairs eating.
+1635,9ZE0J,R3,R3,person putting a towel or cloth around their neck.
+1636,ZB5J4,R3,R5,person they open the refrigerator.
+1637,QVD5B,R5,R3,a person is in the entryway holding a bag.
+1638,QUAFE,R5,R3,person putting a bag on the shelf.
+1639,QUAFE,Else,R7,person a girl is taking clothes out a a washer.
+1640,QUAFE,R7,R7,a person is washing clothes.
+1641,QMKZV,R5,R7,a person undresses.
+1642,QMKZV,R5,R7,person put clothes away.
+1643,QMKZV,R5,Else,person starts undressing.
+1644,QMKZV,R3,Else,person begins to undress.
+1645,CSPSU,R7,R7,person drinking a glass of water.
+1646,CSPSU,R5,R7,a person drinking from a disposable cup.
+1647,1440M,Else,R3,person opening a closet door.
+1648,1440M,R3,R5,person start closing the door.
+1649,1440M,R3,R3,person closes a closet door.
+1650,HA8S9,Else,Else,person throws their shoes under a desk.
+1651,WRCO6,Else,Else,a person is smiling at a picture.
+1652,KWHPI,Else,Else,the person closes the open door behind them.
+1653,KWHPI,R7,R7,a person throws a bag onto a chair.
+1654,L8CC0,R5,R7,person so they start laughing.
+1655,WPU76,R7,Else,a woman takes a cup off a table.
+1656,WPU76,R7,Else,person starts running.
+1657,CH41S,Else,R7,a person is putting a broom in the closet.
+1658,AZPOX,R7,R7,a person is holding a towel.
+1659,DCRI5,R5,Else,a person opens a closet door.
+1660,DCRI5,Else,Else,person puts something on the top shelf.
+1661,DCRI5,R5,Else,a man opens his closet door.
+1662,K9EAZ,R7,R7,a person is running the vacuum.
+1663,MVPPS,R5,R5,a person pours a drink into a cup.
+1664,OHOFG,Else,Else,a person is eating some food.
+1665,OHOFG,R3,R5,a person sits on a chair by a table.
+1666,OHOFG,R7,Else,person sitting down in a chair.
+1667,OHOFG,Else,Else,person starts eating food from a plate.
+1668,OHOFG,R5,Else,person eat a snack.
+1669,OHOFG,Else,Else,the person is working at a desk eating from dishes.
+1670,EW8GX,R3,R7,person walks through a doorway.
+1671,AEKYE,R7,Else,person watching  themself in a mirror.
+1672,AEKYE,Else,Else,person finally eating a sandwich in a living room.
+1673,AEKYE,R7,R7,person snuggling with a pillow.
+1674,AEKYE,Else,Else,person eats the food.
+1675,GCI2J,R7,Else,the person takes a pair of running shoes from nearby.
+1676,GCI2J,R3,Else,person take shoes from the floor.
+1677,GCI2J,Else,R3,person takes some pictures.
+1678,GCI2J,R5,R3,a person holds a camera up.
+1679,GCI2J,R5,R7,the person puts the camera down.
+1680,GN0M8,Else,Else,person walk through a open doorway.
+1681,N6FZ7,R7,R7,a person runs into the living room.
+1682,N6FZ7,R7,R7,person throws the blanket on the ground.
+1683,N6FZ7,R7,R7,a person throws a blanket on the floor.
+1684,N6FZ7,R7,R7,person throws the blanket onto the floor.
+1685,N6FZ7,R5,R7,person runs over to use a vacuum.
+1686,N6FZ7,R7,R7,a person runs into a room.
+1687,9YOI8,Else,R5,person opening a window.
+1688,9YOI8,Else,R3,a person opens the window in the laundry room.
+1689,9YOI8,R5,R7,person close the window.
+1690,9YOI8,R7,R7,person take a drink from the cup they are holding.
+1691,9YOI8,R7,R7,person drinking from the cup.
+1692,9YOI8,R5,R7,person closes the window.
+1693,9YOI8,Else,Else,person opens the window.
+1694,RJD1Z,R7,R7,a person is grasping a light to turn it on.
+1695,WF89D,R5,R7,a person takes a drink from a cup.
+1696,WF89D,R5,R5,the person laughs.
+1697,FDDDG,R7,R5,a person is in the kitchen cooking food.
+1698,FDDDG,Else,Else,person takes a phone.
+1699,FDDDG,R7,R5,a person is cooking at a stove.
+1700,OB660,R7,R7,person they throw off the blanket.
+1701,OB660,Else,Else,person runs to look out the window.
+1702,OB660,R7,R7,person throws a blanket off of them.
+1703,OB660,Else,Else,person run over to the window to look outside.
+1704,OB660,Else,Else,person runs to the window.
+1705,7LWW3,R7,R7,person looking at a book.
+1706,7LWW3,Else,R7,the person takes the food somewhere.
+1707,MVX03,R5,R7,person they take their shoes off.
+1708,TRVEA,Else,R3,a person sits on a bed with a pillow.
+1709,TRVEA,R7,Else,this person throws the pillow on the floor.
+1710,TRVEA,R7,R7,a person throws a pillow.
+1711,TRVEA,Else,Else,person throwing the pillow on the floor.
+1712,TRVEA,Else,R3,a person sits on their bed with a pillow.
+1713,W0YVE,R7,R5,a person runs up to a glass door.
+1714,W0YVE,R3,R5,the person puts the sandwich down.
+1715,W0YVE,R7,R7,a person runs into the entryway.
+1716,KE5EM,R7,R5,person opens it up to take some clothes out.
+1717,KE5EM,Else,Else,a person is holding a bag of clothes.
+1718,KE5EM,Else,Else,person sitting down in a chair with a backpack.
+1719,KE5EM,R3,R5,person begins sneezing.
+1720,FNBYE,R5,Else,a person is also eating.
+1721,FNBYE,Else,Else,person open a box.
+1722,FNBYE,R3,R7,person eating a sandwich.
+1723,FNBYE,Else,Else,person takes a glass.
+1724,FNBYE,Else,Else,person opening a box.
+1725,FNBYE,R5,R5,person eat a sandwich stand up.
+1726,KFLI0,R7,R3,person turns the light off.
+1727,KFLI0,R7,Else,person turning off the light.
+1728,OJYDD,R5,R5,person pouring a glass of water from on the table.
+1729,OJYDD,R7,R5,person pouring a glass of wine in a living room.
+1730,HNPX7,Else,Else,person put the bag away.
+1731,HNPX7,R5,R5,the person sat in a hall opening a plastic bag.
+1732,5SBEY,Else,R7,person sits down on another bed.
+1733,5SBEY,R7,R7,person throws a bag down.
+1734,5SBEY,R7,R5,person takes a drink out of a cup.
+1735,PAW5E,R7,Else,the second person laughs.
+1736,PAW5E,R5,R7,one person runs away with a food item.
+1737,PAW5E,R5,R7,person running away.
+1738,PAW5E,Else,Else,the person at the stove laughs.
+1739,MYBRN,R5,R5,person closes some cupboard doors.
+1740,MYBRN,R7,R5,person closed some cabinets.
+1741,MYBRN,R5,R5,person closes a cabinet door.
+1742,8D6PU,R7,R7,a person is walking through a doorway.
+1743,VW4UD,Else,Else,person puts the dishes into the sink.
+1744,VW4UD,R3,R3,a person is sitting in the kitchen eating.
+1745,VW4UD,R3,Else,person puts their dishes in the sink.
+1746,VW4UD,R5,R3,person a is eating at a table in the kitchen.
+1747,PBEUF,R5,R7,person pour something in another glass.
+1748,PBEUF,R3,R5,a person is pouring a drink into a glass.
+1749,SM4AO,R7,R7,a person is holding a bag.
+1750,BQOLV,R7,R7,a person undresses in their closet.
+1751,BQOLV,Else,Else,person putting their clothes on the floor.
+1752,51N2C,Else,Else,person they start closing the door.
+1753,T63X2,R7,R5,person start laughing.
+1754,HI75B,R7,R7,person opens a cabinet under the stairs.
+1755,HI75B,Else,R5,person with a flashlight.
+1756,HI75B,R7,Else,person they put a flash light into it.
+1757,KWJ5O,R5,R3,person takes a look out the window.
+1758,U33ZS,R7,R3,person takes their laptop from inside.
+1759,U33ZS,R5,R3,a person opens a bag.
+1760,4CAB5,R7,R7,a person is cooking on a stove.
+1761,4CAB5,R7,R7,a person is cooking in the stove in the kitchen.
+1762,4CAB5,R7,Else,the person turns the overhead light on.
+1763,4CAB5,R5,R5,person they turn on a light.
+1764,MZZK2,Else,Else,the person puts the book down on the table.
+1765,MZZK2,Else,Else,person laying on the floor.
+1766,MZZK2,R5,Else,a person is standing in the garage holding a book.
+1767,MZZK2,R7,R5,person lays down on the floor.
+1768,MZZK2,R7,R7,the person undresses.
+1769,MZZK2,Else,Else,person turns the light off.
+1770,MZZK2,Else,Else,person turns off the light.
+1771,MZZK2,R3,Else,the person turns the light off.
+1772,L0QNM,R7,R7,the person is watching television.
+1773,L0QNM,R7,R7,person starts undressing.
+1774,L0QNM,R7,R7,person watching television.
+1775,2TAT3,R7,R7,person drinking from a glass of water.
+1776,4RKKP,R3,R5,the person puts it back into the box.
+1777,I75CL,R7,R5,a person opens a door.
+1778,I75CL,R3,R5,person eating a sandwich.
+1779,I75CL,R7,R5,a person is opening a door holding groceries.
+1780,I75CL,Else,Else,person closes the door behind them with their shoe.
+1781,9MNZ5,Else,Else,person opens a book over their head.
+1782,9MNZ5,Else,Else,person starts eating them.
+1783,9MNZ5,R7,R7,person begin eating those chips.
+1784,9MNZ5,R3,R3,person start reading the book.
+1785,9MNZ5,R5,R7,person pick up some food eat it from bowl.
+1786,9MNZ5,R3,Else,person they hold a book up.
+1787,9MNZ5,R7,R7,person eats crackers.
+1788,E6RD3,R7,R7,a person laughing at the dining table.
+1789,E6RD3,R5,R5,person takes a broom.
+1790,E6RD3,R5,R5,person kicks open a door.
+1791,ECW3E,R7,R7,a person opens a closet door.
+1792,ECW3E,R5,R5,person opens the closet.
+1793,ECW3E,R5,R3,person takes a pink laptop from a shelf opens.
+1794,K8OB6,R7,R7,another person walks into the room drinking from a cup.
+1795,K8OB6,Else,Else,person eating a sandwich.
+1796,PTAZ9,Else,Else,person they stand up.
+1797,PTAZ9,R5,R7,person eating a sandwich.
+1798,PTAZ9,R3,Else,person open a cabinet door.
+1799,PTAZ9,Else,Else,person close the cabinet door.
+1800,JMPKP,R7,R7,person closes the door.
+1801,JMPKP,R3,Else,a person is putting their shoes in a closet.
+1802,JMPKP,R5,R3,person they put the shoes away.
+1803,JS3TB,Else,Else,person eating a roll or bagel.
+1804,JS3TB,R5,Else,person eating a sandwich.
+1805,JS3TB,R3,Else,person laugh as they continue to eat their sandwich.
+1806,QRSRE,R7,R7,one person runs in past the chair.
+1807,QRSRE,R5,R3,person opens the closet door.
+1808,QRSRE,R7,R7,takes a drink as the person opens the closet door.
+1809,QRSRE,R3,R3,the person is drinking a bottle of water.
+1810,QACLT,R3,R3,a person is opening a cabinet in the laundry room.
+1811,QACLT,R3,Else,person takes a cellphone from their pocket.
+1812,QACLT,R3,R5,person opens some cabinet doors.
+1813,3IS9Y,Else,Else,person closed a wooden box twice.
+1814,3IS9Y,Else,Else,person opened the box adn llooked in to it.
+1815,3IS9Y,R3,R7,person puts the picture down on a box.
+1816,NUKJ0,R7,R7,person drinks from a cup of coffee.
+1817,1QP1S,Else,R3,a person eats some food.
+1818,1QP1S,R3,R3,a person is eating a sandwich.
+1819,1QP1S,Else,Else,person laughing at a picture.
+1820,1QP1S,Else,Else,one person awakens.
+1821,1QP1S,Else,Else,a person eats some sort of fruit.
+1822,1QP1S,Else,Else,another person is eating something from a bag.
+1823,1QP1S,Else,Else,another person awakens.
+1824,OVFR0,Else,Else,person that they opened a door.
+1825,OVFR0,R7,R7,a person was looking at a book.
+1826,CDULZ,R3,Else,person holding a bag of groceries.
+1827,O3HV7,Else,Else,person they put their glasses on.
+1828,O3HV7,R7,R5,a person awakens.
+1829,O3HV7,R5,R5,person drinking from a coffee cup.
+1830,O3HV7,Else,Else,person putting glasses on.
+1831,7O6FK,R7,R7,a person throws a blanket down the stairs.
+1832,7O6FK,R7,R7,a person throws a blanket down some stairs.
+1833,7O6FK,R5,R7,person takes a picture from the wall.
+1834,7O6FK,R5,R7,person running down the stairs.
+1835,7O6FK,R5,R7,a person throws a blanket on the floor.
+1836,7O6FK,R5,R7,person takes a picture frame off a wall.
+1837,DJVKE,R3,R3,person is also eating something next to him.
+1838,DJVKE,R5,R3,person eat it.
+1839,DJVKE,R5,R3,person eating a snack.
+1840,F9VSQ,R5,R5,person starts sneezing furiously.
+1841,F9VSQ,R5,R7,a person is smiling at a camera.
+1842,F9VSQ,R3,R5,person sneezing into a cup of coffee in an entryway.
+1843,MKMFK,R7,R7,a person drinks from a cup.
+1844,MKMFK,Else,R7,person drinking out of a cup.
+1845,ZTWJB,R7,R7,a person throws a broom ferociously at the floor.
+1846,ZTWJB,R7,R5,person throws the broom onto the ground.
+1847,JIUH7,R7,R5,person they put the bottle in the trash.
+1848,JIUH7,R7,R7,a person walks down stairs drinking from a glass bottle.
+1849,JIUH7,R7,R7,person drinking from a water bottle.
+1850,JIUH7,R5,R7,person put the bottle in the garbage.
+1851,JIUH7,R7,R7,person drinking a bottle of water.
+1852,DSI0N,R5,R5,the person is closing the door.
+1853,DSI0N,Else,Else,person stand there talking on their phone.
+1854,DSI0N,Else,Else,person talking on the phone.
+1855,YT2C3,R7,R7,a person opens the doors of a pantry.
+1856,YT2C3,R5,R5,person takes out phone.
+1857,YT2C3,R5,R5,the person takes a paper towel from the shelf.
+1858,YT2C3,R7,R7,person holding their phone.
+1859,YT2C3,R7,R7,person opens door.
+1860,YT2C3,R7,R7,a person opens the pantry door.
+1861,3B97C,Else,R3,a person is running into their kitchen holding a laptop.
+1862,0E6H9,R7,R5,person drinks from a bottle.
+1863,HIKIC,Else,Else,person opening a door.
+1864,HIKIC,R3,R5,the person opens a box.
+1865,HIKIC,R7,R7,person talking on phone.
+1866,PT4XS,Else,Else,a person is sitting at the table.
+1867,PT4XS,R5,R7,gets up to watch the other person washing dishes.
+1868,PT4XS,Else,Else,a person is sitting at a table.
+1869,PT4XS,Else,Else,a person sits at the kitchen table with a book.
+1870,PT4XS,R7,Else,person where he begins washing dishes.
+1871,VWFJA,R7,R7,person opens the refrigerator.
+1872,XRG9K,Else,R5,person is sitting on floor sneezing.
+1873,XRG9K,R5,R7,person takes something out box.
+1874,XRG9K,R7,R7,person opening a box.
+1875,XRG9K,R5,R7,person opening box.
+1876,XRG9K,R7,R5,one person opens a box.
+1877,7AB3X,R5,R5,person grabs something to drink out of a cup.
+1878,OOKN5,Else,R3,person takes the jacket out of the box.
+1879,OOKN5,Else,Else,person begin dressing.
+1880,F024X,R5,R3,person throws a pillow on a chair.
+1881,F024X,R7,R7,a person undresses.
+1882,F024X,R3,R3,person puts a pillow on a chair.
+1883,BJ7YW,Else,R3,person looks out a window.
+1884,BJ7YW,R7,R5,the person is now washing the glass of the window.
+1885,FJYWX,R5,R3,person they take off some of their clothes.
+1886,FJYWX,R5,R5,person beginning to undress.
+1887,FJYWX,Else,R3,person put it on the table.
+1888,B47TS,R5,R7,person than stand up.
+1889,LRJKT,R5,R5,a person drinks out of a glass.
+1890,4FX6G,Else,R7,a person opens a door.
+1891,4FX6G,R3,R5,a person opens a door with a doorknob.
+1892,4FX6G,Else,Else,person takes some dishes out of the pantry.
+1893,LGPWK,R3,R3,person puts the remote on a shelf.
+1894,EIT66,R5,R7,person putting a blanket in the box.
+1895,EIT66,R7,R7,person put a blanket in a box.
+1896,EIT66,Else,Else,the person puts the phone in a pocket.
+1897,0LHWF,R3,R5,a person sits in a chair.
+1898,0LHWF,R5,R7,person holding a book.
+1899,0LHWF,R3,R5,person reading a book.
+1900,0LHWF,Else,R7,person read book.
+1901,RJNAB,R5,R3,a person drinks from a cup.
+1902,RJNAB,R5,R5,person they open a box.
+1903,RJNAB,R3,R3,this person opens a box.
+1904,RJNAB,Else,Else,person drinks from a cup.
+1905,ZL3QP,R7,R5,a person is laughing as the open the pantry.
+1906,ZL3QP,R7,R7,a person is opening the pantry door.
+1907,ZL3QP,Else,Else,person starts laughing.
+1908,EURF2,R5,R5,person sitting on bed.
+1909,EURF2,R5,R5,person sitting on the bed themselves.
+1910,EURF2,R5,R5,the person sits on the bed.
+1911,8W829,Else,R3,person puts something on a shelf.
+1912,8W829,R5,R5,a person is putting a sandwich on a tray.
+1913,8W829,Else,Else,person slowly walks to a doorway.
+1914,8W829,R3,Else,person puts a sandwich in a basket.
+1915,OTUV7,R7,R7,person eating from a bag.
+1916,OTUV7,R5,Else,person eats some chips at a small table.
+1917,OTUV7,R7,R7,person they are eating a snack.
+1918,OTUV7,R7,R7,a person is in a office eating food.
+1919,OTUV7,R7,R7,person stand up.
+1920,2OHTZ,R3,R7,the person takes a couple drinks from a cup.
+1921,2OHTZ,R7,R7,person taking a drink from a cup of coffee.
+1922,2OHTZ,R5,R7,a person opens a laptop.
+1923,2OHTZ,R7,R7,a person opens their laptop.
+1924,2OHTZ,R7,R5,person opening a laptop.
+1925,DMO76,R7,R7,the person runs into the adjacent living room.
+1926,DMO76,R7,R5,person they start running around.
+1927,DMO76,Else,R3,person they put their phone onto the sofa.
+1928,DMO76,R7,R7,this person runs into the other room.
+1929,FQS5V,R7,R7,person they stand up.
+1930,FQS5V,R3,Else,the person laughs.
+1931,Y80PJ,R7,R7,a person is opening the refrigerator.
+1932,DHDCF,R7,R5,person walks towards the camera drinking from a glass.
+1933,DHDCF,R7,R7,person drinking a glass of water.
+1934,DHDCF,R7,R7,person drinking water from a glass.
+1935,TS2DM,R7,R7,person holding a cellphone.
+1936,TS2DM,R5,R5,person smiling very happily.
+1937,TS2DM,R7,R7,person still smiling.
+1938,TS2DM,Else,Else,the person walks through a doorway.
+1939,TS2DM,R5,R7,person holding a cell phone.
+1940,TS2DM,R5,R7,person holding the phone.
+1941,OY3LS,R7,R5,the person puts their phone on a table.
+1942,OY3LS,Else,R3,the person sits on a couch.
+1943,OY3LS,R3,R5,a person is standing in their entryway undressing.
+1944,OY3LS,R7,R3,person sit on a couch under a blanket.
+1945,OY3LS,Else,R7,person played with his phone.
+1946,OY3LS,Else,Else,person lied down on the couch.
+1947,OY3LS,R3,R5,person they get undresses.
+1948,OY3LS,Else,Else,person opened the laptop.
+1949,68OG0,R5,R7,person drink a cup of coffee.
+1950,68OG0,R7,R7,a person is sneezing.
+1951,DGPAW,R5,R5,person opens the door.
+1952,DGPAW,R7,R7,this person puts the picture on a shelf.
+1953,GAOV2,R7,R5,a person is sneezing into a phone.
+1954,GAOV2,R5,R7,person putting a laptop in a bag in a kitchen.
+1955,Q5MDU,Else,Else,person turns the light off.
+1956,Q5MDU,Else,R3,person turns the light on.
+1957,Q5MDU,R7,R7,person turning on a light.
+1958,Q5MDU,R5,R7,person turns on a light.
+1959,IMLN5,R5,R7,person take a drink from a glass.
+1960,4H61U,R5,R7,person dress themselves with it.
+1961,BDJ84,R5,R5,person put it onto the shelf.
+1962,CLB72,Else,R3,person takes a pillow from it.
+1963,CLB72,Else,Else,person takes a pillow out.
+1964,CLB72,R5,Else,person takes a pillow out of the box.
+1965,CLB72,R5,R7,person turns on the light to a closet.
+1966,CLB72,R7,R7,a person turns on the light in a closet.
+1967,SB8G0,Else,Else,a person is smiling.
+1968,SB8G0,R3,R7,a person is sitting on a chair.
+1969,SB8G0,R5,R3,person closing the cabinet.
+1970,SB8G0,R5,R5,person sitting in a chair.
+1971,SB8G0,Else,Else,person smiling at the camera.
+1972,ATV2F,R5,R5,person opens up a laptop.
+1973,ATV2F,R5,R3,person opens her laptop to begin doing her work.
+1974,ATV2F,R7,R7,person a girl is dressing in front of a closet.
+1975,ATV2F,R5,R7,person opens the laptop.
+1976,B4TWR,Else,Else,another person is putting clothes in a hall wardrobe.
+1977,B4TWR,R7,R7,person they put them on a shelf.
+1978,CQ435,R5,R5,a person in their dining room is running around.
+1979,CQ435,R5,R3,person laughing because they see something funny on the television.
+1980,TKJCI,R7,R7,person lies down on the bed to review the pictures.
+1981,TKJCI,R7,R3,taking the picture the person lies back in the bed.
+1982,M014B,Else,Else,a person holding a bag of items.
+1983,M014B,Else,R5,a person drinks milk from a bottle.
+1984,M014B,R3,R3,person continues cooking.
+1985,M014B,Else,Else,person holding a bag.
+1986,W3NN2,R3,R5,person turning the lights off.
+1987,W3NN2,R3,R5,person turned off the light.
+1988,W3NN2,R3,R5,person turns off the light.
+1989,QMHK8,Else,Else,person walks into room holding a bag.
+1990,QMHK8,Else,R3,person closes the door behind them.
+1991,QMHK8,Else,R3,this person puts their shoes.
+1992,QMHK8,R5,Else,person puts a plastic bag on the handle.
+1993,QMHK8,Else,Else,person closes the door.
+1994,QMHK8,R5,R3,person takes the bag off the doorknob.
+1995,QMHK8,Else,R5,person puts bag on shelf.
+1996,QMHK8,Else,Else,person puts shoes in the bag.
+1997,QMHK8,Else,R3,person takes off sweater to put in bag.
+1998,QMHK8,Else,Else,the person undresses (removes socks.
+1999,QMHK8,R7,R5,person puts it on the shelf.
+2000,QMHK8,R3,R7,person puts the bag on a shelf.
+2001,RSFGZ,R7,R7,person they begin undressing by removing their sweater.
+2002,RSFGZ,R3,R5,a person undresses as they walk down the stairs.
+2003,8H570,R3,R5,person which he holds as he removes his phone.
+2004,8H570,R3,Else,a person is eating junk food.
+2005,UR55B,Else,R5,person holding a bag of groceries.
+2006,OB9D0,R7,R3,person playing a game on the phone.
+2007,OB9D0,R7,R7,person they start playing with a camera.
+2008,NL9AW,R3,Else,person holding their food.
+2009,NL9AW,R7,R7,person opens the refrigerator.
+2010,9BQ7M,R3,Else,person sitting in a chair smiling.
+2011,FQ8FN,R5,R3,person they put on their shoes.
+2012,FQ8FN,Else,R7,a person awakens in bed.
+2013,FQ8FN,R5,R3,person puts their shoes on.
+2014,FQ8FN,R5,R5,person puts on some shoes.
+2015,30K2N,R7,Else,a person runs into a garage.
+2016,30K2N,R7,Else,person turns on a light.
+2017,4K0BP,R3,R3,person drinks a glass of water from the shelf.
+2018,4K0BP,R3,R3,this person drinks from a cup.
+2019,RAGOI,R3,R3,person put the towel on top of a table.
+2020,RAGOI,R3,R5,person as they stand up to grab a towel.
+2021,KNGRY,R3,R3,the person laughed.
+2022,KNGRY,R5,R5,the person walked through the doorway holding a box.
+2023,KNGRY,Else,R3,the person appears to laugh.
+2024,0KTWY,R3,R3,person moving to sit on the toilet seat.
+2025,S4P5J,Else,Else,person putting away groceries.
+2026,S4P5J,Else,Else,another person is smiling.
+2027,AB2V6,Else,Else,person opens a laptop up.
+2028,AB2V6,R7,R7,person they stand up.
+2029,AB2V6,Else,R3,a person is on the sofa sneezing.
+2030,AB2V6,Else,Else,person opened the laptop computer.
+2031,YGL6R,Else,Else,person stop to open a window.
+2032,YGL6R,R7,R5,person tidying up the table.
+2033,OT35M,R5,R5,person they put the towel down.
+2034,OT35M,R5,R3,person throwing the towel to the floor.
+2035,OT35M,R7,R7,person throw it on the floor.
+2036,OT35M,R7,R7,person takes a picture of themselves.
+2037,OT35M,R7,R7,person take a picture.
+2038,OT35M,R3,R5,person take their phone out to take a picture.
+2039,OT35M,R5,R5,a person is putting on a towel.
+2040,OT35M,Else,Else,a person put a towels around their neck.
+2041,1L5D3,R7,R7,person playing on their phone.
+2042,1L5D3,R5,R5,a person takes a pillow from the dresser.
+2043,1L5D3,R7,Else,person snuggling up to the pillow.
+2044,1L5D3,R5,R3,a person takes a pillow off a shelf.
+2045,PGPSJ,R7,R5,person puts down the box.
+2046,PGPSJ,R5,R5,person closes the box.
+2047,UR5TU,R7,R7,a person opens a pantry door.
+2048,UR5TU,R7,R7,person closes the cabinet door.
+2049,UR5TU,R5,R7,person a girl opens the pantry door.
+2050,UR5TU,R5,R7,the person closes the door.
+2051,UR5TU,R7,R7,a person opens a closet.
+2052,UR5TU,R5,R7,person closes the door.
+2053,UR5TU,Else,Else,person opens a cabinet in the pantry.
+2054,UR5TU,R3,Else,the person opens up a pantry door holding some clothing.
+2055,R1KMF,R3,R3,person puts it into a bag.
+2056,R1KMF,R3,R5,person opens a door by turning the handle.
+2057,R1KMF,R3,R3,the person takes the bag.
+2058,R1KMF,R5,R5,person opens a door.
+2059,J3RD3,R7,R7,person closes the door.
+2060,J3RD3,R7,R7,a person opens the door to a room.
+2061,J3RD3,R7,R7,a person opens the door.
+2062,1XOQ8,Else,Else,person they start throwing shoes out of the way.
+2063,GMPHO,R7,R5,person opens a closet door.
+2064,GMPHO,R7,R5,person opening their closet door.
+2065,GMPHO,R5,R3,person walking out the doorway.
+2066,GMPHO,R7,R7,a person opens the closet takes stuff out.
+2067,21O5C,R7,R5,person runs out of room.
+2068,21O5C,R5,R5,a person runs through the doorway.
+2069,JFBTV,R7,R7,a person opens a closet door.
+2070,JFBTV,Else,Else,a person flips a light switch.
+2071,JFBTV,Else,R5,the person closes the door.
+2072,JFBTV,R5,Else,a person opens up a closet door.
+2073,JFBTV,R7,R7,person opens a door to a closet.
+2074,JFBTV,Else,Else,person drinks from a bottle.
+2075,JFBTV,R7,R7,person walks out of the closet closing the door.
+2076,15RTV,Else,R3,person eating a cookie.
+2077,15RTV,R7,R7,person putting a pillow in the closet.
+2078,3LMTS,Else,Else,person begin talking on the phone.
+2079,3LMTS,R7,R7,person holding the phone in between their shoulder.
+2080,8TSU4,R3,R3,person eating some food.
+2081,7835X,R5,R7,a person throws shoes in the corner.
+2082,7835X,Else,R7,person throws a pair of shoes in the corner.
+2083,7835X,Else,Else,person throw shoes into a corner.
+2084,C10FA,Else,Else,person pour it into a glass.
+2085,C10FA,Else,Else,person pours some milk into the glass.
+2086,C10FA,Else,Else,a person holding a glass opens the refrigerator.
+2087,C10FA,Else,Else,person they pour it into the glass.
+2088,PXY5Q,R7,R7,person looks at a picture hanging there.
+2089,PXY5Q,R7,R7,person takes out a glass of water.
+2090,PXY5Q,Else,R5,the person puts the water down on the table.
+2091,PXY5Q,R5,R5,a person opens the cabinet.
+2092,PXY5Q,R7,R7,person looked at a picture on the wall.
+2093,41T8C,R5,R7,a person is sneezing.
+2094,41T8C,R5,R5,person puts the book on the shelf.
+2095,RRQEV,Else,R3,the person puts away the blanket.
+2096,GLSU2,R5,R7,the person takes a towel from the cabinet.
+2097,GLSU2,Else,Else,a person walks into the pantry eating a sandwich.
+2098,MXATD,R7,R3,the person opens a cabinet to take detergent.
+2099,MXATD,R3,Else,person pour in some dish washing soap.
+2100,MXATD,Else,Else,a person puts the dishes away.
+2101,MXATD,Else,Else,person puts dishes in a sink.
+2102,MXATD,Else,Else,person puts dish soap into the sink.
+2103,3VT73,R5,R5,person he takes his cell phone out.
+2104,3VT73,R7,R5,the person throws a book.
+2105,3VT73,R5,R7,a person sits down as they read a book.
+2106,29V7T,R5,R5,person turning on the light.
+2107,29V7T,R3,R3,person turns on the light.
+2108,29V7T,Else,Else,person they are holding a broom instead of the glasses.
+2109,BLWIW,Else,Else,person looking out the window.
+2110,LSH63,R7,R7,person put the bag on top of a table.
+2111,MCMTH,R3,R5,person begins washing the glass.
+2112,E0OJ8,R7,R7,a person is tidying some books on the table.
+2113,E9UYZ,Else,Else,person puts the medicine down in the table.
+2114,G71O7,Else,Else,person they begin laughing when they look at the screen.
+2115,3KDI5,R5,R7,working on a laptop in a relaxed manner.
+2116,3KDI5,Else,Else,person starts playing games on a laptop.
+2117,ICQZX,R7,R7,a person opens a closet door.
+2118,ICQZX,R5,R7,the person takes a book from the wardrobe.
+2119,ICQZX,R5,R5,person the take shoes out of the closet stand up.
+2120,448J4,Else,Else,person puts the plate on a table.
+2121,448J4,R7,R7,a person walks through a doorway carrying a plate.
+2122,BFH78,R3,R5,person they are holding a towel.
+2123,BFH78,R7,R7,the person holds a small towel.
+2124,BFH78,Else,Else,person begin smiling.
+2125,X37P1,Else,Else,person takes a drink out of the glass.
+2126,IDXM0,R5,R5,one person opens a box of shoes.
+2127,NB0IB,R3,R3,a person opens their kitchen pantry doors.
+2128,NB0IB,R5,R5,a person opens a pantry door.
+2129,BW2OT,R7,R5,the person is eating a sandwich.
+2130,BW2OT,R7,R7,person eating a sandwich.
+2131,CLAWJ,R7,R5,person begin to undress.
+2132,CLAWJ,Else,Else,person undressing next to the wardrobe in the basement.
+2133,3QL7J,R3,R3,person getting a bite to eat out of the fridge.
+2134,3QL7J,R5,R3,person eats it.
+2135,3QL7J,R7,R7,person cooks some food on the stove.
+2136,3QL7J,R7,R7,a person is cooking some eggs on a frying pan.
+2137,3QL7J,R5,R5,person looking out the window.
+2138,3QL7J,R5,R5,person looking out of the window.
+2139,3QL7J,Else,Else,person takes some food out of it.
+2140,9LTZT,R5,R5,person drinks something from the glass.
+2141,JVOM3,R3,R3,person holding a flashlight.
+2142,JVOM3,R3,Else,person a flashlight by the doorway.
+2143,JVOM3,R3,R3,person closes the book.
+2144,JVOM3,R7,R5,person begins to undress.
+2145,JVOM3,R3,Else,person holding a book shines a flashlight forward.
+2146,GFPDD,R7,R7,a person walks into the kitchen holding a box.
+2147,A59CN,R5,R3,person turns the light on.
+2148,A59CN,R5,R3,person turn on the light.
+2149,A59CN,R5,R3,person turned on a light.
+2150,4PEL7,R5,R5,person sits on the couch.
+2151,4PEL7,R3,R7,person closing the bathroom door behind him.
+2152,4PEL7,Else,R5,the person turns the light off.
+2153,4PEL7,R5,R5,person walks into a room to sit on the couch.
+2154,4PEL7,Else,R5,person cuts off the light.
+2155,MZ3X9,Else,Else,a person takes a phone.
+2156,MZ3X9,Else,R7,person open the door.
+2157,MZ3X9,Else,Else,person takes out a broom.
+2158,MZ3X9,Else,Else,person take out he broom from inside.
+2159,MZ3X9,Else,Else,person holding the phone.
+2160,MZ3X9,Else,R7,person opens a door.
+2161,UUF84,R7,R7,the person takes the medicine.
+2162,UUF84,R5,R7,person begins undressing by removing their socks.
+2163,UUF84,R7,R7,person takes off their shoes.
+2164,UUF84,R5,R7,person eat some food.
+2165,4GHHK,R3,R3,a person opens a cabinet.
+2166,LIQS5,R5,Else,a person in the bathroom is smiling.
+2167,LIQS5,Else,Else,the person is also playing with a camera.
+2168,YAFX0,R3,R5,person puts the dirty clothes in the washer.
+2169,YAFX0,R7,R5,a person puts down a large bag.
+2170,YAFX0,R3,R5,person looks out of a window.
+2171,YAFX0,R3,R3,person looks out the window.
+2172,YAFX0,R3,R3,person starts washing the clothes.
+2173,YAFX0,R3,R5,the person looks out the window.
+2174,O87OF,R5,Else,person puts it on a table.
+2175,O87OF,R7,Else,person puts jacket on table.
+2176,USNON,Else,Else,the person closed the entry door.
+2177,USNON,Else,Else,person still smiling.
+2178,USNON,Else,Else,person closes the door.
+2179,USNON,Else,R7,person proceeds to close a door.
+2180,ZZ4GP,R7,R7,a person is standing at a stove cooking.
+2181,ZZ4GP,R7,R7,a person is cooking some food on the stove.
+2182,ZZ4GP,R7,R7,a person is cooking at a stove.
+2183,ZZ4GP,R7,R7,person he stops cooking.
+2184,0HV07,Else,R5,a person walks into a bedroom holding clothes.
+2185,5TKIB,R3,R3,the person opens the bag.
+2186,YB67Z,R5,R5,person close the top of the box.
+2187,XSVLL,R7,R7,person runs to a table.
+2188,XSVLL,R7,R7,person runs back to sit down.
+2189,XSVLL,R7,R7,a person runs into the entryway.
+2190,XSVLL,Else,Else,person sits down at the table.
+2191,XSVLL,R7,R7,a person runs around the room.
+2192,XSVLL,R7,R7,a person runs to the door.
+2193,XSVLL,R7,R7,a person runs around the house.
+2194,HJ4B1,R7,R7,person looks over at a picture.
+2195,HJ4B1,R7,R5,a person awakens in  a bedroom.
+2196,Z6B6S,Else,Else,person putting the food back on the shelf.
+2197,UUPJS,R5,R5,a person holding a broom puts it down.
+2198,UUPJS,Else,Else,person puts the broom down to pick up a book.
+2199,UUPJS,R7,R7,a person is holding a broom in a laundry room.
+2200,UUPJS,Else,R5,person puts the broom down.
+2201,TESF6,Else,Else,person puts a camera into it.
+2202,TESF6,Else,Else,person puts it oin the box.
+2203,TESF6,R3,Else,a person opens a box.
+2204,TESF6,Else,Else,this person holds the box.
+2205,TESF6,Else,R3,person he takes out his camera.
+2206,TESF6,Else,Else,person putting it in the box.
+2207,TESF6,R5,R3,one person at a sofa opens a box.
+2208,607,R3,Else,person put the broom on the floor.
+2209,1LBUG,R5,R5,a person is sneezing by the door.
+2210,XOOPP,R3,R7,person stands on it to put a picture up.
+2211,MIAE4,R3,R3,person sits on a bed for a.
+2212,MIAE4,Else,Else,person walk through a doorway.
+2213,J4QHT,Else,Else,the person takes out a camera.
+2214,J4QHT,R3,R5,a person through a doorway walks to a closet.
+2215,J4QHT,R5,R5,a person is seen opening their closet doorway.
+2216,JKWJ6,R3,R5,person takes a bite of a sandwich.
+2217,JKWJ6,R7,R7,a person is lying on the couch watching television.
+2218,JKWJ6,R7,R7,the person eats a couple bites of their sandwich.
+2219,V6RRM,R7,R7,person start undressing.
+2220,W292V,R5,R7,person opens the closet door.
+2221,W292V,R7,R7,person takes a drink from a red cup.
+2222,W292V,R7,R7,person open a closet door.
+2223,W292V,R7,R7,a person is awakening.
+2224,N8913,Else,Else,the person is also watching television.
+2225,Y2EID,R7,R7,person closes the door leading back outside.
+2226,Y2EID,R5,R7,a person opens a door.
+2227,Y2EID,R7,R3,person sneezing into it.
+2228,RJZ3I,R5,R7,person runs away down the hall.
+2229,RJZ3I,R3,R7,person running away.
+2230,EFUTW,R7,R7,a person is opening the refrigerator.
+2231,EFUTW,R7,R7,a person opens a refrigerator.
+2232,W5YUE,R3,Else,a person takes a pink blanket off of a chair.
+2233,W5YUE,R7,R7,person washing a glass in the sink.
+2234,W5YUE,R3,Else,a person takes a blanket from a chair.
+2235,GYVK9,Else,R5,person starts sneezing.
+2236,GYVK9,Else,R3,person sneezing several times.
+2237,AFIRW,R7,R5,the person takes out their phone.
+2238,AFIRW,R7,R5,person takes out a phone.
+2239,AFIRW,R7,R7,person takes a picture.
+2240,AFIRW,R5,R7,person in bathroom who washes hands.
+2241,AFIRW,R5,R5,person washes their hands.
+2242,AFIRW,R7,R7,person takes a selfie picture.
+2243,AFIRW,R7,R7,a person washes their hands with soap.
+2244,M98YV,Else,Else,person in their right they are holding a sandwich.
+2245,MTOFZ,R7,R7,person drink out of the glass.
+2246,MTOFZ,R7,R7,person drinking from an empty glass.
+2247,WD12X,R3,R3,a person using a broom to close cabinet doors.
+2248,RKJ0C,Else,Else,a person walks into a house laughing.
+2249,RKJ0C,R3,R3,person sits at the table eating food.
+2250,RKJ0C,R5,R7,a person closes a door.
+2251,RKJ0C,Else,Else,a laughing person walks into their kitchen.
+2252,JBFPI,Else,R7,person drinks from a glass.
+2253,JBFPI,Else,Else,the person takes a drink from a glass of water.
+2254,JBFPI,R5,R7,a person is working on their laptop.
+2255,VU996,Else,R7,person closed the door.
+2256,VU996,R5,Else,person puts some blankets away inside.
+2257,VU996,Else,Else,the person put the pillow into the closet.
+2258,VU996,R7,R7,a person walks into their closet holding a pillow.
+2259,VU996,Else,Else,person turns the light off.
+2260,VU996,R7,R3,person holding a pillow.
+2261,VU996,Else,Else,a person opens a door to a closet.
+2262,VU996,R3,R7,person closes the door behind them.
+2263,VU996,Else,Else,the person turns off the closet light.
+2264,VU996,R3,R7,person opened up the door.
+2265,VQOI3,Else,Else,person opening a bag.
+2266,T42IZ,R7,R7,person closes the fridge door.
+2267,T42IZ,R7,R7,person puts the groceries in the fridge.
+2268,T42IZ,R7,R7,same person opens the fridge door.
+2269,422BV,R3,R3,person look into a book.
+2270,422BV,R7,R7,person holding shoes.
+2271,422BV,R3,Else,person lending on the table put on some shoes.
+2272,422BV,Else,R7,the person put their shoes on.
+2273,AYZS4,R7,R7,a person is eating.
+2274,AYZS4,R7,R7,a person eats a banana.
+2275,AYZS4,R7,R7,person eating a banana.
+2276,AYZS4,Else,Else,person sitting down at a kitchen tables.
+2277,AYZS4,Else,Else,person tidy up the table.
+2278,AYZS4,R7,R7,the person is sitting at a table peeling.
+2279,AYZS4,R7,R7,person eats it.
+2280,MA6GY,R5,R5,person puts the others back in the box.
+2281,MA6GY,R5,R7,person opening a box.
+2282,MA6GY,R7,R5,a person opens a box of groceries.
+2283,MA6GY,Else,Else,person begins to take some medicine.
+2284,YK49T,R7,R7,a person can undress.
+2285,YLEEO,R5,R7,a person closes a door.
+2286,ST7MR,Else,Else,person closes the door.
+2287,ST7MR,Else,Else,person they start throwing their clothes toward the doorway.
+2288,ST7MR,Else,Else,person they throw it on the floor.
+2289,ST7MR,Else,Else,person closes a door.
+2290,WDF45,R7,R5,person puts it on a table.
+2291,WDF45,R7,R7,the person puts the phone down.
+2292,ITDHX,R7,R7,person putting a pillow on the bed in the bedroom.
+2293,8YFD1,R5,R5,person starts undressing.
+2294,8YFD1,R7,R7,person is standing in laundry room looking fixing their hair.
+2295,8YFD1,R7,R7,a person fixes their hair in a mirror.
+2296,8YFD1,R3,R3,"looking in mirror,then person starts undressing."
+2297,RBQ9Y,R5,R3,person stand up again.
+2298,RBQ9Y,R3,Else,a man begins to undress.
+2299,RBQ9Y,R5,R7,person sit on the bed.
+2300,RBQ9Y,R3,R5,person put on some shoes.
+2301,RBQ9Y,Else,Else,person putting away clothes in a bedroom.
+2302,RBQ9Y,Else,Else,person putting his clothes on the bed beside him.
+2303,RBQ9Y,R5,R5,person putting on shoes.
+2304,RBQ9Y,R7,R5,person sits down on the bed to fix his shoes.
+2305,GV0L7,Else,Else,a person turns the light on.
+2306,GV0L7,R3,R5,person sits on a couch.
+2307,GV0L7,R5,R5,person sits down on the couch.
+2308,GV0L7,Else,Else,a person turns a light on.
+2309,ABPGE,R7,R5,person takes a book from the shelf.
+2310,ABPGE,R5,R5,person they begin drinking a glass of water.
+2311,V7YEJ,R7,R7,a person lying on the floor awakens.
+2312,V7YEJ,Else,Else,person begins eating.
+2313,V7YEJ,R3,Else,person starts eating.
+2314,V7YEJ,R5,Else,a person awakens on the floor of their recreation room.
+2315,USPJK,Else,Else,the person takes a broom.
+2316,DUSJO,R3,R3,a person looks out the window.
+2317,DUSJO,Else,Else,person puts the cup on a shelf.
+2318,DUSJO,Else,Else,person puts cup on shelf.
+2319,DUSJO,R5,R5,person looking out window.
+2320,ACSP8,R7,R7,person begins playing with their phone.
+2321,21F9H,R3,R5,person puts a pillow down on the bed.
+2322,21F9H,Else,R7,a person is drinking a cup of coffee.
+2323,21F9H,R7,R3,sitting down on a bed in a comfortable manner.
+2324,OWRDE,R3,R7,person eating some food.
+2325,OWRDE,R5,R5,a person quickly eats something.
+2326,OWRDE,Else,R3,person sits on stairs to put on shoes.
+2327,OWRDE,R3,R3,person puts on tennis shoes.
+2328,OWRDE,R3,R3,person puts on shoes.
+2329,OWRDE,R3,R5,person unwraps & eats something.
+2330,YG9UR,R3,R5,person opened the book.
+2331,CTIYN,R5,Else,person sneezing into a blanket.
+2332,KTXSD,R5,R7,person takes something from the cupboard.
+2333,TBRZ5,Else,R5,the person can be seen playing with the phone.
+2334,JMCBE,R5,R5,a person is throwing a blanket down the stairs.
+2335,JMCBE,Else,R3,a person is throwing items off the stairs like blankets.
+2336,S06H3,R7,R5,a person puts some food on a shelf.
+2337,S06H3,R5,R5,a person puts something on the shelf of the garage.
+2338,7229M,Else,Else,person takes a notebook.
+2339,7229M,R5,R7,person put on the shoes.
+2340,RIZ7Y,Else,Else,person runs out.
+2341,RIZ7Y,Else,Else,another person runs in.
+2342,RIZ7Y,Else,Else,another person runs past them.
+2343,OIL1V,Else,Else,person grabs a drinking glass from the floor.
+2344,VBN1O,R7,R7,a person comes running into the room.
+2345,VBN1O,R7,R7,a person enters through a doorway running.
+2346,PCNUP,R3,R5,person puts down a picture.
+2347,PCNUP,R5,R3,person puts the picture on the floor.
+2348,PCNUP,R3,R5,the person puts the picture down.
+2349,PCNUP,R7,R5,person starts smiling.
+2350,PCNUP,R7,R7,a person is holding a picture.
+2351,PCNUP,R7,R7,a person turns on the light.
+2352,XHN6Y,R7,R7,a person is cooking something on the stove.
+2353,XHN6Y,R7,R7,a person is cooking at the stove.
+2354,W5ZY8,Else,Else,person smiling at a camera.
+2355,K7Z6T,R5,R3,a person opens a plastic bag.
+2356,K7Z6T,R3,Else,one person opens a bag.
+2357,3P055,R3,R7,a person is dressing in front of a mirror.
+2358,PZ0ND,Else,Else,person begin dressing.
+2359,ZC017,R7,R5,person began tidying up a small table.
+2360,ZC017,R7,R7,the person watching television got up.
+2361,ZC017,R7,R5,person takes a bottle of medicine out of a box.
+2362,ZC017,R7,R7,a person is sitting on the couch watching television.
+2363,ARKBT,R3,R7,person the persin opens the dryer door.
+2364,ARKBT,R5,R3,person closes the door of the dryer.
+2365,KB916,R3,R5,person holding a towel.
+2366,XEJ35,R5,R3,person opened a book.
+2367,XEJ35,R3,Else,the person opens a book.
+2368,X06Z6,R5,R7,person they look out the window.
+2369,QQMY8,R5,R3,person takes a glass off of a table.
+2370,QQMY8,Else,Else,the person turns on a light.
+2371,QQMY8,Else,Else,person turns out the light in the closet.
+2372,QQMY8,Else,Else,person turning on a light.
+2373,QQMY8,R7,R5,person grabs a cup turns off the light.
+2374,HUWAZ,R5,R5,person drinking from a cup of coffee.
+2375,HUWAZ,R3,R7,the person is drinking something from a cup.
+2376,SANRG,Else,Else,person throws the towel onto the floor.
+2377,8NEYJ,R7,R7,a person opens a door.
+2378,8NEYJ,R7,R7,person stopping to look out a window.
+2379,8NEYJ,R7,R7,person looks out of the window.
+2380,8NEYJ,R5,R7,person seeing the door open.
+2381,BYP85,Else,Else,person put them on the shelf.
+2382,BYP85,Else,Else,person puts items onto a shelf.
+2383,BYP85,Else,Else,person they tidy up a shelf in front of them.
+2384,Y44TV,Else,Else,one person takes a pillow.
+2385,31YNM,R7,R5,the person drinks from a cup from the side table.
+2386,31YNM,R7,R5,a person fixing a light.
+2387,31YNM,R3,R3,person drinks from a cup.
+2388,DWH0T,R7,R7,person start pouring themselves a glass of water.
+2389,DWH0T,R3,R7,person pours themselves a cup of water.
+2390,MJYTA,Else,R5,the person puts the bowls on the table.
+2391,1KC11,R5,R5,person also watching something on their laptop.
+2392,1KC11,R3,R3,person they are watching something on their television.
+2393,T5SI3,R5,R3,a person is laughing at a book.
+2394,T5SI3,R5,R7,person starts to close the box.
+2395,T5SI3,R5,R7,person put the paper in a box.
+2396,O3Y57,R5,R5,person closed the door.
+2397,O3Y57,Else,R5,person they begin sneezing several times in succession.
+2398,O3Y57,Else,Else,person they put the bag over their head.
+2399,O3Y57,R7,R3,person closing the door to the room.
+2400,LR9KL,R3,R5,a person runs laughing through the hall with a pillow.
+2401,I52A6,R3,R3,a person drinks a glass of water.
+2402,I52A6,R5,R3,a person is drinking glass of water in laundry room.
+2403,I52A6,Else,Else,person opens the dryer door.
+2404,1VF27,R3,R3,person they start eating some food.
+2405,PJDUN,R5,R7,person takes a book off a shelf.
+2406,H411A,R5,R5,person puts it in a box.
+2407,H411A,R3,R3,person put a pillow in a box close the box.
+2408,H411A,R5,R5,a person puts a pillow into a box.
+2409,UQJ5W,R3,R5,person walks into shower opens the window.
+2410,UQJ5W,R3,Else,person opens the window.
+2411,UQJ5W,R7,R7,person takes a picture of something outside.
+2412,UQJ5W,Else,Else,person takes a cell phone photo through the open window.
+2413,UQJ5W,Else,Else,person eating a sandwich.
+2414,UQJ5W,R5,R3,person proceeds to take a picture out of the window.
+2415,UQJ5W,Else,R5,person opens the window inside the shower.
+2416,UQJ5W,R7,R5,person opens a window.
+2417,UQJ5W,Else,Else,person take a picture through the open window.
+2418,YQOCU,R5,R5,a person takes some food from a cabinet.
+2419,YQOCU,R5,R3,person they sit down in a chair holding it.
+2420,YQOCU,R7,R7,a laughing person walks into the kitchen opens a cabinet.
+2421,DR7K0,R5,R7,person begin to dress themselves.
+2422,DR7K0,R7,R7,person they are  dressing themselves in a wardrobe closet.
+2423,DR7K0,R7,R7,a person is seen smiling.
+2424,3YQE2,R5,R7,person turn off the light.
+2425,3YQE2,R7,R7,person starts sneezing.
+2426,3YQE2,R5,R7,person turns off the lights.
+2427,AHBE8,R3,R3,person they close the box.
+2428,AHBE8,R3,R7,person puts shoes in pizza.
+2429,AHBE8,R5,R5,next the person puts the box aside.
+2430,AHBE8,Else,Else,person starts laughing.
+2431,AHBE8,Else,Else,a person opens a box.
+2432,AHBE8,R3,R7,person puts in some shoes.
+2433,AHBE8,Else,Else,person is laughing.
+2434,YE47Y,R7,R7,a person is sitting on the couch with a pillow.
+2435,YE47Y,R7,R5,a person snuggles up with a blanket on the couch.
+2436,YE47Y,R7,R7,a person sits on the couch holding a pillow.
+2437,YE47Y,R7,R7,person someone is sitting on their couch with a blanket.
+2438,WM6RQ,R5,R7,the person closes the refrigerator.
+2439,WM6RQ,R7,R7,person open the refrigerator door.
+2440,WM6RQ,R7,R3,person take food.
+2441,RV5CK,R5,R7,person turn off the light.
+2442,RV5CK,R3,R7,person trying to turn off the light.
+2443,RV5CK,R7,R7,person shuts off the lights.
+2444,PIJRH,R3,R3,person holding a bag.
+2445,PIJRH,R5,R7,person they take a pillow out of the bag.
+2446,PIJRH,R5,R7,person takes a pillow out of a bag.
+2447,ZJ37U,Else,R3,person turns off light.
+2448,ZJ37U,Else,Else,person eating sandwich.
+2449,ZJ37U,R3,R5,person turns off a light.
+2450,ZJ37U,R3,R5,the person turns off the light in the hallway.
+2451,PAA7V,Else,Else,person puts the dish into a box on the floor.
+2452,PAA7V,R3,R3,the person takes a toy out of the box.
+2453,IAHN3,Else,Else,person smiling together at the same time.
+2454,IAHN3,R3,R3,person the other takes a picture with their camera.
+2455,PDH7G,R3,Else,person puts a bag down on the counter.
+2456,07QNG,Else,R3,person pour a cup of juice.
+2457,07QNG,R5,R3,the person is also watching television.
+2458,07QNG,R3,Else,person they stop to pour some water in a glass.
+2459,OK45U,R3,R5,the person throws their clothes onto the shelf.
+2460,OK45U,R7,R7,a person is undressing in the garage.
+2461,28BVI,Else,Else,person puts down the glass.
+2462,28BVI,R7,Else,person eats some food.
+2463,28BVI,Else,Else,person holding a glass of water.
+2464,28BVI,R3,Else,person eats something.
+2465,28BVI,Else,Else,the person began tidying the kitchen table.
+2466,28BVI,Else,Else,person drinks out of a glass.
+2467,28BVI,R7,R7,a person is undressing in their kitchen.
+2468,28BVI,Else,Else,a person standing in a kitchen takes off a sweatshirt.
+2469,28BVI,R5,Else,person they eat a plate of food.
+2470,HAPCT,R5,Else,person continues to laugh.
+2471,HAPCT,R5,R5,person laughs at the television program.
+2472,HAPCT,R5,R7,person takes their shoes off.
+2473,HAPCT,Else,R3,person starts laughing.
+2474,U5RYN,Else,Else,a young person turns on the lights.
+2475,U5RYN,Else,Else,person turns on the light.
+2476,U5RYN,Else,Else,person they are smiling.
+2477,DUZDL,R5,R7,person throws off their blanket.
+2478,DUZDL,Else,R5,person opens closet door.
+2479,DUZDL,R3,R5,person after awakening.
+2480,DUZDL,Else,R3,person opens the doors.
+2481,580G0,R7,R7,person put on their shoes.
+2482,580G0,R7,R7,person drinks from a cup.
+2483,580G0,Else,Else,person puts on a pair of shoes.
+2484,580G0,R3,R3,person puts their shoes on.
+2485,580G0,R7,R7,person drink some water with the glass.
+2486,580G0,R7,R3,a person awakens in bed.
+2487,S2S7I,R7,R7,person puts a plastic bag on the table.
+2488,S2S7I,R5,R5,person puts a bag of groceries down on the table.
+2489,JP5NM,R7,R7,a person is standing in an entryway undressing.
+2490,JP5NM,R5,R7,the person takes a blanket from the couch.
+2491,LQC89,R7,R7,person eating from a plate.
+2492,J662Y,R7,R5,a person finishes eating some food off a small plate.
+2493,J662Y,R7,R7,person eats from a bowl.
+2494,J662Y,R7,R7,a person sits on a chair.
+2495,DD3Q1,R5,R7,person sitting on the couch.
+2496,ARWNX,R5,R7,a person is in the kitchen putting a box down.
+2497,6XB10,R7,Else,person walk out the doorway.
+2498,6XB10,R7,R7,person they begin sneezing.
+2499,6XB10,R7,Else,a person walks through a doorway into a room.
+2500,F66WG,R7,R3,person began to eat something in hand.
+2501,F66WG,Else,Else,person holding a camera in the bathroom.
+2502,F66WG,R5,R5,a person opens a door.
+2503,F66WG,R7,R7,person eats in a doorway.
+2504,F66WG,R7,R7,a person holding shoes enters a bathroom.
+2505,F66WG,R7,R7,a person eats.
+2506,F66WG,R7,R3,person stand in the doorway eating something.
+2507,F66WG,Else,R3,person they put their shoes on the ground.
+2508,F66WG,R3,R3,person goes into the bathroom put shoes on the floor.
+2509,CIUVA,Else,Else,the person puts a dish into the strainer.
+2510,CIUVA,R5,R3,person opened the refrigerator.
+2511,ATCOR,R7,R7,person turning off the light.
+2512,ATCOR,R5,R5,person gets up to turn off the light.
+2513,9KDP0,R7,R7,person puts down the laptop.
+2514,9KDP0,R7,R7,a person runs into the laundry room.
+2515,9KDP0,Else,R5,person looks at the book.
+2516,V26U3,R7,R7,person throws a pillow at the refrigerator.
+2517,V26U3,R5,R7,a person is throwing a pillow at the refrigerator.
+2518,V26U3,R7,R7,person throws a pillow at a refrigerator.
+2519,NKLTK,R7,R7,person run to a window.
+2520,NKLTK,R5,R5,person runs over to a window.
+2521,NKLTK,R3,R3,a person awakens in a chair.
+2522,NKLTK,R5,R5,the person runs over to the window.
+2523,PLJIZ,R7,R7,person opens the door.
+2524,UOZES,Else,R3,person looking out the window.
+2525,UOZES,Else,Else,a person awakens.
+2526,UOZES,Else,Else,the person laughs.
+2527,UOZES,Else,R3,person closes their laptop.
+2528,UOZES,Else,R3,person looks out the window.
+2529,LLRKS,R7,R7,a person pours a cup of coffee.
+2530,PAS7F,Else,Else,person sits down on the couch.
+2531,WISO0,R7,R5,as the person was sneezing.
+2532,GOPZI,Else,Else,a smiling person is putting a laptop in a bag.
+2533,GOPZI,R7,R7,person start laughing.
+2534,EHIOY,R5,R3,person eats a sandwich.
+2535,EHIOY,R7,R5,person eats a plate of food.
+2536,EHIOY,R5,R7,person start eating.
+2537,8LVCL,R5,R7,a person is undressing in the closet.
+2538,TIWRY,R7,R5,person they wash the glass.
+2539,TIWRY,R5,R7,person begins to wash dishes.
+2540,WK9HE,R5,R7,person play a game on their phone.
+2541,Y8L60,R7,R7,a person opens a small cabinet door.
+2542,OU3XH,Else,Else,person eating some food.
+2543,OU3XH,R3,R7,person takes a bite of food.
+2544,OU3XH,Else,R3,the person puts the camera down.
+2545,OU3XH,R3,Else,person eats some food off a plate.
+2546,8N4O9,R5,R7,person leaves the closet with the door still open.
+2547,8N4O9,R7,R5,person opens the door.
+2548,8N4O9,Else,Else,person takes some towels out.
+2549,8N4O9,Else,R3,person turns on the light.
+2550,8N4O9,Else,R5,person turns off the light.
+2551,8N4O9,R7,R7,the person opens the cabinet door.
+2552,8N4O9,Else,R3,person turns the light off.
+2553,8N4O9,Else,R3,a person turns on a light.
+2554,8N4O9,Else,R3,person turning on the light.
+2555,8N4O9,R7,R5,person opens a door.
+2556,83FK5,R5,R7,a person is snuggling with a pillow.
+2557,LBJ0W,R5,R5,a person sitting on a bed takes off their shoes.
+2558,LBJ0W,Else,R3,a person throws their shoes by their desk.
+2559,35ZZP,Else,Else,the person puts the food on the table.
+2560,77JGY,R7,R5,person they stand up.
+2561,77JGY,R5,R7,person eats some food.
+2562,77JGY,Else,Else,person puts the sandwich down.
+2563,77JGY,R5,R7,a person is eating a sandwich over their laptop.
+2564,77JGY,R7,R5,person take a picture of themself.
+2565,77JGY,Else,Else,the person puts the food down on the table.
+2566,77JGY,R7,R7,the person is sitting at a desk eating a sandwich.
+2567,Z9RED,R7,R7,a person walks through a bathroom doorway.
+2568,G6K7T,Else,Else,person starts washing clothes.
+2569,J1MMG,R3,Else,person they stand up.
+2570,J1MMG,R3,Else,person put it back on the shelf.
+2571,2XXH8,Else,Else,person probably washes hands.
+2572,G3UF4,R7,R3,a person opens a book.
+2573,MZZ8Q,R7,R7,a person puts something on a shelf.
+2574,MZZ8Q,Else,Else,person takes off his shoes.
+2575,MZZ8Q,R5,R7,person throws a pair of shoes toward a sofa.
+2576,MZZ8Q,Else,Else,person takes off their shoes.
+2577,KF08J,Else,Else,person sneezing multiple times.
+2578,KF08J,Else,Else,person starts sneezing profusely.
+2579,3J85M,R3,Else,person eat them.
+2580,3J85M,R3,Else,person eat the food.
+2581,3J85M,Else,Else,person next eating a sandwich in the pantry.
+2582,3J85M,Else,Else,person eating  the snack.
+2583,3J85M,Else,Else,person take out some food.
+2584,GKBSR,Else,Else,person opens the door.
+2585,Q5YDL,R7,R7,person playing a game on a laptop.
+2586,Q5YDL,Else,R5,this person eats from a bowl.
+2587,Q5YDL,R3,R3,person start eating potato chips.
+2588,RT1JY,R5,R5,person sits on the bed.
+2589,RT1JY,R7,R7,person sit on a bed.
+2590,RT1JY,R3,R5,a person is in a bedroom undressing by the doorway.
+2591,U0P7W,Else,R5,person puts the picture inside.
+2592,U0P7W,R5,R5,person opens the cabinet.
+2593,U0P7W,R5,R3,the person opens a cabinet.
+2594,9TPP3,R7,R7,person drinking a cup of coffee.
+2595,TBEV0,R7,R7,a person is undressing.
+2596,TBEV0,R5,R5,person snuggle with a pillow.
+2597,QLGHA,R5,R7,a smiling person is putting a broom in the pantry.
+2598,4KYZH,Else,Else,person continuing to eat.
+2599,4KYZH,Else,Else,person starts to eat it.
+2600,4KYZH,Else,Else,person grabs something to eat.
+2601,4KYZH,R7,R7,a person opens a refrigerator.
+2602,TK1VC,R3,Else,person sits down on the couch.
+2603,TK1VC,R7,R7,person starts sneezing.
+2604,TK1VC,Else,Else,person sits on the couch.
+2605,TK1VC,R7,R7,a person standing in a living room area begins sneezing.
+2606,TK1VC,R5,R3,the person takes a broom.
+2607,TK1VC,R7,R5,person take a book from it.
+2608,52KNA,R5,R7,the person puts the towel down.
+2609,SE2K2,R7,R7,a person opens the door to the kitchen.
+2610,SE2K2,R3,Else,person sits in the floor smiling.
+2611,LCLLN,R7,R7,one person takes a glass from a shelf.
+2612,LCLLN,R5,R5,person drinking some water from a glass.
+2613,LCLLN,Else,Else,person takes a blanket from somewhere.
+2614,RNLTR,Else,Else,person throwing their clothes on the sofa.
+2615,SS3IL,R7,R3,the person takes out their phone.
+2616,SS3IL,R5,R7,person they put the dishes down.
+2617,SS3IL,R7,R5,person take out their phone.
+2618,G6ZOB,R5,R7,person closing the door to the entryway.
+2619,G6ZOB,Else,Else,person turns on the light.
+2620,G6ZOB,Else,Else,person turns on a light.
+2621,SRTX6,R3,R7,person takes the food to the kitchen.
+2622,XOWBN,R5,R7,a person puts a sandwich onto a table.
+2623,SOZ1G,R7,R5,the person starts to stand up.
+2624,SOZ1G,Else,Else,person is lying in bed undressing.
+2625,AK9PN,R3,R5,person sit on the sofa.
+2626,AK9PN,R7,R7,the person is holding a vacuum.
+2627,AK9PN,R7,R5,person sits on a couch.
+2628,AK9PN,R7,R5,person starts sneezing 2 times.
+2629,AK9PN,R5,R5,person opens a closet door.
+2630,J0AMJ,R7,R5,the person takes a book.
+2631,J0AMJ,R7,R7,the person opens a bag on the bed.
+2632,J0AMJ,Else,R3,person takes a bag.
+2633,8LLI3,R3,R3,person closes the cabinet door.
+2634,8LLI3,R5,Else,person takes a picture of food with their camera.
+2635,8LLI3,R7,R5,person closes the cabinets.
+2636,8LLI3,Else,Else,person closing the door behind them.
+2637,8LLI3,R3,R3,person puts it back on the shelf.
+2638,CG83G,R5,R3,next the person puts the blanket down on the sofa.
+2639,CG83G,R5,R3,a person puts a blanket on a chair.
+2640,VFAE3,Else,Else,which the person is putting onto a shelf.
+2641,VFAE3,R3,R3,person a girl walks past his doorway.
+2642,VFAE3,R3,R3,a person is closing the door.
+2643,VFAE3,Else,R3,person closes the door with her hand on the knob.
+2644,2PZBY,R7,R5,person opens the door.
+2645,DFSHF,R7,R7,a person puts food in the pantry.
+2646,DFSHF,R7,R5,person they open the door.
+2647,TCJWE,R3,Else,person another cooks on the kitchen counter.
+2648,IULK6,R5,R5,a person opens a book with a notepad in it.
+2649,IULK6,R3,R3,person takes homework out of the book.
+2650,IULK6,R7,R7,a person holds a book next to a chair.
+2651,OWUW8,R5,R7,person throws it on the floor.
+2652,OWUW8,R5,R7,person throws it down to the floor.
+2653,OWUW8,Else,Else,person holds another towel.
+2654,7RA0M,Else,R3,person holding a laptop.
+2655,CUQYX,Else,R3,person they take off their shoes.
+2656,CUQYX,Else,Else,person they put their shoes in a bag.
+2657,CUQYX,R5,R5,person throw the bag against the wall softly.
+2658,CUQYX,R3,R7,person throw the bag.
+2659,CUQYX,Else,R3,person put them in a bag.
+2660,CUQYX,R3,R3,person take off their shoes.
+2661,FLDHS,Else,Else,person are putting stuff in a box.
+2662,FLDHS,Else,Else,person puts it in a box.
+2663,OKHVL,R5,R5,person eats a sandwich.
+2664,OKHVL,Else,R5,person glass of soft drinks.
+2665,OKHVL,Else,Else,person take a bite of a sandwich.
+2666,OKHVL,R5,R5,person drink from the glass.
+2667,J2XFQ,R5,R7,person proceeds to open the refrigerator.
+2668,J2XFQ,R5,R5,person eat a sandwich.
+2669,J2XFQ,R5,R7,person opening the fridge door.
+2670,J2XFQ,R5,R7,person opens the door.
+2671,J2XFQ,R7,R5,the person takes a sandwich from the refrigerator.
+2672,J2XFQ,R7,R7,person grabbing something to eat.
+2673,J2XFQ,R5,R7,person open the refrigerator.
+2674,J2XFQ,R7,R7,person eats it.
+2675,98W87,R5,R5,person takes a sandwich from a plate.
+2676,8Q7ZI,R5,R5,a person drinks from a cup.
+2677,1BGZ0,R7,R5,person went out of the room closing the door.
+2678,1BGZ0,R7,R5,person closes the door.
+2679,1BGZ0,R7,R7,a person runs into their entryway holding a bag.
+2680,1BGZ0,Else,Else,the person opens the door.
+2681,1BGZ0,Else,R5,"person shoe,ran out of the room opening the door."
+2682,1BGZ0,R7,R5,a man runs in with a bag of groceries.
+2683,1BGZ0,Else,R7,person they open the door.
+2684,1BGZ0,R7,R7,person they run to the door.
+2685,1BGZ0,R5,R7,a person is holding a bag.
+2686,YO3KO,R5,Else,person opens the door to walk out.
+2687,YO3KO,R7,R7,person opening the door.
+2688,EOUCM,R7,R7,a person is holding a box.
+2689,EOUCM,Else,R5,person closed the box.
+2690,EOUCM,R3,R7,person put the mirror in the box.
+2691,EOUCM,R7,R5,the person puts the mirror in the box.
+2692,EOUCM,R7,R5,person puts the mirror in the box.
+2693,W86WR,Else,R3,a person sits on the living room sofa.
+2694,W86WR,Else,Else,a person is sitting on a couch.
+2695,NF45F,R7,Else,person turns the lights on.
+2696,NF45F,R7,R7,person starts undressing.
+2697,NF45F,R5,R5,person turns on the light.
+2698,NF45F,R5,R5,a person turns in the light.
+2699,NF45F,R5,R7,a person turns on the light.
+2700,2AIP4,R5,R3,person takes some medicine out of the bottle.
+2701,2AIP4,R5,R7,person go turn off the light.
+2702,2AIP4,Else,Else,person takes pills out of a bottle.
+2703,2AIP4,R3,R3,the person pours themselves a glass of water.
+2704,3MX8V,Else,Else,a person is throwing a blanket.
+2705,3MX8V,R5,R5,person putting the blanket on a shelf.
+2706,3MX8V,R3,Else,the person throws a sweater on the floor.
+2707,AT9UV,Else,R7,person begins to watch television.
+2708,AT9UV,R7,R7,person begin to sit on the couch.
+2709,TCOXG,R7,R7,person sits down on the sofa.
+2710,TCOXG,R7,R5,person sits down on a couch.
+2711,TCOXG,R3,R5,a person takes a glass of water from the shelf.
+2712,TCOXG,Else,R5,person takes a sip of water from a glass.
+2713,L8RW8,Else,Else,the person is undressing in front of a sink.
+2714,L8RW8,R3,Else,a person undresses.
+2715,K64GM,Else,Else,the person put the camera around their neck.
+2716,VXZBA,Else,R5,person begins laughing.
+2717,VXZBA,R5,Else,a person walking slowly through a room smiling.
+2718,0O6RK,R7,R7,a person opens a refrigerator door.
+2719,0O6RK,R5,R7,person cooks food on the stove.
+2720,0O6RK,R5,R7,person closing the refrigerator door.
+2721,0O6RK,R7,R7,person starts cooking on a stove.
+2722,0O6RK,R5,R7,the person closes the door.
+2723,0O6RK,R7,R5,person fixes a light.
+2724,0O6RK,Else,R7,person cooking their food.
+2725,0O6RK,R5,R3,a person puts a light inside of a refrigerator.
+2726,L3ZRP,R7,Else,person they are eating a snack.
+2727,L3ZRP,R5,R7,the person eats some piece of food.
+2728,358JF,R7,R5,the person drinks some water from a glass.
+2729,358JF,R3,R7,the person takes a glass of water from nearby.
+2730,02SKC,R5,Else,a smiling person snuggles a blanket on their bed.
+2731,02SKC,R3,R5,person puts it in a bag.
+2732,LSMNX,Else,Else,person dresses self quickly.
+2733,P8G8V,R7,R7,person drinking from a cup.
+2734,P8G8V,R7,R7,person they casually drink a cup of coffee.
+2735,P8G8V,R7,R7,person drinking a cup of coffee.
+2736,JQRMQ,Else,Else,a person opens a door.
+2737,JQRMQ,R3,R3,person turns on the light.
+2738,JQRMQ,R7,R3,person they take a box from a shelf.
+2739,JQRMQ,R3,R3,person turns on a light.
+2740,JQRMQ,R5,Else,the person opens the door.
+2741,VJG6E,Else,R3,person puts a blanket over a chair.
+2742,VJG6E,R7,R7,a person runs into the recreation room.
+2743,VJG6E,R3,R3,person begins to work on his laptop computer.
+2744,VJG6E,R7,R7,the person is holding blankets.
+2745,OPSF8,R7,R7,a person sitting at a desk eating some food.
+2746,OPSF8,R7,R7,person drinking from a coffee cup.
+2747,OPSF8,R7,R7,a person eats some food.
+2748,OPSF8,R7,R7,a person is eating at their desk.
+2749,HVFXT,Else,R3,person closes the door.
+2750,QIT2W,R5,R5,person start reading a book.
+2751,QIT2W,R5,R7,person eating from a bowl.
+2752,QIT2W,R7,R7,person playing on their laptop.
+2753,QIT2W,R5,R5,person eating food.
+2754,QIT2W,Else,Else,person a takes spoonful of the food made for lunch.
+2755,ZI1GC,R7,R7,a person sits down at a table.
+2756,ZI1GC,Else,Else,person sit in the chair.
+2757,ZI1GC,R5,R5,person opening the door.
+2758,4BEZX,R3,R5,person sit down in a chair.
+2759,4BEZX,R5,R5,person they sit down in a chair.
+2760,4BEZX,Else,R5,a person opens the front door that leads outside.
+2761,4BEZX,Else,R7,a person opens the door.
+2762,4BEZX,Else,Else,person opening a door.
+2763,4BEZX,R5,R5,the person closes the door.
+2764,4BEZX,R5,R5,person closes the door.
+2765,4BEZX,R3,R5,the person sits down in a chair.
+2766,4BEZX,Else,R5,person eventually sitting in a chair.
+2767,4BEZX,Else,R7,a person opens the door outside.
+2768,VNUPE,R5,Else,there is a person cooking something on the stove.
+2769,VZE8E,Else,R7,person getting dressed.
+2770,VZE8E,R3,R3,a person awakens.
+2771,VZE8E,R5,R3,person throws his pillow.
+2772,VZE8E,R5,R5,person takes their head off a pillow.
+2773,VZE8E,R3,R5,person opens up a door.
+2774,VZE8E,R5,Else,person open the door walk back in.
+2775,VZE8E,R3,R5,person opening the closet door.
+2776,NYHD7,R5,R5,the person puts the phone away.
+2777,SM41Q,R7,R7,a person is sitting at a table reading something.
+2778,SM41Q,Else,R5,person takes a laptop.
+2779,VS7VS,R7,R5,laughing in a mischievous manner.
+2780,O1LMX,Else,Else,person opens up the laptop.
+2781,O1LMX,R5,R3,the person puts the book away.
+2782,O1LMX,R7,R5,a person holds a book.
+2783,O1LMX,Else,Else,person opens the laptop up.
+2784,O1LMX,R5,R5,the person looks at the book.
+2785,7177T,Else,Else,person turn on the light.
+2786,7177T,Else,Else,person turned on the closet light.
+2787,7177T,R7,Else,person opening the door.
+2788,00T1E,Else,Else,person close the laptop.
+2789,00T1E,R3,R5,person puts on shoes.
+2790,00T1E,R5,R5,person put on a pair of shoes.
+2791,00T1E,R5,R5,person puts on their shoes.
+2792,LSKA2,R7,R7,person they take the sandwich.
+2793,UKSCV,R5,R7,a person is dressing in a hallway.
+2794,UKSCV,Else,Else,a person is eating groceries.
+2795,UKSCV,Else,Else,another person is standing behind him eating.
+2796,UKSCV,R7,R5,person putting on a dress shirt.
+2797,UKSCV,Else,R5,person eating something.
+2798,UKSCV,R7,R7,another person is dressing.
+2799,UKSCV,R7,R7,a person is getting dressed.
+2800,UKSCV,Else,Else,another person is eating.
+2801,CXNYW,R7,R7,person eating a sandwich.
+2802,CXNYW,Else,R7,a person sits in a chair at the desk.
+2803,CXNYW,Else,Else,a seated person wearing striped pants types on a keyboard.
+2804,3XL0K,R7,R7,a person closes the cabinet.
+2805,3XL0K,R5,R5,a person closes a cabinet door.
+2806,O5V8D,Else,Else,person takes pictures of them-self on the steps.
+2807,O5V8D,R7,Else,the person goes to take a picture of themselves.
+2808,ME4YL,R3,R5,person they open up their laptop.
+2809,ME4YL,R5,R5,"tidying up,the person moves blanket."
+2810,ME4YL,R3,R7,person they open a laptop.
+2811,ME4YL,Else,Else,person put a book on top of the laptop.
+2812,ME4YL,R5,Else,person bring over a book over close to the computer.
+2813,ME4YL,R3,Else,person opens up s laptop.
+2814,9OCQT,Else,Else,a person holds a box in front of a mirror.
+2815,9OCQT,R7,R5,person puts the box down.
+2816,Z4Y04,R5,R5,person opens the oven door.
+2817,RG0KS,R3,R5,person they begin sneezing.
+2818,65UVU,R7,R5,a person opens the door to the bedroom.
+2819,65UVU,Else,R5,person takes another box from the same shelf.
+2820,65UVU,R7,R7,a person puts a container on a top shelf.
+2821,JZ45I,Else,Else,person open a box.
+2822,JZ45I,Else,Else,person tilt their head back in laughter.
+2823,JZ45I,Else,Else,person begin laughing.
+2824,UL5X4,R7,R7,person takes a drink from a cup of coffee.
+2825,UL5X4,Else,R7,person sitting on bed stands up.
+2826,LKH9A,R7,R5,person turns on the light.
+2827,LKH9A,R7,R7,person puts the book down.
+2828,LKH9A,R5,R7,the person closes the book.
+2829,LKH9A,R3,R7,person take a book off the top of the shelf.
+2830,HDHGT,R3,R3,person sneezing twice.
+2831,HDHGT,R5,Else,person sneezing on a shelf in the pantry.
+2832,HDHGT,R3,R5,person opens the box.
+2833,HDHGT,R5,R5,the person is opening a box of cereal.
+2834,GH19N,Else,Else,person starts dressing.
+2835,GH19N,Else,Else,this person puts the book down.
+2836,GH19N,R7,R7,person is opening door to closet.
+2837,GH19N,Else,R5,person puts homework on table.
+2838,GH19N,R5,R7,a person opens a door holding a book.
+2839,QFL2O,Else,R7,person laugh at it.
+2840,QFL2O,Else,R7,person takes a phone.
+2841,D9PWE,R5,R7,a person takes a vacuum.
+2842,SJJLG,R5,R7,person sits in a chair.
+2843,SJJLG,R5,R5,a person is opening a cabinet.
+2844,SJJLG,R5,R7,person sits on a chair.
+2845,SJJLG,R7,R5,a laughing person opens a cabinet in their kitchen.
+2846,SJJLG,R5,R7,person sits down on a chair.
+2847,SJJLG,R5,R7,person sits at a table in front of a laptop.
+2848,SJJLG,R5,R5,a person opens a kitchen cabinet.
+2849,AF8I2,Else,Else,a person laughs.
+2850,XJE7I,R5,R7,a person opens the bathroom door using the doorknob.
+2851,XJE7I,Else,Else,person they turn the light on.
+2852,XJE7I,Else,Else,person they turn on the light.
+2853,XJE7I,R7,R7,person opening the door.
+2854,XJE7I,Else,Else,person close the door.
+2855,XJE7I,Else,Else,person they take a bag form a counter.
+2856,XJE7I,R5,R7,a person opens a door.
+2857,XJE7I,Else,Else,person take a bag from the counter.
+2858,4A28I,R5,R7,a person is smiling.
+2859,4A28I,Else,Else,laughing a person holding a bag with medicine.
+2860,4A28I,R7,R7,person smiling when they look around.
+2861,6H78U,R7,R7,a person plays with a phone.
+2862,CPM4M,R5,R7,a person opens the refrigerator.
+2863,CPM4M,R5,R5,a person opens a refrigerator door.
+2864,CPM4M,R3,R7,person they start eating the cereal.
+2865,CPM4M,R3,R3,person starts eating from the bowl.
+2866,CPM4M,R5,R3,person sit on the sofa.
+2867,CPM4M,R5,R3,person sit on the couch.
+2868,LRDW5,R7,R3,the person dressed in the sweater.
+2869,LRDW5,R7,R7,a person opens a closet door.
+2870,LRDW5,R7,R5,person opens a closet door.
+2871,LRDW5,R5,R7,the person opened their closet.
+2872,LRDW5,Else,Else,person left the room closing the door behind them.
+2873,LRDW5,R7,R7,the person begins to put clothes on.
+2874,0WYBK,R7,R7,person eating a sandwich.
+2875,0WYBK,R7,R7,person eating some groceries.
+2876,0WYBK,R5,R5,that same person puts the book down on the floor.
+2877,NTXXB,Else,R3,person takes a picture.
+2878,NTXXB,R5,R5,person looking out a window.
+2879,NTXXB,Else,Else,person takes out a camera.
+2880,NTXXB,R7,R7,person watched out of the window.
+2881,NTXXB,R7,R7,person watching something out the window.
+2882,JOMFO,R7,R7,the person throws the blanket out of camera view.
+2883,JOMFO,R7,R7,a person is throwing a blanket.
+2884,1GGRY,R7,R5,a person opens a pantry door.
+2885,1GGRY,R7,R7,person closed the closet door.
+2886,BEJVY,R3,R5,the person takes a laptop.
+2887,BEJVY,R3,Else,a person is eating food in the man cave.
+2888,EJZZZ,R5,R3,person dressing themselves.
+2889,62AC0,R7,R7,a seated person looks out a window.
+2890,SLAH4,Else,Else,a person is holding a doorknob.
+2891,SLAH4,R7,Else,person turn off the light.
+2892,JDZV7,R7,R7,person washing hands at sink.
+2893,JDZV7,R7,R7,a person washes their hands in the bathroom sink.
+2894,JDZV7,R7,Else,person closing a cabinet door.
+2895,JDZV7,Else,Else,person opens a cabinet door.
+2896,JDZV7,R7,R7,a person washes their hands in the sink.
+2897,1GII3,R5,R5,person begins to eat it.
+2898,1GII3,R5,R3,person begins eating it.
+2899,1GII3,R7,R3,person eating a bag of chips.
+2900,UD0P0,R5,R5,person drinking the entire cup.
+2901,UD0P0,Else,Else,one person uses a camera to take a picture.
+2902,YNF6O,Else,R7,that same person puts clothes.
+2903,T8VDU,Else,Else,a person is sitting in a chair watching tv.
+2904,T8VDU,Else,R5,person grabs a red drinking glass from the table.
+2905,0TKKR,Else,Else,person drinks a glass of water.
+2906,0TKKR,R7,R5,a person is sitting on a couch watching tv.
+2907,0TKKR,Else,Else,person eating a sandwich.
+2908,0TKKR,Else,Else,person they pour a drink in a glass.
+2909,0TKKR,Else,Else,a person eats a sandwich on the couch.
+2910,0TKKR,R5,R5,a person is sitting on the couch watching television.
+2911,17P5V,R7,R5,person puts the laptop on a love seat.
+2912,17P5V,R5,R7,person closes the laptop.
+2913,15PMU,R5,Else,person looking out the window.
+2914,15PMU,Else,Else,person looking out of a window.
+2915,15PMU,R7,R7,the person undressed.
+2916,15PMU,R5,R5,a person is undressing.
+2917,15PMU,R7,R7,person drinks something from the cup.
+2918,FMZOY,R7,R7,person opens the door.
+2919,9AC1T,R3,R5,a person sits down reading a book.
+2920,9AC1T,R3,R5,a person sits at a table reading a book intensely.
+2921,GGN5G,R7,R7,a person opens up the cabinet.
+2922,2UQKZ,Else,R3,person takes a blanket.
+2923,2UQKZ,R7,R7,person fixes their hair.
+2924,W1CG2,R7,R7,the person is eating food.
+2925,W1CG2,R3,Else,the person puts the food on the desk.
+2926,W1CG2,Else,R3,person puts their leg up on a table.
+2927,JHB0M,R5,R7,a person is sitting at a table eating a sandwich.
+2928,JHB0M,R7,R7,person eating some groceries.
+2929,JHB0M,R7,R7,a person is sitting at a table eating.
+2930,JHB0M,R7,R7,person starts to eat it.
+2931,JHB0M,R3,R7,person begins pouring something from a very small bottle.
+2932,JHB0M,R3,Else,person pours medicine in a cup.
+2933,NQMMJ,R7,R7,person closes the cabinet door.
+2934,NQMMJ,R7,R7,person closing the doors.
+2935,EXYY8,R7,R7,a person runs into the closet holding a laptop.
+2936,EXYY8,R7,R7,person closing the door behind them.
+2937,NAZ52,R3,Else,person he closed the box.
+2938,NAZ52,Else,Else,person puts the box onto a shelf.
+2939,NAZ52,R3,Else,person closes the box.
+2940,NAZ52,Else,Else,person a teenager opened a box.
+2941,NAZ52,Else,Else,person opens a box.
+2942,NAZ52,Else,Else,person laughing as they go through a box.
+2943,BDZNW,R5,R7,person closing the door to it behind them.
+2944,BDZNW,R5,R7,person closing the door.
+2945,ZJRCS,R5,Else,person closes a window.
+2946,ZJRCS,R5,R3,person laughing with a phone in hand.
+2947,N0ODO,R5,R3,another person opens the door.
+2948,N0ODO,R3,R7,the first person closes the door.
+2949,N0ODO,Else,R5,another person opens the bathroom door.
+2950,FQOGZ,R5,Else,person putting the food on the table.
+2951,FQOGZ,R3,R3,person takes something with a glass of water.
+2952,FQOGZ,R3,Else,a person puts food into a bowl for a cat.
+2953,FQOGZ,Else,Else,the person begins sneezing.
+2954,IEQWT,R7,R7,person opens the door a few inches.
+2955,IEQWT,R7,R5,opening the door all the way the person turns around.
+2956,X817Z,R7,R7,a person is sitting on the sofa holding a book.
+2957,X817Z,Else,R3,person putting the book aside.
+2958,X817Z,R5,R7,a person who is siting on bed with book.
+2959,RG0JH,R7,R7,a person sits on the bed.
+2960,RG0JH,R7,R7,a person is sitting on the bed.
+2961,RG0JH,R7,R7,a man sitting on a bed.
+2962,VF49P,R7,R7,a person is throwing a pillow towards the window.
+2963,HQ8ZM,R7,R7,the person puts their phone away.
+2964,XHYA2,R5,R5,the person throws the shoes behind the door.
+2965,XHYA2,Else,Else,person put their coffee cup on a dresser.
+2966,XHYA2,R7,R7,person sits down on the bed.
+2967,XHYA2,R5,R5,person they throw their shoes behind the door.
+2968,XHYA2,R7,R7,the person throws their shoes down by the door.
+2969,XHYA2,R7,R7,person they sit on the bed.
+2970,1W6ZK,R7,R7,a person opens a door.
+2971,1W6ZK,Else,R5,person stand in the doorway undressing.
+2972,1W6ZK,R3,R3,person they put their clothes in a box.
+2973,1W6ZK,R5,R7,person walks through the doorway.
+2974,1W6ZK,R7,R7,person they open the door.
+2975,VXEXI,Else,Else,another person is smiling at a cup of coffee.
+2976,VXEXI,Else,Else,a person is sneezing on a book.
+2977,1BBIY,R5,R7,person opens the door.
+2978,1BBIY,R3,R5,person take a picture from a shelf.
+2979,1BBIY,Else,R5,person closes the door.
+2980,93REJ,Else,Else,person drinking from a cup.
+2981,KJRR9,R7,R7,a person opens a door.
+2982,KJRR9,R7,R7,person is opening a door.
+2983,KJRR9,R3,R5,person turning light on.
+2984,KJRR9,R3,R5,person turns on a light.
+2985,KJRR9,R3,R3,the person turns on the light.
+2986,9M48H,Else,R5,person puts a phone down on the counter.
+2987,9M48H,R7,R3,a person puts their phone on the kitchen counter.
+2988,9M48H,Else,Else,person puts their phone down.
+2989,WX8N8,Else,R7,the person begins undressing.
+2990,I7GZI,R5,R7,person a girl runs into the room.
+2991,I7GZI,Else,R5,person she runs out of the room.
+2992,I7GZI,R7,R5,a person is running towards a chair.
+2993,NATEB,R5,Else,person closing a door.
+2994,NATEB,Else,Else,the person closes doors to a large cupboard.
+2995,NATEB,Else,Else,person reopens one of the doors.
+2996,IBWAW,R3,R3,person puts the cup on a table.
+2997,IBWAW,Else,R5,"person drank from the glass,put the glass down."
+2998,IBWAW,Else,R3,takes a box from the other person.
+2999,IBWAW,Else,R7,person he eats something out of his hand.
+3000,IBWAW,Else,R7,a person is eating a snack.
+3001,A1BS2,Else,Else,person they open a cabinet.
+3002,A1BS2,Else,Else,person opens the door.
+3003,A1BS2,Else,Else,person opened a cabinet door.
+3004,MFGLZ,Else,R3,person opens bag.
+3005,MFGLZ,R7,R7,a person awakens in their home office.
+3006,QN7Y2,Else,R3,person opens up a cabinet.
+3007,QN7Y2,R3,R7,one person opens a cabinet with a television.
+3008,610PZ,R7,R7,person standing in the hall drinking out of a cup.
+3009,6TC5G,Else,Else,the person throws a bag on the closet floor.
+3010,6TC5G,Else,R5,person throws the rest on the floor below them.
+3011,6TC5G,R7,R7,person laughs as they turn off the light.
+3012,6TC5G,R7,R7,person shuts off the light.
+3013,6TC5G,R7,R7,the person turns off the light.
+3014,6TC5G,Else,Else,a person puts some clothes onto some clothing racks.
+3015,XZ2WT,R5,R7,person snuggles a blanket found inside.
+3016,6OQYV,R5,R7,person turning the light off.
+3017,6OQYV,R7,R7,a person runs into the laundry room.
+3018,6OQYV,R7,R7,person runs back out.
+3019,6OQYV,Else,R3,a person is adding clothes to a washing machine.
+3020,6OQYV,Else,Else,person wards they open a cabinet.
+3021,CEZ4D,Else,Else,a person is undressing under a blanket.
+3022,CEZ4D,Else,R7,person holding a broom on the stairs.
+3023,F75LG,R7,R7,person they start drinking from a glass of water.
+3024,AYSTI,Else,Else,a person sits in a semi-reclining position on a bed.
+3025,FQGW4,Else,Else,person put the cup.
+3026,FQGW4,R5,R5,person they begin carefully pouring the beverage into the cup.
+3027,FQGW4,R5,R7,person pouring a glass of milk.
+3028,FQGW4,R5,Else,person watch television.
+3029,FQGW4,R7,R7,person sits down in a chair to watch tv.
+3030,FQGW4,R7,R7,person pours a glass of milk.
+3031,FQGW4,R7,R7,person sits down in a chair to take a drink.
+3032,HH1R7,R5,R7,person starts sneezing furiously.
+3033,0PVKV,Else,Else,person wards they take a bite of their sandwich.
+3034,0PVKV,Else,Else,person begins eating it.
+3035,0PVKV,Else,Else,person takes a sandwich of the dresser.
+3036,0PVKV,Else,Else,person starts eating it.
+3037,T42A2,R5,R5,person walking across the room to open a cabinet door.
+3038,W8P6Q,Else,Else,person sits in a chair.
+3039,W8P6Q,Else,Else,the person sits in a chair.
+3040,QF1Y0,R7,R5,another person opens the door.
+3041,QF1Y0,R7,R5,person is opening door with bag.
+3042,QF1Y0,R7,R7,person holding a bag.
+3043,0DD62,Else,Else,the person looks back down at the picture.
+3044,LCA0Q,R3,R3,person they put their laptop next to the sink.
+3045,TU9K1,R7,R5,person close the closet door.
+3046,TU9K1,R7,R5,a person is sneezing into a mirror.
+3047,TU9K1,R7,R5,person tidying clothes.
+3048,EK5K1,R5,R5,the person takes a lollipop from a box.
+3049,EK5K1,R3,Else,person start sneezing.
+3050,EK5K1,R3,R5,person opens a box.
+3051,EDSUD,Else,R5,a person throws their shoes on the hallway floor.
+3052,7KW31,Else,R5,person holding a broom.
+3053,G2QBV,R3,Else,the person takes a water bottle.
+3054,G2QBV,R3,Else,a person throws a broom into the corner.
+3055,G2QBV,R3,Else,person closes a door.
+3056,G2QBV,Else,Else,person dust pan they close the door.
+3057,G2QBV,Else,R3,person throws the broom in a corner.
+3058,G2QBV,R3,R3,a person closes a front door.
+3059,3IAPG,Else,Else,person puts clothes in a bag.
+3060,6B2FN,R7,R7,person fixing his hair.
+3061,6B2FN,R3,R5,person smiling as they look in the mirror.
+3062,MZ3I3,Else,Else,person talking on their phone.
+3063,MZ3I3,R7,R5,person drinks out of a cup.
+3064,MZ3I3,R7,R7,person begins to undress.
+3065,MZ3I3,R7,R7,person takes a drink from a cup.
+3066,MZ3I3,Else,R3,person starts talking on the phone.
+3067,MZ3I3,R7,R5,person talks on a cell phone.
+3068,MZ3I3,R7,R7,a person is in the hallway undressing.
+3069,M6ERH,R7,R7,person proceeds to eat out the jar just.
+3070,V6H2O,R5,R5,a smiling person runs into their garage holding a phone.
+3071,V6H2O,Else,Else,person drinks from a glass.
+3072,V6H2O,R7,R7,person open the door.
+3073,C6INR,R3,Else,person take a picture with a camera.
+3074,2U3X0,R7,R5,a man is holding some food.
+3075,2U3X0,Else,R5,person brings a seat with him.
+3076,2U3X0,R3,R7,person turned on a light.
+3077,2U3X0,R7,R7,a person opened a door.
+3078,2U3X0,R5,R5,person began eating.
+3079,14HG1,Else,R5,person sits on the floor.
+3080,0A8CF,R7,R7,person drinks from a glass of water.
+3081,0A8CF,R5,R5,person takes a glass from somewhere.
+3082,QBUAT,R7,R7,a person is undressing in the bedroom.
+3083,QBUAT,Else,Else,person begins dressing in pajamas.
+3084,QBUAT,R7,R5,the person takes a blanket from the cabinet.
+3085,QBUAT,R7,R7,person begins to undress.
+3086,48XER,R7,Else,the person closes the cabinet.
+3087,48XER,Else,Else,the person takes a towel from the counter.
+3088,48XER,R7,R7,a person begins tidying a cabinet.
+3089,KK7D4,R7,R5,a person opens a closet door.
+3090,KK7D4,R7,Else,a person takes a towel.
+3091,KK7D4,Else,Else,person takes out a towel.
+3092,3LIGG,R5,R5,a person puts a broom down.
+3093,EJFUA,R5,R7,person starts running around.
+3094,EJFUA,R3,R7,person runs into the living room.
+3095,EJFUA,R5,R5,person running in place.
+3096,73ZXZ,R7,R7,person closes the cabinet.
+3097,73ZXZ,R7,R5,person closes the door.
+3098,73ZXZ,Else,R3,person puts the food away.
+3099,73ZXZ,R7,R7,the person starts closing the cabinet.
+3100,FAO7J,Else,Else,person laughing on a laptop.
+3101,FAO7J,R5,R7,person turns the light off.
+3102,FAO7J,R7,R7,person closes the door.
+3103,FAO7J,R5,R7,person closing the door behind them.
+3104,FAO7J,R5,R5,person leave the closet turning the light off.
+3105,FAO7J,Else,Else,the person laughs at something on the laptop screen.
+3106,COFJV,R3,R5,the person eats food.
+3107,COFJV,R3,Else,the person is opening a bag.
+3108,COFJV,R5,R7,person starts eating a sandwich that was inside.
+3109,BD9UN,R5,Else,another person is tidying some clothes.
+3110,LPKPO,R5,R3,person grabs a plate that is sitting on the table.
+3111,LPKPO,R7,R7,the person is sitting at the table.
+3112,LPKPO,R7,R7,a person sitting in a chair at a table.
+3113,LD6TD,Else,Else,person reading a book.
+3114,LD6TD,Else,Else,a person awakens in their dining room holding a book.
+3115,QD1U7,R5,R5,the person puts the sandwich on the table.
+3116,LWRKS,R3,R5,person turns a light on.
+3117,S444Y,R3,R5,person they take things from the bag.
+3118,ZSAQG,R7,R7,a person run by with shoes in hand.
+3119,ZSAQG,R7,R7,another person is running with shoes.
+3120,ZSAQG,R7,R7,another person runs across the room with shoes.
+3121,FC2SK,R7,R5,another person opens the door.
+3122,FC2SK,Else,R7,person he sit on the chair.
+3123,FC2SK,Else,Else,person another awakens wrapped in a blanket.
+3124,JKGTN,R5,R3,a person takes a pillow from the shelf.
+3125,JKGTN,R3,R3,a person takes a  pillow of a shelf.
+3126,JKGTN,R5,R3,a person takes a pillow down from a shelf.
+3127,0LDN3,R5,R3,a person runs into the kitchen.
+3128,0LDN3,R7,R7,the person opens the refrigerator.
+3129,0LDN3,R7,R7,person opens the refrigerator.
+3130,0LDN3,R3,R5,person close the refrigerator.
+3131,PJUM0,R7,R5,person pours it into a glass.
+3132,PJUM0,Else,Else,person drinks from the glass.
+3133,PJUM0,R5,R7,person takes out a bottle of water.
+3134,PJUM0,R7,R7,person pours the contents into a glass.
+3135,PJUM0,R7,R7,a person opens a refrigerator.
+3136,1TZK5,Else,R3,one person stands by the window eating food.
+3137,83S5W,R7,R3,person closes the door behind them.
+3138,TFWNO,R5,R7,person throwing a towel on the floor.
+3139,TFWNO,Else,Else,person eats some food.
+3140,TFWNO,Else,R3,person eating food from a plate with a fork.
+3141,TFWNO,Else,Else,person they start eating some food.
+3142,TFWNO,Else,Else,person eats from it.
+3143,C6V75,Else,Else,person opens the door.
+3144,BRBWJ,Else,Else,the person puts their clothes on the shelf as well.
+3145,3OZUX,R7,Else,person #1 was washing a mirror on the wall.
+3146,X11CU,R7,Else,person stands by the window looking out.
+3147,X11CU,R7,Else,person another holding medicine opens a window.
+3148,BRQBD,R5,R5,a person awakens in a bedroom.
+3149,BRQBD,Else,Else,the person puts the picture away.
+3150,7614L,R5,Else,person hold the broom between the their legs.
+3151,7614L,R3,Else,the person puts the broom down.
+3152,ON2Z4,Else,R5,person they take out a blanket.
+3153,ON2Z4,R5,R3,person opens it  they trun the light on.
+3154,ON2Z4,R5,R5,person takes a blanket.
+3155,ON2Z4,R7,R7,a person opens the door to the closet.
+3156,HQ8K2,R5,R7,person start sneezing as they reach for some dishes.
+3157,4VX01,R7,R7,person they stand up.
+3158,4VX01,R5,R7,person closes the door.
+3159,4VX01,R7,R7,a person sits on the bathroom floor.
+3160,4VX01,R7,R7,a person sits down on the floor.
+3161,3Q92U,R3,R3,a person takes a pillow.
+3162,4WVTC,R7,R7,the person is holding a laptop.
+3163,4WVTC,R7,Else,person their laptop they close their laptop.
+3164,4WVTC,Else,R5,person towel in hand put laptop down.
+3165,4TX4N,R7,R5,another person is snuggling on a sofa eating a sandwich.
+3166,4TX4N,R7,R7,person eating a sandwich.
+3167,4TX4N,R5,R7,a person is sitting in a chair eating a sandwich.
+3168,4TX4N,Else,Else,a person is awakening in the bed.
+3169,999BP,R5,R5,person a girl takes a bag.
+3170,999BP,R5,Else,person puts it on the table.
+3171,AFUBX,R3,R3,a person is walking through a doorway.
+3172,AFUBX,R5,Else,person turns off a light.
+3173,AFUBX,Else,Else,person the shuts the light off.
+3174,AFUBX,Else,Else,person turning off the light behind them.
+3175,O8T6G,R7,Else,a person is smiling.
+3176,O8T6G,Else,R7,person trying to open medicine from a bag.
+3177,O8T6G,R7,R7,person sitting in a chair opening up a bag.
+3178,NHH8N,R7,R5,person sits on a bed.
+3179,7R0LB,R7,Else,a person is putting away dishes into a cabinet.
+3180,7R0LB,Else,Else,person sneezing on it.
+3181,7R0LB,R3,Else,person puts the food in the cabinet.
+3182,RON2M,R3,R3,person leaves the closet holding the bag.
+3183,RON2M,R7,R7,one person puts a book.
+3184,RON2M,R7,R7,a person wearing a blue sweater opens a coat closet.
+3185,DOYQE,Else,Else,the person stops cooking to drink from a cup.
+3186,DOYQE,Else,Else,person they look at a picture.
+3187,DOYQE,Else,Else,person takes a drink from a coffee cup.
+3188,3VWSP,Else,R5,person they stand up.
+3189,ZPRJH,R7,R5,a person is sitting on a floor.
+3190,ZPRJH,R7,R7,person throws the book down.
+3191,ZPRJH,R7,R7,person looking at various books on a shelf.
+3192,ZPRJH,R5,R7,a person is looking at a book.
+3193,ZPRJH,R5,R5,person a guy stands up from sitting on the floor.
+3194,WEW2E,Else,Else,person takes a blanket out of a bag.
+3195,WEW2E,R5,R7,a person walks in the entryway holding a bag.
+3196,K5NFS,R5,R5,person puts the white pillow on the bed.
+3197,K5NFS,R7,R7,person throws their pillow aside.
+3198,K5NFS,R5,R7,a person awakens on the floor of their study.
+3199,K5NFS,Else,Else,the person begins tidying their clothes.
+3200,4ZJXR,R3,R5,the same person opens a bag.
+3201,44PFW,Else,Else,a person is opening the doorknob.
+3202,44PFW,R7,R7,that same person opens a door.
+3203,44PFW,R3,R7,person opens a door.
+3204,TTVN5,R7,R5,a person is holding a camera.
+3205,TTVN5,R7,R7,the person begins smiling.
+3206,TTVN5,Else,Else,a person is playing on their phone.
+3207,WKVWF,R5,R5,person holding a cup of water than drinks from it.
+3208,WKVWF,R7,Else,a person throws a book onto the sofa.
+3209,WKVWF,R7,R5,person a girl throws a book onto a couch.
+3210,WKVWF,R5,R5,the person takes a drink from a cup of coffee.
+3211,WKVWF,Else,Else,person takes things out of a box.
+3212,HBL9L,R5,R5,a person is sitting on the stairs eating a sandwich.
+3213,HBL9L,R5,R5,person eating a sandwich.
+3214,Z0DO7,R5,R5,person puts the cup down.
+3215,LQ0FJ,R7,R5,person get dressed into something else.
+3216,LQ0FJ,Else,Else,person they start undressing.
+3217,GQ341,Else,Else,person pours a cup of coffee.
+3218,GQ341,R7,Else,laughs as the person looks at photos loaded onto it.
+3219,GQ341,Else,Else,the person pours a cup of coffee.
+3220,PH5VU,Else,Else,a person is putting on clothes.
+3221,PH5VU,R3,R3,person closes a cabinet.
+3222,PH5VU,R3,R3,next the person closes the doors to the wardrobe.
+3223,6E8GP,R7,R7,person opens a closet.
+3224,6E8GP,R3,R7,the person is opening a box.
+3225,6E8GP,Else,R7,person they open up their closet.
+3226,U5T4M,R7,Else,person walked over to a chair to sit down.
+3227,U5T4M,R7,R5,person sits in a chair.
+3228,U5T4M,Else,Else,person opens refrigerator grabs milk.
+3229,U5T4M,R7,R3,person starts eating it.
+3230,U5T4M,Else,Else,a person opened a refrigerator.
+3231,U5T4M,Else,Else,person closed the refrigerator door.
+3232,U5T4M,R7,R7,person eats it.
+3233,EYZXC,R7,R7,person pours a cup of coffee.
+3234,EYZXC,Else,Else,a person sits at a table.
+3235,EYZXC,R5,R7,person snuggling a blanket.
+3236,ONMCW,R7,R7,person holding the glass.
+3237,ONMCW,R3,Else,person takes a glass from the desk.
+3238,WXXYY,R5,Else,person sits on the floor.
+3239,WXXYY,R7,R7,person begins playing with their phone.
+3240,WXXYY,R7,R7,person plays on his phone.
+3241,WXXYY,Else,Else,person begins to play on his phone.
+3242,WXXYY,R5,R5,person closes the door.
+3243,WXXYY,Else,Else,person fixes the doorknob.
+3244,WXXYY,R7,R5,person start fixing the doorknob.
+3245,1B9DK,R5,R5,person the one holding a bag just watches.
+3246,1B9DK,R7,R7,a second person runs in sees themselves in the mirror.
+3247,1B9DK,R7,Else,a person opens door.
+3248,PN1F2,R7,R7,person walking around drinking from glass.
+3249,PN1F2,R5,R5,person is holding pillow.
+3250,PN1F2,R7,R5,the person walked slowly down the hall holding a pillow.
+3251,PN1F2,R3,R5,person holding a pillow.
+3252,0F7LW,R7,Else,person opens a closet door.
+3253,0F7LW,R5,R7,person takes down a toy laptop.
+3254,0F7LW,R5,R7,person turns off the light.
+3255,0F7LW,R3,R5,person turning off the light behind them.
+3256,0F7LW,Else,Else,a person takes a laptop from a closet shelf.
+3257,0F7LW,R7,R7,a person runs into the closet.
+3258,0F7LW,R5,R7,person takes a laptop from the shelf.
+3259,AKU63,R7,R5,a person lies sleeping on a bed.
+3260,XYJYK,Else,Else,the person puts a towel around themself.
+3261,3VH9O,Else,Else,person eating snack food.
+3262,3VH9O,R3,R3,a person is laughing at the book.
+3263,3VH9O,R3,Else,person eating from a box.
+3264,3VH9O,R3,Else,person eating a snack out of a box.
+3265,0J1BT,R7,R5,the person throws their clothes on the shelf.
+3266,7R44Z,R5,R3,a person is putting clothes into a laundry machine.
+3267,7R44Z,R3,R3,a person is putting clothes in a washing machine.
+3268,E8JEJ,R5,Else,person they open the door multiple times.
+3269,E8JEJ,R7,R7,person throw something to the floor.
+3270,E8JEJ,R3,Else,person closes a door.
+3271,D8FTI,Else,Else,person opens a cabinet.
+3272,D8FTI,Else,Else,person open a cabinet.
+3273,0HR01,R3,R5,a person opens a pantry door.
+3274,4RT06,R7,R7,person takes out some food.
+3275,4RT06,R7,R5,person turns on the light.
+3276,4RT06,R7,R3,person turns on the lights.
+3277,4RT06,Else,R3,person opens a refrigerator.
+3278,4RT06,Else,Else,person opens the refrigerator.
+3279,4RT06,R5,R7,person takes out food.
+3280,4RT06,R5,R5,a person turns on the light.
+3281,6FJBD,R3,R3,person looking at a laptop computer.
+3282,6FJBD,Else,R3,the person puts down the laptop.
+3283,S407A,Else,Else,person pouring water into a glass.
+3284,S407A,Else,R5,person takes a drink from a bottle of water.
+3285,S407A,Else,Else,person pouring a glass of water.
+3286,HP3HV,R3,R3,person turns off their light.
+3287,BLLCM,Else,Else,a person sits in a chair watching television.
+3288,5GP8M,R5,Else,a person walking into a walk-in closet holding a phone.
+3289,NO443,R7,R7,person looks out the window.
+3290,UPT25,R5,R5,a person sits down on a couch.
+3291,UPT25,R5,R7,person sit down on the sofa.
+3292,72M7T,R5,R7,person runs in.
+3293,72M7T,R5,R7,one person runs in.
+3294,72M7T,R7,R7,"open a mobile,then suddenly another person comes running."
+3295,72M7T,R3,Else,the person is also playing with a phone.
+3296,72M7T,Else,Else,person starts undressing.
+3297,SROEU,R5,Else,person puts box in corner.
+3298,SROEU,R7,R7,person open cabinet door.
+3299,SROEU,R7,R7,person opens a cabinet door with a phone in hand.
+3300,SROEU,R5,R7,a person puts a box in a doorway.
+3301,N9KNS,R3,Else,one person is opening their bag.
+3302,N9KNS,Else,R5,one person is holding a bag.
+3303,KQDX6,R7,R7,person opens a door.
+3304,KQDX6,R7,R3,person another walks by drinking something out of a cup.
+3305,KQDX6,R5,R5,person slowly drinking a cup of coffee.
+3306,7KHIH,R7,R7,person start running out of the closet.
+3307,GM3UK,Else,R5,a person organizes a table by putting things away.
+3308,GM3UK,Else,Else,a person is putting a camera on a shelf.
+3309,EXW9K,Else,Else,person remember that they need to start cooking for dinner.
+3310,RS6EK,Else,Else,person laughing at the doorway.
+3311,9VF2C,R5,R7,the person quickly throws the blanket off of them.
+3312,9VF2C,R7,R7,person runs out.
+3313,WSKTN,Else,R5,person opens the cupboard door.
+3314,32K2C,Else,Else,person reaching to fix hair.
+3315,D6MZ4,R7,R3,person takes a drink from a glass.
+3316,LG7WK,Else,R3,a person laying on a floor.
+3317,LG7WK,Else,Else,person laying back down on the floor for a moment.
+3318,LG7WK,Else,Else,a person lays on a floor.
+3319,5NG6Q,Else,Else,person pours some more things into a cup.
+3320,5NG6Q,Else,R3,person they finish cooking.
+3321,5NG6Q,R3,R3,the person is cooking on the stove.
+3322,MOTWW,Else,Else,the person puts the sandwich back down.
+3323,LLE9B,R7,R7,person eating some food.
+3324,LLE9B,R7,R7,the person begins eating a cookie.
+3325,LLE9B,R3,R5,person closes a laptop screen.
+3326,LLE9B,R5,R5,person using a laptop computer.
+3327,LLE9B,R5,R3,person puts the laptop away.
+3328,LLE9B,R7,R5,person puts it on a shelf.
+3329,WM2J7,R5,R3,person he moves to a china cabinet to open it.
+3330,WM2J7,R7,R7,a person is washing a window.
+3331,WM2J7,R7,R7,person washing the window.
+3332,WM2J7,R7,R5,person start tidying a cabinet.
+3333,WM2J7,R7,R7,a person washes a window.
+3334,GFJ98,R3,Else,a person is putting a picture on a wall.
+3335,UEVVN,R3,R3,a person runs to the open window.
+3336,1FX8Q,Else,Else,one person opens a bag.
+3337,OWCJT,R5,R5,person drinking from a glass.
+3338,BVDIM,R7,R7,person put the plate  down on the table.
+3339,BVDIM,R5,Else,the person puts the dishes onto a table.
+3340,OKIVH,Else,Else,a person is laughing in the mirror.
+3341,OQ54Y,R3,R3,person sit down at a table.
+3342,OQ54Y,R7,R5,person walks over to the refrigerator open it up.
+3343,OQ54Y,R5,R5,a person opens a refrigerator door.
+3344,OQ54Y,Else,Else,person pours some juice into a glass.
+3345,OQ54Y,Else,Else,person they pour the milk into a glass.
+3346,5I5E5,R5,R5,the person takes a tissue from a tissue box.
+3347,GS3M4,Else,R5,person watching herself in the mirror.
+3348,TYWHY,Else,Else,person closes the cabinet.
+3349,TYWHY,R5,Else,person takes out a laptop computer.
+3350,TYWHY,R7,R7,a person runs into a room gets into a desk.
+3351,TYWHY,R7,R7,a person runs into their home office.
+3352,TYWHY,R7,R7,a person runs into the room.
+3353,TYWHY,Else,Else,person opens a cabinet.
+3354,TYWHY,Else,Else,person takes their laptop from inside.
+3355,TYWHY,R5,R7,a person takes a laptop from a drawer.
+3356,TYWHY,Else,Else,person takes a laptop out the open the laptop.
+3357,TYWHY,Else,Else,the person opens a cabinet.
+3358,ZBBOO,R7,R7,person drinking from a cup.
+3359,XF2ZM,R3,R5,person begins undressing by taking their jacket off of them.
+3360,XF2ZM,R3,R5,person where he begins to undress by removing his hoodie.
+3361,OGLCO,Else,Else,person eating chips out of a bag.
+3362,OGLCO,Else,Else,person eats food from a bag.
+3363,OGLCO,Else,Else,this person eats food out of a bag.
+3364,OGLCO,R7,R7,a person is working on a laptop.
+3365,DAA3F,R3,R3,person begin to eat it.
+3366,DAA3F,Else,Else,a person is awakening in the bedroom by the window.
+3367,DAA3F,Else,Else,person began eating from it.
+3368,DAA3F,Else,Else,a person covered with a blanket awakens in bed.
+3369,DAA3F,Else,R5,person take some food.
+3370,PRH15,Else,R3,a person is putting away cans of food.
+3371,KOQGE,Else,Else,another person comes running throwing open the door.
+3372,6IL0C,R5,R3,person putting books.
+3373,6IL0C,R7,R7,a person puts some books onto a desk.
+3374,6IL0C,R5,R5,person crouching on the floor to tidy her shoes.
+3375,UYZKX,R7,R7,this person opened up their closet.
+3376,X07QW,R7,R7,a person undresses by taking off a jacket.
+3377,X07QW,R5,R5,person sits down on a couch.
+3378,X07QW,Else,R3,next the person takes a blanket from a cabinet.
+3379,81VSN,R5,Else,person walking through a doorway in the living room.
+3380,OE243,R5,R5,the person puts a box in a room.
+3381,OE243,R3,Else,a person is walking up the stairs towards a doorway.
+3382,OE243,R5,R7,the person puts some shoes in a closet.
+3383,OE243,R5,Else,a person takes a box off some stairs.
+3384,NX8X9,R7,Else,person they take a broom.
+3385,NX8X9,R5,Else,person put it on a table.
+3386,NX8X9,R5,R5,person stand up.
+3387,NX8X9,R7,R3,person they close the book.
+3388,LXLW4,R7,R5,person drinks from a cup.
+3389,3JCEI,Else,Else,a person is smiling at their laptop.
+3390,3JCEI,Else,R3,a person is laughing.
+3391,3JCEI,R3,R3,person throw some clothes on the floor.
+3392,3JCEI,R7,R7,a person sits at a table laughing at a laptop.
+3393,3JCEI,R3,R5,person throws things on the floor from the table.
+3394,QZZPS,R5,R7,person sitting on the couch wearing a sweater.
+3395,QZZPS,R3,R5,a person is seen sitting on a couch.
+3396,QZZPS,Else,Else,person take some medicine.
+3397,PSAVM,Else,Else,person sneezing in front of the sink.
+3398,PSAVM,Else,R3,person atart sneezing.
+3399,PSAVM,R5,R7,a person is throwing a blanket in the hamper.
+3400,PSAVM,R7,R7,a person is washing his hands.
+3401,PSAVM,R7,R7,a person washes their hands in the sink.
+3402,M6HAF,R7,R7,person open the refrigerator door.
+3403,M6HAF,R7,R7,the person opens the refrigerator.
+3404,HLB3J,R3,Else,one person propped on a pillow awakens.
+3405,0UPBN,R7,R7,another person holds a box.
+3406,0UPBN,R7,R7,person lies down on a bed behind them.
+3407,0UPBN,R7,R7,person holding a box.
+3408,NUW9G,R5,R7,a person holding a plastic bag puts.
+3409,QLFR5,Else,Else,the person closes the book.
+3410,5P284,R5,R7,person looks out window.
+3411,5P284,Else,R3,person put phone down gets up.
+3412,C1DK7,R7,R7,person leaves closing door behind them.
+3413,C1DK7,R7,R7,person opens door.
+3414,C1DK7,R7,R7,person closing the door.
+3415,C1DK7,R7,R7,person opens a door.
+3416,C1DK7,R3,R3,a person leaves their phone on a closed laptop.
+3417,STHIK,R7,R7,person eventually running out of frame.
+3418,STHIK,R7,R7,a person runs through the doorway.
+3419,STHIK,Else,R5,person appearing to be eating it.
+3420,STHIK,R3,Else,person drinking a cup of coffee.
+3421,STHIK,Else,Else,person eating from a bag of food.
+3422,FB3ZG,R7,R7,person takes a cup of coffee.
+3423,6CAZU,R3,R3,person begins eating.
+3424,6CAZU,R3,R5,a person is sitting in a chair putting on shoes.
+3425,75F82,R7,R7,a person is sneezing into a phone.
+3426,75F82,R5,R7,a person is standing in a doorway sneezing.
+3427,75F82,R7,R7,person they are sneezing.
+3428,75F82,R7,R7,a person is standing in the door way sneezing.
+3429,C4MUA,R3,R5,a person walks in a doorway.
+3430,M4FOP,R7,R5,the person is putting away groceries.
+3431,M4FOP,R3,R7,a person puts stuff in a bag by the window.
+3432,1VRH1,R5,R7,person turn off a light.
+3433,1VRH1,Else,Else,person they throw the book on the floor.
+3434,1VRH1,Else,R5,person turn off the light on the bedside table.
+3435,1VRH1,Else,Else,person they throw the book.
+3436,1VRH1,R5,R7,person turn off the lights.
+3437,1VRH1,R3,R7,person shutting off the bedside light.
+3438,9PXI9,R7,R7,person stand up.
+3439,UETQS,R5,R3,person opens a laptop.
+3440,UETQS,R7,R7,a person sits in a chair.
+3441,UETQS,R7,R7,a person sits down at a table.
+3442,UETQS,Else,R5,person cooking eggs on the stove.
+3443,UETQS,R7,R7,a person is opening a laptop on a table.
+3444,5UNMN,R7,R7,person sits in a chair at a desk.
+3445,VJVHM,R7,R7,a person turns on their lights.
+3446,VJVHM,R7,Else,the person turns on a light.
+3447,AWN1C,R5,R5,person they take a drink from a coffee cup.
+3448,AWN1C,R5,R5,person gets a drink from a red cup.
+3449,AWN1C,R5,R5,person takes a drink from a cup.
+3450,3CLVI,Else,R5,person opens the door.
+3451,3CLVI,R3,R5,person flicks the lightswitch on.
+3452,3CLVI,Else,R5,person the individual opens another nearby closet.
+3453,CS7HY,R3,R5,person they open a cabinet.
+3454,CS7HY,R3,Else,person puts the broom away.
+3455,CS7HY,R7,R7,a person is holding a broom.
+3456,CS7HY,R7,R7,a person walks into the kitchen holding a broom.
+3457,CS7HY,R5,R5,person open a cabinet.
+3458,IAEGA,Else,Else,person turns off the light.
+3459,ZNQVC,R7,R7,a person is tidying up the cabinet.
+3460,ZNQVC,R5,Else,person closed the doors.
+3461,ZNQVC,Else,Else,person takes off a pair of shoes.
+3462,ZNQVC,Else,Else,the person begins to take their shoes off.
+3463,ZNQVC,R5,R7,person closing the door.
+3464,ZNQVC,Else,Else,person takes their shoes off.
+3465,47Y1V,R5,R7,a person in the hallway holding a picture begins undressing.
+3466,B0SV3,R3,R3,a person walking into a closet turns on the light.
+3467,B0SV3,R5,R7,person drinks from a coffee cup.
+3468,B0SV3,R5,R3,person they pause to turn on the light.
+3469,B0SV3,Else,Else,person opens the doors.
+3470,F1LTO,R3,R5,person closes the cabinet.
+3471,F1LTO,R7,R7,a person opens the doors of an armoire.
+3472,F1LTO,R7,R5,person closes the doors.
+3473,F1LTO,R3,R7,person opens the doors.
+3474,OSK3Y,R5,Else,sneezing another person cooking on the stove.
+3475,DGHSW,R3,R7,a person runs through the door.
+3476,DGHSW,R5,R7,a person runs down the stairs.
+3477,DGHSW,R7,R5,person quickly runs off.
+3478,06LBQ,Else,Else,person closes the top of the box.
+3479,06LBQ,R3,Else,a person is vacuuming the floor around an open box.
+3480,ALJ7B,R7,R7,person begins to drink the water from the glass.
+3481,ALJ7B,R5,R7,person drinking a glass of water.
+3482,ALJ7B,R5,R5,a person takes dishes off a shelf.
+3483,QZ1BS,R7,R7,a person lying down awakens in the basement.
+3484,QZ1BS,R3,R3,the person is laying on the floor.
+3485,Z7KC1,R5,Else,person run from the room.
+3486,Z7KC1,R3,R5,person runs to the front door.
+3487,Z7KC1,R3,R3,person runs towards the door.
+3488,Z7KC1,R3,R3,person they run to the front door.
+3489,4H935,R7,R5,a person awakens in a bedroom.
+3490,4H935,Else,R5,person turns on the light.
+3491,4H935,Else,R5,person turns on a light.
+3492,4H935,Else,R3,person plugged in a light.
+3493,4H935,R7,R7,person start getting dressed.
+3494,O76GM,R3,R3,this person opens a few cabinets.
+3495,O76GM,R5,Else,person takes out a container of food.
+3496,O76GM,R5,R3,a person standing in the kitchen opens a cabinet.
+3497,O76GM,Else,Else,person starts closing door.
+3498,FLBS9,R3,R3,person laughing at a towel.
+3499,IV1S7,R5,R5,a person takes a glass from a cabinet.
+3500,IV1S7,R7,R5,person puts the glass on the table.
+3501,IV1S7,R7,R3,a person runs through the doorway into a dining room.
+3502,D04GX,R7,R7,a person opens a door.
+3503,D04GX,Else,Else,a person is in their entryway holding a camera.
+3504,D04GX,Else,R3,person eating a sandwich.
+3505,D04GX,Else,Else,the person is holding a camera.
+3506,D04GX,Else,R5,person eating the sandwich.
+3507,D01MJ,R5,R7,person awakens from their slumber.
+3508,D01MJ,R5,R3,person they stand up.
+3509,5.00E+07,Else,R5,person drinks from the cup.
+3510,5.00E+07,R3,R3,a person in their recreation room is eating some food.
+3511,5.00E+07,R7,R5,the person puts the cup down.
+3512,P5YNX,R7,R7,a person is sitting in the chair on their laptop.
+3513,P5YNX,R7,R7,a person is sitting in a chair.
+3514,P5YNX,R7,R7,person working on their laptop.
+3515,6U47G,R5,R7,a man sits down on a couch.
+3516,R4SJJ,R3,R5,person closes the door.
+3517,R4SJJ,R5,R5,person they throw some clothes on the bed.
+3518,R4SJJ,R7,R7,person close the window.
+3519,GA7SB,R7,R7,person eating a burger in a box on their bed.
+3520,GA7SB,Else,Else,person gets undressed.
+3521,GA7SB,Else,Else,a person is undressing in their bedroom.
+3522,GA7SB,R7,R7,person begins to eat.
+3523,GA7SB,R7,R7,person started to eat his food.
+3524,0M0T4,R7,R5,person puts clothes on a bed.
+3525,0M0T4,R5,R3,person starts to play with a phone.
+3526,0M0T4,Else,Else,person turns on the light.
+3527,N5PLR,R7,R7,a person is undressing from their work clothes.
+3528,EG0VZ,R3,R7,person takes a book.
+3529,EG0VZ,Else,R5,a person awakens in their bedroom.
+3530,SSPMK,Else,Else,person taking a drink from a cup.
+3531,SSPMK,Else,R5,person he drinks from a cup in his hand.
+3532,GMLPK,Else,R5,person takes a bite of the sandwich.
+3533,72LJ3,R5,R7,the person throws the book.
+3534,72LJ3,R7,R5,person throws the book on the bed.
+3535,72LJ3,R5,Else,the person laughs at their book.
+3536,EEGGA,R3,Else,person begins eating.
+3537,EEGGA,Else,Else,person starts eating.
+3538,EEGGA,R7,R7,person sits in chair.
+3539,MLWB5,R7,R7,person a girl is laying on the floor.
+3540,MLWB5,Else,R7,person start fixing their hair.
+3541,0HGNK,Else,Else,a second person runs in.
+3542,0HGNK,Else,Else,another person comes running.
+3543,0HGNK,Else,Else,person puts a box on the counter.
+3544,0HGNK,Else,R5,person puts box on the table.
+3545,0HGNK,Else,Else,person run away.
+3546,2CJC9,Else,Else,the person opens a medicine cabinet.
+3547,2CJC9,Else,Else,the person opens the cabinet.
+3548,2CJC9,R7,R7,a person is smiling at himself in the mirror.
+3549,OK6BF,Else,Else,the person opened the window to let fresh air in.
+3550,8CCEV,R5,R7,person putting the laptop on bed.
+3551,8CCEV,R3,R5,person they put the pillow down.
+3552,8CCEV,Else,Else,"person holding a pillow,."
+3553,8CCEV,Else,Else,a person who is sitting on a floor with laptop.
+3554,8CCEV,R5,R5,person putting pillow aside.
+3555,8CCEV,R3,R3,a person is snuggling a pillow with their laptop open.
+3556,SUE5L,Else,Else,the person is holding a cup.
+3557,R5O7F,R3,Else,person putting clothes in a cabinet.
+3558,R5O7F,R7,R7,person start dressing with different clothes.
+3559,R5O7F,R7,R7,person opens a cabinet.
+3560,R5O7F,Else,Else,the person is undressing.
+3561,R5O7F,R3,Else,a person puts some clothes into a cabinet.
+3562,R5O7F,R5,Else,person puts the clothing on a shelf in the cabinet.
+3563,Y50QF,Else,R7,person opening a box in a dining room.
+3564,Y50QF,R5,R5,person pouring a cup of coffee.
+3565,Y50QF,R7,R5,person pours himself some coffee into a cup.
+3566,Y50QF,R5,R5,person pour a cup of coffee.
+3567,WZDXS,R7,R7,a person is dressing in their bedroom.
+3568,WZDXS,Else,R3,person watching something on a laptop screen.
+3569,VEH0A,R7,Else,person is lying on floor fixing door.
+3570,VEH0A,R3,R3,a person is sitting on the floor.
+3571,VEH0A,Else,Else,person starts closing door.
+3572,VEH0A,R3,R3,person sitting on the floor looking into a cabinet.
+3573,VEH0A,Else,Else,person closing a cabinet.
+3574,5WS7U,R5,R5,person puts shoes on.
+3575,5WS7U,Else,Else,person fixes their hair.
+3576,5WS7U,R5,R5,person puts on shoes.
+3577,2OJY8,R7,R7,a person is in a bedroom dressing.
+3578,2OJY8,R7,R7,a person gets dressed in the bedroom.
+3579,2OJY8,R7,Else,person open a box of dishes.
+3580,2OJY8,R5,R5,person begins to put dishes in a box.
+3581,SPF63,R7,R5,person they take something from a box.
+3582,SPF63,R7,R7,person throws the case on the floor.
+3583,SPF63,R7,R7,person throws the box on the floor.
+3584,SPF63,R5,R7,the person opens the box.
+3585,Y665P,R5,R3,person sits down on the sofa.
+3586,Y665P,R3,Else,person sits down on the couch to read the book.
+3587,Y665P,R3,Else,person sits down on a couch.
+3588,4VJDU,R7,R7,the other person puts on his shoes in the background.
+3589,4VJDU,R7,R7,one person dresses into a pair of shoes.
+3590,Y4GHN,Else,R5,person closed a cabinet.
+3591,RKOOJ,R7,R7,person looks at the picture.
+3592,RKOOJ,R7,R5,a person walks into the room holding a picture.
+3593,Q948H,Else,Else,person puts the book on the table again.
+3594,Q948H,Else,Else,the person takes a picture out.
+3595,Q948H,R3,R5,person puts the book back on the shelf.
+3596,Q948H,Else,Else,person opens it up takes a picture.
+3597,OPMF7,R7,R5,person they begin sneezing.
+3598,OPMF7,R5,Else,a person is also sneezing.
+3599,VINM0,R5,R7,person holding a pair of shoes.
+3600,VINM0,R3,R7,a person puts his shoes down on the floor.
+3601,VINM0,R5,R7,the person puts down the shoes.
+3602,VINM0,R7,R5,a person is holding shoes.
+3603,VINM0,Else,R3,person looks out the window.
+3604,6JLD4,R5,R5,person closes the door.
+3605,6JLD4,R7,R7,person gets dressed.
+3606,6JLD4,Else,Else,a person turns on a light in the closet.
+3607,6JLD4,Else,Else,person turns on the lights.
+3608,6JLD4,R3,Else,person turns the lights off.
+3609,PEWH4,Else,R3,person eats a sandwich.
+3610,PEWH4,R5,R3,person they eat a sandwich.
+3611,J95U1,R7,R7,the person picked up a phone to play with it.
+3612,J95U1,Else,Else,person begin laughing.
+3613,K6W5I,Else,R3,person puts away the groceries.
+3614,K6W5I,R5,R7,the person puts the groceries on the table.
+3615,K6W5I,R5,R5,the person opens door.
+3616,PS7XK,Else,Else,the person is smiling often.
+3617,WZZPC,R7,R7,person they start to open a door.
+3618,WZZPC,R5,R3,person open a door.
+3619,BZ5N5,Else,R5,the person takes two glasses from the cabinet.
+3620,O6DJW,R3,R7,person holds a sandwich on it.
+3621,SKZUG,Else,R7,a person is fixing a light in the refrigerator.
+3622,SKZUG,R3,Else,person is cooking on a stove.
+3623,SKZUG,R7,R7,a person is fixing the light in the refrigerator.
+3624,SKZUG,R5,R7,the person closes the refrigerator door when they are done.
+3625,LFPWI,R7,R7,person begins undressing.
+3626,LFPWI,R7,R7,a person is undressing in front of a sink.
+3627,LFPWI,R7,R7,a person opens a door.
+3628,LFPWI,R5,R7,person open the door.
+3629,LFPWI,R7,R7,the person opens the bathroom door.
+3630,LFPWI,R7,R7,a person is opening a door.
+3631,WWL0K,R5,R7,person throw the blanket down on the floor.
+3632,WWL0K,R5,R7,person throws the blanket on the floor.
+3633,WWL0K,Else,R7,person looking at a book.
+3634,WWL0K,R7,R7,person throws the blanket off the stairs.
+3635,10M0F,R3,R5,a person throwing a book.
+3636,10M0F,R5,R5,person sneezing into a camera.
+3637,ZFT06,Else,Else,a person is laughing in front of the refrigerator.
+3638,ZFT06,Else,Else,person opens the door.
+3639,ZFT06,Else,Else,person takes a glass out from the refrigerator.
+3640,APLZS,R5,R5,person closes the box back up.
+3641,APLZS,R5,R5,the person opens a box.
+3642,9O0NP,R5,R3,a person throws a book into a box.
+3643,9O0NP,R7,R7,a person looks through a book.
+3644,9O0NP,R7,R7,a person looks at a book.
+3645,9O0NP,R7,R7,a person in a kitchen reads from a book.
+3646,BPT87,R7,R7,a person runs up some stairs.
+3647,BPT87,R3,Else,the person takes a towel.
+3648,BPT87,R7,R7,a person runs up.
+3649,BPT87,R5,R5,a person laughs as they walk down the stairs.
+3650,BPT87,R3,R7,the person laughs.
+3651,GL7E6,Else,R3,person they take the medicine.
+3652,GL7E6,R3,R3,person takes some medicine.
+3653,GL7E6,R7,R5,a person awakens in their living room sneezing.
+3654,GL7E6,R5,R3,person they open a bag.
+3655,P4SB9,R7,R5,person start eating some food from the stove.
+3656,P4SB9,R7,R7,person puts the broom up against a wall.
+3657,P4SB9,R3,R7,person puts the broom down.
+3658,WC5QK,R3,Else,person they sit in a chair.
+3659,Y79PC,R7,R7,person they undress.
+3660,Y79PC,R7,Else,the person undressed out of their jacket.
+3661,Y79PC,R5,R5,person turn off the light.
+3662,08LOY,R7,R5,another person runs up the stairs.
+3663,VRXQX,R5,R3,a person is putting on clothes.
+3664,VRXQX,R5,R5,person drinking from a cup walking around.
+3665,C6N6Y,Else,R7,person eating an apple.
+3666,BO12I,R5,R5,another person is closing a refrigerator.
+3667,BO12I,R5,R7,a second person closes the door to the refrigerator.
+3668,120YL,R5,R5,person begins to eat the cookie.
+3669,120YL,R3,R3,the person opens the box.
+3670,120YL,R5,R7,person eats the cookie.
+3671,120YL,R7,R7,the person sits down in a chair.
+3672,120YL,R7,R7,person sitting at the table.
+3673,120YL,Else,R3,the person opens the box of cookies.
+3674,120YL,R7,R5,person sits down in a chair at the table.
+3675,120YL,Else,R5,person takes the plate to the table to eat.
+3676,MK16R,Else,Else,a person is smiling.
+3677,MK16R,Else,R3,person putting groceries away.
+3678,H032R,R7,R5,person throws a towel on the floor.
+3679,H032R,R7,R7,person sitting down on a pillow in the bed.
+3680,LUQWY,R3,R3,person they open the laptop.
+3681,KV6V8,Else,Else,person the girl closes her laptop.
+3682,07TCM,R3,R5,person starts putting on their shoes.
+3683,07TCM,R3,R3,person putting shoes.
+3684,07TCM,R7,R7,person dressing for the cold.
+3685,07TCM,R7,R5,person starts sneezing.
+3686,07TCM,R3,R5,person putting shoes on.
+3687,RFH6M,R7,R5,person puts a towel over the shoulder.
+3688,RFH6M,R5,R5,a person opens the refrigerator.
+3689,RFH6M,R7,R5,person closes the door.
+3690,RFH6M,Else,R5,"the person opens the refrigerator,removes food."
+3691,7IPW7,R7,R7,a person walks through the doorway.
+3692,7IPW7,R7,R7,person walks through the doorway into a room.
+3693,H0Q6V,R7,R7,person set up on the sofa take off shoes.
+3694,H0Q6V,R7,R7,person takes their shoes off.
+3695,CUHT0,R5,Else,person takes a picture of the couch with a camera.
+3696,CUHT0,R7,R7,a person walks into the living holding a pillow.
+3697,CUHT0,Else,R5,person they put the camera on the baby's jumper.
+3698,FJYZH,Else,R7,person eat something they took out of their pocket.
+3699,FJYZH,R3,Else,person eat a small snack they got from their pocket.
+3700,FJYZH,R5,R7,person put the book down on a chair.
+3701,FJYZH,R3,R3,person standing near a closet holding a homework book.
+3702,FJYZH,R7,R7,person they put the book down on a chair.
+3703,M18XP,R7,R7,a person opens a door.
+3704,M18XP,R7,R5,person they close the door.
+3705,ZC59Y,R7,R7,a person is opening a book.
+3706,FSOFF,R7,R7,another person walks by the takes off their shoes.
+3707,FSOFF,R7,R7,person proceeds to take their shoes off.
+3708,4KK20,R3,Else,person throwing a box down.
+3709,4KK20,Else,Else,person talking on their phone.
+3710,4KK20,Else,Else,person opening a box.
+3711,4KK20,Else,Else,person throwing the box to the floor angrily.
