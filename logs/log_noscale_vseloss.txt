@@ -1,0 +1,777 @@
+Install seaborn to colorful visualization!
+Load yaml file from ymls/config.yml
+Load yaml file from ymls/config.yml
+========== GENERATE LABELS ========== 
+YANJUN BOT: SUCCESSFULLY BUILT ======> DESCRIPTION LOADER 
+Load json file from data/charades/preprocess/query_info/train_info_F1_L15_I3D.json
+Load yaml file from ymls/config.yml
+========== GENERATE LABELS ========== 
+YANJUN BOT: SUCCESSFULLY BUILT ======> DESCRIPTION LOADER 
+Load json file from data/charades/preprocess/query_info/test_info_F1_L15_I3D.json
+Initializing CLASS 
+{
+  "evaluation": {
+    "evaluate_after": -1,
+    "every_eval": 1,
+    "print_every": 100
+  },
+  "logging": {
+    "print_level": "DEBUG",
+    "write_level": "INFO"
+  },
+  "misc": {
+    "dataset": "charades",
+    "debug": false,
+    "exp_prefix": "charades/tgn_lgi/LGI",
+    "method_type": "tgn_lgi",
+    "num_workers": 4,
+    "print_every": 100,
+    "result_dir": "results/charades/tgn_lgi/LGI",
+    "tensorboard_dir": "tensorboard/charades/tgn_lgi/LGI",
+    "vis_every": 1
+  },
+  "model": {
+    "checkpoint_path": "",
+    "dqa_lambda": 0.3,
+    "dqa_weight": 1.0,
+    "glove_path": "",
+    "grounding_att_cand_dim": 512,
+    "grounding_att_drop_prob": 0.0,
+    "grounding_att_hdim": 256,
+    "grounding_att_key_dim": 512,
+    "grounding_hdim": 512,
+    "grounding_idim": 512,
+    "lgi_fusion_method": "mul",
+    "lgi_global_nl_drop_prob": 0.0,
+    "lgi_global_nl_idim": 512,
+    "lgi_global_nl_nheads": 1,
+    "lgi_global_nl_odim": 512,
+    "lgi_global_nl_use_bias": true,
+    "lgi_global_nl_use_local_mask": false,
+    "lgi_global_num_nl_block": 1,
+    "lgi_global_satt_att_cand_dim": 512,
+    "lgi_global_satt_att_edim": -1,
+    "lgi_global_satt_att_hdim": 256,
+    "lgi_global_satt_att_n": 1,
+    "lgi_global_satt_att_use_embedding": false,
+    "lgi_global_type": "nl",
+    "lgi_hp_hdim": 512,
+    "lgi_hp_idim_1": 512,
+    "lgi_hp_idim_2": 512,
+    "lgi_local_do_downsample": false,
+    "lgi_local_num_res_blocks": 1,
+    "lgi_local_res_block_1d_hdim": 256,
+    "lgi_local_res_block_1d_idim": 512,
+    "lgi_local_res_block_1d_ksize": 15,
+    "lgi_local_res_block_1d_odim": 512,
+    "lgi_local_type": "res_block",
+    "loc_word_emb_vocab_size": 1140,
+    "model_type": "LGI",
+    "num_semantic_entity": 3,
+    "query_enc_emb_idim": 1140,
+    "query_enc_emb_odim": 300,
+    "query_enc_rnn_bidirectional": true,
+    "query_enc_rnn_dropout": 0.5,
+    "query_enc_rnn_hdim": 256,
+    "query_enc_rnn_idim": 300,
+    "query_enc_rnn_nlayer": 2,
+    "query_enc_rnn_type": "LSTM",
+    "resume": false,
+    "sqan_att_cand_dim": 512,
+    "sqan_att_drop_prob": 0.0,
+    "sqan_att_hdim": 256,
+    "sqan_att_key_dim": 512,
+    "sqan_qdim": 512,
+    "tag_weight": 1.0,
+    "use_distinct_query_attention_loss": true,
+    "use_gpu": true,
+    "use_temporal_attention_guidance_loss": true,
+    "use_video_encoder": false,
+    "video_enc_pemb_idim": 128,
+    "video_enc_pemb_odim": 512,
+    "video_enc_use_position": true,
+    "video_enc_vemb_idim": 1024,
+    "video_enc_vemb_odim": 512,
+    "dataset": "charades"
+  },
+  "optimize": {
+    "decay_factor": 0.5,
+    "decay_step": -1,
+    "init_lr": 0.0004,
+    "num_step": 500,
+    "optimizer_type": "Adam",
+    "scheduler_type": ""
+  },
+  "test_loader": {
+    "batch_size": 100,
+    "data_dir": "data/charades",
+    "dataset": "charades",
+    "feature_type": "I3D",
+    "in_memory": true,
+    "max_length": 15,
+    "num_segment": 128,
+    "split": "test",
+    "video_feature_path": "data/charades/i3d_finetuned/{}.npy",
+    "word_frequency_threshold": 1
+  },
+  "train_loader": {
+    "batch_size": 100,
+    "data_dir": "data/charades",
+    "dataset": "charades",
+    "feature_type": "I3D",
+    "in_memory": true,
+    "max_length": 15,
+    "num_segment": 128,
+    "split": "train",
+    "video_feature_path": "data/charades/i3d_finetuned/{}.npy",
+    "word_frequency_threshold": 1
+  }
+}
+QuerySequenceEncoder -  query_enc_
+Attention -  sqan_
+Local-Global Video-Text Interactions module -  
+Hadamard Product -  lgi_
+Attentive Poolig -  lgi_global_satt_
+Non-Local Block -  lgi_global_
+Attention-based Location Regressor -  
+Attentive Poolig -  grounding_
+Temporal Attention Guidance Loss -  
+Distinct Query Attention Loss -  
+===> We train [video_enc|query_enc|vti_fn|ta_reg_fn|criterion|sqan]
+Install seaborn to colorful visualization!
+Install seaborn to colorful visualization!
+Load yaml file from ymls/config.yml
+Load yaml file from ymls/config.yml
+========== GENERATE LABELS ========== 
+YANJUN BOT: SUCCESSFULLY BUILT ======> DESCRIPTION LOADER 
+Load json file from data/charades/preprocess/query_info/train_info_F1_L15_I3D.json
+Load yaml file from ymls/config.yml
+========== GENERATE LABELS ========== 
+YANJUN BOT: SUCCESSFULLY BUILT ======> DESCRIPTION LOADER 
+Load json file from data/charades/preprocess/query_info/test_info_F1_L15_I3D.json
+Initializing CLASS 
+{
+  "evaluation": {
+    "evaluate_after": -1,
+    "every_eval": 1,
+    "print_every": 100
+  },
+  "logging": {
+    "print_level": "DEBUG",
+    "write_level": "INFO"
+  },
+  "misc": {
+    "dataset": "charades",
+    "debug": false,
+    "exp_prefix": "charades/tgn_lgi/LGI",
+    "method_type": "tgn_lgi",
+    "num_workers": 4,
+    "print_every": 100,
+    "result_dir": "results/charades/tgn_lgi/LGI",
+    "tensorboard_dir": "tensorboard/charades/tgn_lgi/LGI",
+    "vis_every": 1
+  },
+  "model": {
+    "checkpoint_path": "",
+    "dqa_lambda": 0.3,
+    "dqa_weight": 1.0,
+    "glove_path": "",
+    "grounding_att_cand_dim": 512,
+    "grounding_att_drop_prob": 0.0,
+    "grounding_att_hdim": 256,
+    "grounding_att_key_dim": 512,
+    "grounding_hdim": 512,
+    "grounding_idim": 512,
+    "lgi_fusion_method": "mul",
+    "lgi_global_nl_drop_prob": 0.0,
+    "lgi_global_nl_idim": 512,
+    "lgi_global_nl_nheads": 1,
+    "lgi_global_nl_odim": 512,
+    "lgi_global_nl_use_bias": true,
+    "lgi_global_nl_use_local_mask": false,
+    "lgi_global_num_nl_block": 1,
+    "lgi_global_satt_att_cand_dim": 512,
+    "lgi_global_satt_att_edim": -1,
+    "lgi_global_satt_att_hdim": 256,
+    "lgi_global_satt_att_n": 1,
+    "lgi_global_satt_att_use_embedding": false,
+    "lgi_global_type": "nl",
+    "lgi_hp_hdim": 512,
+    "lgi_hp_idim_1": 512,
+    "lgi_hp_idim_2": 512,
+    "lgi_local_do_downsample": false,
+    "lgi_local_num_res_blocks": 1,
+    "lgi_local_res_block_1d_hdim": 256,
+    "lgi_local_res_block_1d_idim": 512,
+    "lgi_local_res_block_1d_ksize": 15,
+    "lgi_local_res_block_1d_odim": 512,
+    "lgi_local_type": "res_block",
+    "loc_word_emb_vocab_size": 1140,
+    "model_type": "LGI",
+    "num_semantic_entity": 3,
+    "query_enc_emb_idim": 1140,
+    "query_enc_emb_odim": 300,
+    "query_enc_rnn_bidirectional": true,
+    "query_enc_rnn_dropout": 0.5,
+    "query_enc_rnn_hdim": 256,
+    "query_enc_rnn_idim": 300,
+    "query_enc_rnn_nlayer": 2,
+    "query_enc_rnn_type": "LSTM",
+    "resume": false,
+    "sqan_att_cand_dim": 512,
+    "sqan_att_drop_prob": 0.0,
+    "sqan_att_hdim": 256,
+    "sqan_att_key_dim": 512,
+    "sqan_qdim": 512,
+    "tag_weight": 1.0,
+    "use_distinct_query_attention_loss": true,
+    "use_gpu": true,
+    "use_temporal_attention_guidance_loss": true,
+    "use_video_encoder": false,
+    "video_enc_pemb_idim": 128,
+    "video_enc_pemb_odim": 512,
+    "video_enc_use_position": true,
+    "video_enc_vemb_idim": 1024,
+    "video_enc_vemb_odim": 512,
+    "dataset": "charades"
+  },
+  "optimize": {
+    "decay_factor": 0.5,
+    "decay_step": -1,
+    "init_lr": 0.0004,
+    "num_step": 500,
+    "optimizer_type": "Adam",
+    "scheduler_type": ""
+  },
+  "test_loader": {
+    "batch_size": 100,
+    "data_dir": "data/charades",
+    "dataset": "charades",
+    "feature_type": "I3D",
+    "in_memory": true,
+    "max_length": 15,
+    "num_segment": 128,
+    "split": "test",
+    "video_feature_path": "data/charades/i3d_finetuned/{}.npy",
+    "word_frequency_threshold": 1
+  },
+  "train_loader": {
+    "batch_size": 100,
+    "data_dir": "data/charades",
+    "dataset": "charades",
+    "feature_type": "I3D",
+    "in_memory": true,
+    "max_length": 15,
+    "num_segment": 128,
+    "split": "train",
+    "video_feature_path": "data/charades/i3d_finetuned/{}.npy",
+    "word_frequency_threshold": 1
+  }
+}
+QuerySequenceEncoder -  query_enc_
+Attention -  sqan_
+Local-Global Video-Text Interactions module -  
+Hadamard Product -  lgi_
+Attentive Poolig -  lgi_global_satt_
+Non-Local Block -  lgi_global_
+Attention-based Location Regressor -  
+Attentive Poolig -  grounding_
+Temporal Attention Guidance Loss -  
+Distinct Query Attention Loss -  
+===> We train [video_enc|query_enc|vti_fn|ta_reg_fn|criterion|sqan]
+Create directory: results/charades/tgn_lgi/LGI_2020-07-20/checkpoints
+Create directory: results/charades/tgn_lgi/LGI_2020-07-20/status
+Create directory: results/charades/tgn_lgi/LGI_2020-07-20/qualitative
+=====> # of iteration per one epoch: 193
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 1 epoch 192 iter, TOTAL LOSS = 155.3929, VSE LOSS = 148.4301, NLL LOSS = 2.4223
+Create directory: results/charades/tgn_lgi/LGI_2020-07-20/predictions/Train
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Train/epoch001.json
+pred: [[0.0188 0.261 ]]	gt: [0.3142 0.7959]	tIoU: 0.0000
+Create directory: results/charades/tgn_lgi/LGI_2020-07-20/predictions/Valid
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Valid/epoch001.json
+pred: [[0.0154 0.2997]]	gt: [0.1094 0.4011]	tIoU: 0.4936
+Iteration 0: New best score 0.296875
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_2020-07-20/checkpoints/epoch001.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_2020-07-20/checkpoints/best.pkl
+Saving Model with Best Scores:  0.296875
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Install seaborn to colorful visualization!
+Load yaml file from ymls/config.yml
+Load yaml file from ymls/config.yml
+========== GENERATE LABELS ========== 
+YANJUN BOT: SUCCESSFULLY BUILT ======> DESCRIPTION LOADER 
+Load json file from data/charades/preprocess/query_info/train_info_F1_L15_I3D.json
+Load yaml file from ymls/config.yml
+========== GENERATE LABELS ========== 
+YANJUN BOT: SUCCESSFULLY BUILT ======> DESCRIPTION LOADER 
+Load json file from data/charades/preprocess/query_info/test_info_F1_L15_I3D.json
+Initializing CLASS 
+{
+  "evaluation": {
+    "evaluate_after": -1,
+    "every_eval": 1,
+    "print_every": 100
+  },
+  "logging": {
+    "print_level": "DEBUG",
+    "write_level": "INFO"
+  },
+  "misc": {
+    "dataset": "charades",
+    "debug": false,
+    "exp_prefix": "charades/tgn_lgi/LGI",
+    "method_type": "tgn_lgi",
+    "num_workers": 4,
+    "print_every": 100,
+    "result_dir": "results/charades/tgn_lgi/LGI",
+    "tensorboard_dir": "tensorboard/charades/tgn_lgi/LGI",
+    "vis_every": 1
+  },
+  "model": {
+    "checkpoint_path": "",
+    "dqa_lambda": 0.3,
+    "dqa_weight": 1.0,
+    "glove_path": "",
+    "grounding_att_cand_dim": 512,
+    "grounding_att_drop_prob": 0.0,
+    "grounding_att_hdim": 256,
+    "grounding_att_key_dim": 512,
+    "grounding_hdim": 512,
+    "grounding_idim": 512,
+    "lgi_fusion_method": "mul",
+    "lgi_global_nl_drop_prob": 0.0,
+    "lgi_global_nl_idim": 512,
+    "lgi_global_nl_nheads": 1,
+    "lgi_global_nl_odim": 512,
+    "lgi_global_nl_use_bias": true,
+    "lgi_global_nl_use_local_mask": false,
+    "lgi_global_num_nl_block": 1,
+    "lgi_global_satt_att_cand_dim": 512,
+    "lgi_global_satt_att_edim": -1,
+    "lgi_global_satt_att_hdim": 256,
+    "lgi_global_satt_att_n": 1,
+    "lgi_global_satt_att_use_embedding": false,
+    "lgi_global_type": "nl",
+    "lgi_hp_hdim": 512,
+    "lgi_hp_idim_1": 512,
+    "lgi_hp_idim_2": 512,
+    "lgi_local_do_downsample": false,
+    "lgi_local_num_res_blocks": 1,
+    "lgi_local_res_block_1d_hdim": 256,
+    "lgi_local_res_block_1d_idim": 512,
+    "lgi_local_res_block_1d_ksize": 15,
+    "lgi_local_res_block_1d_odim": 512,
+    "lgi_local_type": "res_block",
+    "loc_word_emb_vocab_size": 1140,
+    "model_type": "LGI",
+    "num_semantic_entity": 3,
+    "query_enc_emb_idim": 1140,
+    "query_enc_emb_odim": 300,
+    "query_enc_rnn_bidirectional": true,
+    "query_enc_rnn_dropout": 0.5,
+    "query_enc_rnn_hdim": 256,
+    "query_enc_rnn_idim": 300,
+    "query_enc_rnn_nlayer": 2,
+    "query_enc_rnn_type": "LSTM",
+    "resume": false,
+    "sqan_att_cand_dim": 512,
+    "sqan_att_drop_prob": 0.0,
+    "sqan_att_hdim": 256,
+    "sqan_att_key_dim": 512,
+    "sqan_qdim": 512,
+    "tag_weight": 1.0,
+    "use_distinct_query_attention_loss": true,
+    "use_gpu": true,
+    "use_temporal_attention_guidance_loss": true,
+    "use_video_encoder": false,
+    "video_enc_pemb_idim": 128,
+    "video_enc_pemb_odim": 512,
+    "video_enc_use_position": true,
+    "video_enc_vemb_idim": 1024,
+    "video_enc_vemb_odim": 512,
+    "dataset": "charades"
+  },
+  "optimize": {
+    "decay_factor": 0.5,
+    "decay_step": -1,
+    "init_lr": 0.0004,
+    "num_step": 500,
+    "optimizer_type": "Adam",
+    "scheduler_type": ""
+  },
+  "test_loader": {
+    "batch_size": 100,
+    "data_dir": "data/charades",
+    "dataset": "charades",
+    "feature_type": "I3D",
+    "in_memory": true,
+    "max_length": 15,
+    "num_segment": 128,
+    "split": "test",
+    "video_feature_path": "data/charades/i3d_finetuned/{}.npy",
+    "word_frequency_threshold": 1
+  },
+  "train_loader": {
+    "batch_size": 100,
+    "data_dir": "data/charades",
+    "dataset": "charades",
+    "feature_type": "I3D",
+    "in_memory": true,
+    "max_length": 15,
+    "num_segment": 128,
+    "split": "train",
+    "video_feature_path": "data/charades/i3d_finetuned/{}.npy",
+    "word_frequency_threshold": 1
+  }
+}
+QuerySequenceEncoder -  query_enc_
+Attention -  sqan_
+Local-Global Video-Text Interactions module -  
+Hadamard Product -  lgi_
+Attentive Poolig -  lgi_global_satt_
+Non-Local Block -  lgi_global_
+Attention-based Location Regressor -  
+Attentive Poolig -  grounding_
+Temporal Attention Guidance Loss -  
+Distinct Query Attention Loss -  
+===> We train [video_enc|query_enc|vti_fn|ta_reg_fn|criterion|sqan]
+=====> # of iteration per one epoch: 193
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 1 epoch 192 iter, TOTAL LOSS = 71.4454, VSE LOSS = 63.8906, NLL LOSS = 2.4177
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Train/epoch001.json
+pred: [[0. 0.]]	gt: [0.0419 0.2645]	tIoU: 0.0000
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Valid/epoch001.json
+pred: [[0. 0.]]	gt: [0.643  0.8386]	tIoU: 0.0000
+Iteration 0: New best score 0.000000
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_2020-07-20/checkpoints/epoch001.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_2020-07-20/checkpoints/best.pkl
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 2 epoch 192 iter, TOTAL LOSS = 37.7992, VSE LOSS = 30.0461, NLL LOSS = 2.9309
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Train/epoch002.json
+pred: [[0. 0.]]	gt: [0.631  0.8405]	tIoU: 0.0000
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Valid/epoch002.json
+pred: [[0. 0.]]	gt: [0.7486 1.0857]	tIoU: 0.0000
+Iteration 0: Current score 0.000000
+Iteration 0: Current best score 0.000000
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 3 epoch 192 iter, TOTAL LOSS = 36.2493, VSE LOSS = 29.0866, NLL LOSS = 2.5449
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Train/epoch003.json
+pred: [[0. 0.]]	gt: [0.7126 0.9335]	tIoU: 0.0000
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Valid/epoch003.json
+pred: [[0. 0.]]	gt: [0.4174 0.7409]	tIoU: 0.0000
+Iteration 0: Current score 0.000000
+Iteration 0: Current best score 0.000000
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 4 epoch 192 iter, TOTAL LOSS = 32.1523, VSE LOSS = 24.9814, NLL LOSS = 2.2300
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Train/epoch004.json
+pred: [[0. 0.]]	gt: [0.4764 0.7614]	tIoU: 0.0000
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Valid/epoch004.json
+pred: [[0. 0.]]	gt: [0.     0.1172]	tIoU: 0.0000
+Iteration 0: Current score 0.000000
+Iteration 0: Current best score 0.000000
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 5 epoch 192 iter, TOTAL LOSS = 25.6926, VSE LOSS = 18.6980, NLL LOSS = 2.3616
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Train/epoch005.json
+pred: [[0. 0.]]	gt: [0.     0.4671]	tIoU: 0.0000
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Valid/epoch005.json
+pred: [[0. 0.]]	gt: [0.     0.2752]	tIoU: 0.0000
+Iteration 0: Current score 0.000000
+Iteration 0: Current best score 0.000000
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 6 epoch 192 iter, TOTAL LOSS = 17.2377, VSE LOSS = 10.9800, NLL LOSS = 2.2449
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Train/epoch006.json
+pred: [[0. 0.]]	gt: [0.6366 0.9354]	tIoU: 0.0000
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Valid/epoch006.json
+pred: [[0. 0.]]	gt: [0.3979 0.6231]	tIoU: 0.0000
+Iteration 0: Current score 0.000000
+Iteration 0: Current best score 0.000000
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 7 epoch 192 iter, TOTAL LOSS = 700.5074, VSE LOSS = 693.7831, NLL LOSS = 2.5525
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Train/epoch007.json
+pred: [[0.443  0.6919]]	gt: [0.6082 0.831 ]	tIoU: 0.2158
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Valid/epoch007.json
+pred: [[0.2254 0.5372]]	gt: [0.8714 1.0127]	tIoU: 0.0000
+Iteration 0: New best score 0.156250
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_2020-07-20/checkpoints/epoch007.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_2020-07-20/checkpoints/best.pkl
+Saving Model with Best Scores:  0.15625
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 8 epoch 192 iter, TOTAL LOSS = 16.2912, VSE LOSS = 9.8230, NLL LOSS = 2.3592
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Train/epoch008.json
+pred: [[0.2735 0.6106]]	gt: [0.3047 0.5229]	tIoU: 0.6473
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Valid/epoch008.json
+pred: [[0.1334 0.4134]]	gt: [0.271  0.5195]	tIoU: 0.3688
+Iteration 0: New best score 0.375000
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_2020-07-20/checkpoints/epoch008.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_2020-07-20/checkpoints/best.pkl
+Saving Model with Best Scores:  0.375
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 9 epoch 192 iter, TOTAL LOSS = 10.6619, VSE LOSS = 4.1799, NLL LOSS = 2.1598
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Train/epoch009.json
+pred: [[0.2452 0.595 ]]	gt: [0.1289 0.4331]	tIoU: 0.4032
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Valid/epoch009.json
+pred: [[0.1201 0.4387]]	gt: [0.1771 0.4693]	tIoU: 0.7492
+Iteration 0: New best score 0.531250
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_2020-07-20/checkpoints/epoch009.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_2020-07-20/checkpoints/best.pkl
+Saving Model with Best Scores:  0.53125
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 10 epoch 192 iter, TOTAL LOSS = 13.2805, VSE LOSS = 6.9941, NLL LOSS = 2.3848
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Train/epoch010.json
+pred: [[0.4826 0.7867]]	gt: [0.5608 0.9125]	tIoU: 0.5254
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Valid/epoch010.json
+pred: [[0.4628 0.8618]]	gt: [0.1003 0.5724]	tIoU: 0.1440
+Iteration 0: Current score 0.531250
+Iteration 0: Current best score 0.531250
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 11 epoch 192 iter, TOTAL LOSS = 9.8147, VSE LOSS = 3.5054, NLL LOSS = 2.3807
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Train/epoch011.json
+pred: [[0.0051 0.2566]]	gt: [0.0584 0.1905]	tIoU: 0.5256
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Valid/epoch011.json
+pred: [[0.0731 0.3123]]	gt: [0.113  0.2285]	tIoU: 0.4824
+Iteration 0: New best score 0.578125
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_2020-07-20/checkpoints/epoch011.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_2020-07-20/checkpoints/best.pkl
+Saving Model with Best Scores:  0.578125
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 12 epoch 192 iter, TOTAL LOSS = 10.1300, VSE LOSS = 3.8066, NLL LOSS = 2.2729
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Train/epoch012.json
+pred: [[0.4676 0.7508]]	gt: [0.4616 0.7276]	tIoU: 0.8994
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Valid/epoch012.json
+pred: [[0.2735 0.5099]]	gt: [0.3162 0.6211]	tIoU: 0.5572
+Iteration 0: Current score 0.515625
+Iteration 0: Current best score 0.578125
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 13 epoch 192 iter, TOTAL LOSS = 10.0800, VSE LOSS = 3.8291, NLL LOSS = 2.2166
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Train/epoch013.json
+pred: [[0.5254 0.8105]]	gt: [0.6303 1.0175]	tIoU: 0.3661
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Valid/epoch013.json
+pred: [[0.5182 0.7104]]	gt: [0.3979 0.6231]	tIoU: 0.3355
+Iteration 0: New best score 0.656250
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_2020-07-20/checkpoints/epoch013.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_2020-07-20/checkpoints/best.pkl
+Saving Model with Best Scores:  0.65625
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 14 epoch 192 iter, TOTAL LOSS = 11.4088, VSE LOSS = 5.0118, NLL LOSS = 2.2734
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Train/epoch014.json
+pred: [[0.1547 0.4593]]	gt: [0.0557 0.4423]	tIoU: 0.7127
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Valid/epoch014.json
+pred: [[0.1823 0.4906]]	gt: [0.1067 0.4948]	tIoU: 0.7944
+Iteration 0: New best score 0.687500
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_2020-07-20/checkpoints/epoch014.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_2020-07-20/checkpoints/best.pkl
+Saving Model with Best Scores:  0.6875
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 15 epoch 192 iter, TOTAL LOSS = 8.3846, VSE LOSS = 2.4208, NLL LOSS = 2.2054
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Train/epoch015.json
+pred: [[0.     0.1535]]	gt: [0.     0.1509]	tIoU: 0.9826
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Valid/epoch015.json
+pred: [[0.068  0.3056]]	gt: [0.113  0.2285]	tIoU: 0.4857
+Iteration 0: Current score 0.625000
+Iteration 0: Current best score 0.687500
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 16 epoch 192 iter, TOTAL LOSS = 11.0960, VSE LOSS = 4.9554, NLL LOSS = 2.3024
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Train/epoch016.json
+pred: [[0.584 0.834]]	gt: [0.532  0.8218]	tIoU: 0.7872
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Valid/epoch016.json
+pred: [[0.0316 0.2711]]	gt: [0.     0.2752]	tIoU: 0.8702
+Iteration 0: Current score 0.609375
+Iteration 0: Current best score 0.687500
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 17 epoch 192 iter, TOTAL LOSS = 8.9929, VSE LOSS = 2.8491, NLL LOSS = 2.2724
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Train/epoch017.json
+pred: [[0.     0.3458]]	gt: [0.     0.4161]	tIoU: 0.8311
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Valid/epoch017.json
+pred: [[0.     0.1894]]	gt: [0.     0.2663]	tIoU: 0.7113
+Iteration 0: Current score 0.656250
+Iteration 0: Current best score 0.687500
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 18 epoch 192 iter, TOTAL LOSS = 8.8049, VSE LOSS = 3.0665, NLL LOSS = 2.0970
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Train/epoch018.json
+pred: [[0.2931 0.5893]]	gt: [0.3671 0.6512]	tIoU: 0.6202
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Valid/epoch018.json
+pred: [[0.2643 0.4741]]	gt: [0.7956 1.0434]	tIoU: 0.0000
+Iteration 0: Current score 0.609375
+Iteration 0: Current best score 0.687500
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 19 epoch 192 iter, TOTAL LOSS = 7.8011, VSE LOSS = 1.9623, NLL LOSS = 2.0558
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Train/epoch019.json
+pred: [[0.0892 0.4163]]	gt: [0.     0.2546]	tIoU: 0.3973
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Valid/epoch019.json
+pred: [[0.5029 0.8067]]	gt: [0.5662 1.0204]	tIoU: 0.4647
+Iteration 0: New best score 0.718750
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_2020-07-20/checkpoints/epoch019.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_2020-07-20/checkpoints/best.pkl
+Saving Model with Best Scores:  0.71875
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 20 epoch 192 iter, TOTAL LOSS = 8.4627, VSE LOSS = 2.6165, NLL LOSS = 2.1425
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Train/epoch020.json
+pred: [[0.1218 0.4869]]	gt: [0.1301 0.5509]	tIoU: 0.8316
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Valid/epoch020.json
+pred: [[0.2571 0.5986]]	gt: [0.3086 0.64  ]	tIoU: 0.7575
+Iteration 0: Current score 0.609375
+Iteration 0: Current best score 0.718750
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 21 epoch 192 iter, TOTAL LOSS = 8.2553, VSE LOSS = 2.3618, NLL LOSS = 2.2479
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Train/epoch021.json
+pred: [[0.5477 0.9291]]	gt: [0.4532 0.8395]	tIoU: 0.6131
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Valid/epoch021.json
+pred: [[0.7484 0.944 ]]	gt: [0.8243 1.0127]	tIoU: 0.4527
+Iteration 0: Current score 0.546875
+Iteration 0: Current best score 0.718750
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 22 epoch 192 iter, TOTAL LOSS = 9.2473, VSE LOSS = 3.3871, NLL LOSS = 2.0638
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Train/epoch022.json
+pred: [[0.     0.2072]]	gt: [0.     0.1577]	tIoU: 0.7608
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Valid/epoch022.json
+pred: [[0.     0.2748]]	gt: [0.     0.2752]	tIoU: 0.9986
+Iteration 0: Current score 0.578125
+Iteration 0: Current best score 0.718750
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 23 epoch 192 iter, TOTAL LOSS = 8.1525, VSE LOSS = 1.9139, NLL LOSS = 2.3035
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Train/epoch023.json
+pred: [[0.0025 0.1981]]	gt: [0.042  0.2487]	tIoU: 0.6342
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Valid/epoch023.json
+pred: [[0.6692 0.9504]]	gt: [0.6832 1.0728]	tIoU: 0.6618
+Iteration 0: Current score 0.546875
+Iteration 0: Current best score 0.718750
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 24 epoch 192 iter, TOTAL LOSS = 9.3025, VSE LOSS = 3.1022, NLL LOSS = 2.2173
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Train/epoch024.json
+pred: [[0.     0.2744]]	gt: [0.     0.1791]	tIoU: 0.6526
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Valid/epoch024.json
+pred: [[0.0334 0.4006]]	gt: [0.1771 0.4693]	tIoU: 0.5128
+Iteration 0: Current score 0.578125
+Iteration 0: Current best score 0.718750
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 25 epoch 192 iter, TOTAL LOSS = 8.6840, VSE LOSS = 2.8128, NLL LOSS = 2.0155
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Train/epoch025.json
+pred: [[0.5936 0.9052]]	gt: [0.5458 0.9372]	tIoU: 0.7960
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Valid/epoch025.json
+pred: [[0.4665 0.8796]]	gt: [0.2433 0.6008]	tIoU: 0.2110
+Iteration 0: Current score 0.640625
+Iteration 0: Current best score 0.718750
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 26 epoch 192 iter, TOTAL LOSS = 9.7611, VSE LOSS = 3.6617, NLL LOSS = 2.3230
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Train/epoch026.json
+pred: [[0.2225 0.48  ]]	gt: [0.1811 0.4851]	tIoU: 0.8469
+Write json file in results/charades/tgn_lgi/LGI_2020-07-20/predictions/Valid/epoch026.json
+pred: [[0.768  0.9743]]	gt: [0.8243 1.0127]	tIoU: 0.6130
+Iteration 0: Current score 0.609375
+Iteration 0: Current best score 0.718750
+Shuffling batch with 193 iterations 

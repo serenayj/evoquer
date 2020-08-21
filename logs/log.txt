@@ -1,0 +1,495 @@
+Install seaborn to colorful visualization!
+Load yaml file from ymls/config.yml
+Load yaml file from ymls/config.yml
+========== GENERATE LABELS ========== 
+YANJUN BOT: SUCCESSFULLY BUILT ======> DESCRIPTION LOADER 
+Load json file from data/charades/preprocess/query_info/train_info_F1_L15_I3D.json
+Load yaml file from ymls/config.yml
+========== GENERATE LABELS ========== 
+YANJUN BOT: SUCCESSFULLY BUILT ======> DESCRIPTION LOADER 
+Load json file from data/charades/preprocess/query_info/test_info_F1_L15_I3D.json
+Initializing CLASS 
+{
+  "evaluation": {
+    "evaluate_after": -1,
+    "every_eval": 1,
+    "print_every": 100
+  },
+  "logging": {
+    "print_level": "DEBUG",
+    "write_level": "INFO"
+  },
+  "misc": {
+    "dataset": "charades",
+    "debug": false,
+    "exp_prefix": "charades/tgn_lgi/LGI",
+    "method_type": "tgn_lgi",
+    "num_workers": 4,
+    "print_every": 100,
+    "result_dir": "results/charades/tgn_lgi/LGI",
+    "tensorboard_dir": "tensorboard/charades/tgn_lgi/LGI",
+    "vis_every": 1
+  },
+  "model": {
+    "checkpoint_path": "",
+    "dqa_lambda": 0.3,
+    "dqa_weight": 1.0,
+    "glove_path": "",
+    "grounding_att_cand_dim": 512,
+    "grounding_att_drop_prob": 0.0,
+    "grounding_att_hdim": 256,
+    "grounding_att_key_dim": 512,
+    "grounding_hdim": 512,
+    "grounding_idim": 512,
+    "lgi_fusion_method": "mul",
+    "lgi_global_nl_drop_prob": 0.0,
+    "lgi_global_nl_idim": 512,
+    "lgi_global_nl_nheads": 1,
+    "lgi_global_nl_odim": 512,
+    "lgi_global_nl_use_bias": true,
+    "lgi_global_nl_use_local_mask": false,
+    "lgi_global_num_nl_block": 1,
+    "lgi_global_satt_att_cand_dim": 512,
+    "lgi_global_satt_att_edim": -1,
+    "lgi_global_satt_att_hdim": 256,
+    "lgi_global_satt_att_n": 1,
+    "lgi_global_satt_att_use_embedding": false,
+    "lgi_global_type": "nl",
+    "lgi_hp_hdim": 512,
+    "lgi_hp_idim_1": 512,
+    "lgi_hp_idim_2": 512,
+    "lgi_local_do_downsample": false,
+    "lgi_local_num_res_blocks": 1,
+    "lgi_local_res_block_1d_hdim": 256,
+    "lgi_local_res_block_1d_idim": 512,
+    "lgi_local_res_block_1d_ksize": 15,
+    "lgi_local_res_block_1d_odim": 512,
+    "lgi_local_type": "res_block",
+    "loc_word_emb_vocab_size": 1140,
+    "model_type": "LGI",
+    "num_semantic_entity": 3,
+    "query_enc_emb_idim": 1140,
+    "query_enc_emb_odim": 300,
+    "query_enc_rnn_bidirectional": true,
+    "query_enc_rnn_dropout": 0.5,
+    "query_enc_rnn_hdim": 256,
+    "query_enc_rnn_idim": 300,
+    "query_enc_rnn_nlayer": 2,
+    "query_enc_rnn_type": "LSTM",
+    "resume": false,
+    "sqan_att_cand_dim": 512,
+    "sqan_att_drop_prob": 0.0,
+    "sqan_att_hdim": 256,
+    "sqan_att_key_dim": 512,
+    "sqan_qdim": 512,
+    "tag_weight": 1.0,
+    "use_distinct_query_attention_loss": true,
+    "use_gpu": true,
+    "use_temporal_attention_guidance_loss": true,
+    "use_video_encoder": false,
+    "video_enc_pemb_idim": 128,
+    "video_enc_pemb_odim": 512,
+    "video_enc_use_position": true,
+    "video_enc_vemb_idim": 1024,
+    "video_enc_vemb_odim": 512,
+    "dataset": "charades"
+  },
+  "optimize": {
+    "decay_factor": 0.5,
+    "decay_step": -1,
+    "init_lr": 0.0004,
+    "num_step": 500,
+    "optimizer_type": "Adam",
+    "scheduler_type": ""
+  },
+  "test_loader": {
+    "batch_size": 100,
+    "data_dir": "data/charades",
+    "dataset": "charades",
+    "feature_type": "I3D",
+    "in_memory": true,
+    "max_length": 15,
+    "num_segment": 128,
+    "split": "test",
+    "video_feature_path": "data/charades/i3d_finetuned/{}.npy",
+    "word_frequency_threshold": 1
+  },
+  "train_loader": {
+    "batch_size": 100,
+    "data_dir": "data/charades",
+    "dataset": "charades",
+    "feature_type": "I3D",
+    "in_memory": true,
+    "max_length": 15,
+    "num_segment": 128,
+    "split": "train",
+    "video_feature_path": "data/charades/i3d_finetuned/{}.npy",
+    "word_frequency_threshold": 1
+  }
+}
+QuerySequenceEncoder -  query_enc_
+Attention -  sqan_
+Local-Global Video-Text Interactions module -  
+Hadamard Product -  lgi_
+Attentive Poolig -  lgi_global_satt_
+Non-Local Block -  lgi_global_
+Attention-based Location Regressor -  
+Attentive Poolig -  grounding_
+Temporal Attention Guidance Loss -  
+Distinct Query Attention Loss -  
+===> We train [video_enc|query_enc|vti_fn|ta_reg_fn|criterion|sqan]
+=====> # of iteration per one epoch: 193
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 1 epoch 192 iter, TOTAL LOSS = 7.4524, VSE LOSS = 0.4790, NLL LOSS = 2.4114
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch001.json
+pred: [[0.2445 0.5108]]	gt: [0.1792 0.5271]	tIoU: 0.7656
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch001.json
+pred: [[0.1797 0.4334]]	gt: [0.113  0.2285]	tIoU: 0.1523
+Iteration 0: New best score 0.234375
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI/checkpoints/epoch001.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI/checkpoints/best.pkl
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 2 epoch 192 iter, TOTAL LOSS = 7.5882, VSE LOSS = 0.4742, NLL LOSS = 2.4803
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch002.json
+pred: [[0.0181 0.2793]]	gt: [0.    0.192]	tIoU: 0.6227
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch002.json
+pred: [[0.     0.2726]]	gt: [0.     0.2752]	tIoU: 0.9907
+Iteration 0: New best score 0.312500
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI/checkpoints/epoch002.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI/checkpoints/best.pkl
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 3 epoch 192 iter, TOTAL LOSS = 7.0682, VSE LOSS = 0.4538, NLL LOSS = 2.1670
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch003.json
+pred: [[0.4447 0.6962]]	gt: [0.3682 0.8267]	tIoU: 0.5484
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch003.json
+pred: [[0.0139 0.2166]]	gt: [0.     0.1172]	tIoU: 0.4769
+Iteration 0: New best score 0.375000
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI/checkpoints/epoch003.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI/checkpoints/best.pkl
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 4 epoch 192 iter, TOTAL LOSS = 6.9646, VSE LOSS = 0.2297, NLL LOSS = 2.2846
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch004.json
+pred: [[0.0347 0.2137]]	gt: [0.     0.1572]	tIoU: 0.5733
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch004.json
+pred: [[0.5845 0.8695]]	gt: [0.8714 1.0127]	tIoU: 0.0000
+Iteration 0: Current score 0.375000
+Iteration 0: Current best score 0.375000
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 5 epoch 192 iter, TOTAL LOSS = 6.5300, VSE LOSS = 0.2325, NLL LOSS = 2.1952
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch005.json
+pred: [[0.     0.2977]]	gt: [0.     0.2941]	tIoU: 0.9880
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch005.json
+pred: [[0.1936 0.5145]]	gt: [0.3281 0.4972]	tIoU: 0.5267
+Iteration 0: New best score 0.453125
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI/checkpoints/epoch005.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI/checkpoints/best.pkl
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 6 epoch 192 iter, TOTAL LOSS = 6.4777, VSE LOSS = 0.1391, NLL LOSS = 1.9954
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch006.json
+pred: [[0.0239 0.2476]]	gt: [0.     0.1319]	tIoU: 0.4362
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch006.json
+pred: [[0.     0.2338]]	gt: [0.     0.2663]	tIoU: 0.8778
+Iteration 0: New best score 0.546875
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI/checkpoints/epoch006.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI/checkpoints/best.pkl
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 7 epoch 192 iter, TOTAL LOSS = 6.4564, VSE LOSS = 0.1298, NLL LOSS = 2.2588
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch007.json
+pred: [[0.0279 0.3201]]	gt: [0.0656 0.3339]	tIoU: 0.8314
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch007.json
+pred: [[0.1903 0.5045]]	gt: [0.     0.3654]	tIoU: 0.3471
+Iteration 0: Current score 0.421875
+Iteration 0: Current best score 0.546875
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 8 epoch 192 iter, TOTAL LOSS = 6.1636, VSE LOSS = 0.1095, NLL LOSS = 1.9172
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch008.json
+pred: [[0.0789 0.4232]]	gt: [0.     0.4236]	tIoU: 0.8128
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch008.json
+pred: [[0.1974 0.4497]]	gt: [0.036  0.3056]	tIoU: 0.2616
+Iteration 0: New best score 0.609375
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI/checkpoints/epoch008.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI/checkpoints/best.pkl
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 9 epoch 192 iter, TOTAL LOSS = 6.5748, VSE LOSS = 0.1526, NLL LOSS = 2.1523
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch009.json
+pred: [[0.5025 0.7553]]	gt: [0.5057 0.8001]	tIoU: 0.8387
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch009.json
+pred: [[0.6247 0.7883]]	gt: [0.8243 1.0127]	tIoU: 0.0000
+Iteration 0: Current score 0.468750
+Iteration 0: Current best score 0.609375
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 10 epoch 192 iter, TOTAL LOSS = 6.2765, VSE LOSS = 0.1087, NLL LOSS = 2.1306
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch010.json
+pred: [[0.3394 0.6443]]	gt: [0.3728 0.6162]	tIoU: 0.7986
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch010.json
+pred: [[0.2744 0.5824]]	gt: [0.6152 1.0037]	tIoU: 0.0000
+Iteration 0: Current score 0.515625
+Iteration 0: Current best score 0.609375
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 11 epoch 192 iter, TOTAL LOSS = 6.2920, VSE LOSS = 0.0848, NLL LOSS = 2.0542
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch011.json
+pred: [[0.6963 0.9322]]	gt: [0.6452 1.025 ]	tIoU: 0.6211
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch011.json
+pred: [[0.2878 0.5339]]	gt: [0.7956 1.0434]	tIoU: 0.0000
+Iteration 0: Current score 0.500000
+Iteration 0: Current best score 0.609375
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 12 epoch 192 iter, TOTAL LOSS = 6.4253, VSE LOSS = 0.1459, NLL LOSS = 2.0901
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch012.json
+pred: [[0.2822 0.5875]]	gt: [0.2303 0.6576]	tIoU: 0.7147
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch012.json
+pred: [[0.6514 0.857 ]]	gt: [0.6678 0.887 ]	tIoU: 0.8031
+Iteration 0: Current score 0.531250
+Iteration 0: Current best score 0.609375
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 13 epoch 192 iter, TOTAL LOSS = 6.1573, VSE LOSS = 0.1756, NLL LOSS = 2.0869
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch013.json
+pred: [[0.133  0.4217]]	gt: [0.0033 0.4964]	tIoU: 0.5854
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch013.json
+pred: [[0.7177 1.0517]]	gt: [0.7486 1.0857]	tIoU: 0.8238
+Iteration 0: Current score 0.484375
+Iteration 0: Current best score 0.609375
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 14 epoch 192 iter, TOTAL LOSS = 6.0317, VSE LOSS = 0.0812, NLL LOSS = 2.0104
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch014.json
+pred: [[0.2016 0.4847]]	gt: [0.     0.4609]	tIoU: 0.5350
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch014.json
+pred: [[0.4463 0.7447]]	gt: [0.643  0.8386]	tIoU: 0.2592
+Iteration 0: Current score 0.468750
+Iteration 0: Current best score 0.609375
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 15 epoch 192 iter, TOTAL LOSS = 6.2105, VSE LOSS = 0.0734, NLL LOSS = 2.1972
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch015.json
+pred: [[0.5518 0.8033]]	gt: [0.5632 0.8381]	tIoU: 0.8386
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch015.json
+pred: [[0.     0.1943]]	gt: [0.0093 0.1758]	tIoU: 0.8572
+Iteration 0: Current score 0.500000
+Iteration 0: Current best score 0.609375
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 16 epoch 192 iter, TOTAL LOSS = 5.9547, VSE LOSS = 0.0612, NLL LOSS = 1.8656
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch016.json
+pred: [[0.0428 0.3688]]	gt: [0.     0.1521]	tIoU: 0.2962
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch016.json
+pred: [[0.0294 0.3636]]	gt: [0.     0.3725]	tIoU: 0.8971
+Iteration 0: Current score 0.546875
+Iteration 0: Current best score 0.609375
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 17 epoch 192 iter, TOTAL LOSS = 5.7702, VSE LOSS = 0.0599, NLL LOSS = 1.8350
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch017.json
+pred: [[0.5945 0.9664]]	gt: [0.5634 0.8903]	tIoU: 0.7342
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch017.json
+pred: [[0.     0.2042]]	gt: [0.6678 0.887 ]	tIoU: 0.0000
+Iteration 0: Current score 0.515625
+Iteration 0: Current best score 0.609375
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 18 epoch 192 iter, TOTAL LOSS = 5.7739, VSE LOSS = 0.1247, NLL LOSS = 1.8848
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch018.json
+pred: [[0.1511 0.537 ]]	gt: [0.1273 0.3342]	tIoU: 0.4469
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch018.json
+pred: [[0.     0.2223]]	gt: [0.     0.2752]	tIoU: 0.8077
+Iteration 0: Current score 0.562500
+Iteration 0: Current best score 0.609375
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 19 epoch 192 iter, TOTAL LOSS = 5.9985, VSE LOSS = 0.0961, NLL LOSS = 1.7853
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch019.json
+pred: [[0.0582 0.2681]]	gt: [0.0399 0.2696]	tIoU: 0.9138
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch019.json
+pred: [[0.7582 0.9397]]	gt: [0.8243 1.0127]	tIoU: 0.4532
+Iteration 0: Current score 0.500000
+Iteration 0: Current best score 0.609375
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 20 epoch 192 iter, TOTAL LOSS = 5.7733, VSE LOSS = 0.0907, NLL LOSS = 1.7965
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch020.json
+pred: [[0.6526 1.0343]]	gt: [0.6331 1.0191]	tIoU: 0.9135
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch020.json
+pred: [[0.7602 0.8858]]	gt: [0.8714 1.0127]	tIoU: 0.0570
+Iteration 0: Current score 0.421875
+Iteration 0: Current best score 0.609375
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 21 epoch 192 iter, TOTAL LOSS = 5.7156, VSE LOSS = 0.1193, NLL LOSS = 1.6879
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch021.json
+pred: [[0.     0.2397]]	gt: [0.     0.2169]	tIoU: 0.9050
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch021.json
+pred: [[0.5951 0.9142]]	gt: [0.5401 0.7891]	tIoU: 0.5185
+Iteration 0: Current score 0.609375
+Iteration 0: Current best score 0.609375
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 22 epoch 192 iter, TOTAL LOSS = 5.3515, VSE LOSS = 0.0729, NLL LOSS = 1.5515
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch022.json
+pred: [[0.     0.1712]]	gt: [0.     0.1653]	tIoU: 0.9655
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch022.json
+pred: [[0.2169 0.4548]]	gt: [0.2204 0.4683]	tIoU: 0.9323
+Iteration 0: Current score 0.593750
+Iteration 0: Current best score 0.609375
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 23 epoch 192 iter, TOTAL LOSS = 5.7899, VSE LOSS = 0.1044, NLL LOSS = 1.7030
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch023.json
+pred: [[0.     0.2187]]	gt: [0.     0.2195]	tIoU: 0.9961
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch023.json
+pred: [[0.3467 0.5908]]	gt: [0.3281 0.4972]	tIoU: 0.5731
+Iteration 0: Current score 0.500000
+Iteration 0: Current best score 0.609375
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 24 epoch 192 iter, TOTAL LOSS = 5.4832, VSE LOSS = 0.0954, NLL LOSS = 1.7285
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch024.json
+pred: [[0.4379 0.8118]]	gt: [0.427  0.7259]	tIoU: 0.7483
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch024.json
+pred: [[0.7602 0.9378]]	gt: [0.8361 1.0127]	tIoU: 0.4027
+Iteration 0: Current score 0.593750
+Iteration 0: Current best score 0.609375
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 25 epoch 192 iter, TOTAL LOSS = 5.6922, VSE LOSS = 0.1113, NLL LOSS = 1.9011
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch025.json
+pred: [[0.3522 0.6899]]	gt: [0.3033 0.6066]	tIoU: 0.6579
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch025.json
+pred: [[0.2376 0.544 ]]	gt: [0.     0.1172]	tIoU: 0.0000
+Iteration 0: Current score 0.515625
+Iteration 0: Current best score 0.609375
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 26 epoch 192 iter, TOTAL LOSS = 5.7606, VSE LOSS = 0.1001, NLL LOSS = 1.8757
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch026.json
+pred: [[0.316  0.6807]]	gt: [0.2315 0.5934]	tIoU: 0.6176
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch026.json
+pred: [[0.7265 1.0366]]	gt: [0.6832 1.0728]	tIoU: 0.7961
+Iteration 0: New best score 0.656250
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI/checkpoints/epoch026.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI/checkpoints/best.pkl
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 27 epoch 192 iter, TOTAL LOSS = 5.5879, VSE LOSS = 0.1801, NLL LOSS = 1.5810
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch027.json
+pred: [[0.2865 0.5071]]	gt: [0.3127 0.5122]	tIoU: 0.8614
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch027.json
+pred: [[0.3192 0.5433]]	gt: [0.7956 1.0434]	tIoU: 0.0000
+Iteration 0: Current score 0.562500
+Iteration 0: Current best score 0.656250
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 28 epoch 192 iter, TOTAL LOSS = 5.7883, VSE LOSS = 0.1017, NLL LOSS = 1.9435
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch028.json
+pred: [[0.4975 0.7902]]	gt: [0.4303 0.7249]	tIoU: 0.6320
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch028.json
+pred: [[0.0021 0.1755]]	gt: [0.     0.1172]	tIoU: 0.6558
+Iteration 0: Current score 0.578125
+Iteration 0: Current best score 0.656250
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 29 epoch 192 iter, TOTAL LOSS = 5.3058, VSE LOSS = 0.0533, NLL LOSS = 1.4601
+Write json file in results/charades/tgn_lgi/LGI/predictions/Train/epoch029.json
+pred: [[0.0673 0.2618]]	gt: [0.0962 0.3208]	tIoU: 0.6531
+Write json file in results/charades/tgn_lgi/LGI/predictions/Valid/epoch029.json
+pred: [[0.5186 0.9587]]	gt: [0.5573 1.0337]	tIoU: 0.7792
+Iteration 0: Current score 0.546875
+Iteration 0: Current best score 0.656250

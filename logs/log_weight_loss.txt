@@ -1,0 +1,1374 @@
+Install seaborn to colorful visualization!
+Load yaml file from ymls/config.yml
+Load yaml file from ymls/config.yml
+========== GENERATE LABELS ========== 
+YANJUN BOT: SUCCESSFULLY BUILT ======> DESCRIPTION LOADER 
+Load json file from data/charades/preprocess/query_info/train_info_F1_L15_I3D.json
+Load yaml file from ymls/config.yml
+========== GENERATE LABELS ========== 
+YANJUN BOT: SUCCESSFULLY BUILT ======> DESCRIPTION LOADER 
+Load json file from data/charades/preprocess/query_info/test_info_F1_L15_I3D.json
+Initializing CLASS 
+{
+  "evaluation": {
+    "evaluate_after": -1,
+    "every_eval": 1,
+    "print_every": 100
+  },
+  "logging": {
+    "print_level": "DEBUG",
+    "write_level": "INFO"
+  },
+  "misc": {
+    "dataset": "charades",
+    "debug": false,
+    "exp_prefix": "charades/tgn_lgi/LGI",
+    "method_type": "tgn_lgi",
+    "num_workers": 4,
+    "print_every": 100,
+    "result_dir": "results/charades/tgn_lgi/LGI",
+    "tensorboard_dir": "tensorboard/charades/tgn_lgi/LGI",
+    "vis_every": 1
+  },
+  "model": {
+    "checkpoint_path": "",
+    "dqa_lambda": 0.3,
+    "dqa_weight": 1.0,
+    "glove_path": "",
+    "grounding_att_cand_dim": 512,
+    "grounding_att_drop_prob": 0.0,
+    "grounding_att_hdim": 256,
+    "grounding_att_key_dim": 512,
+    "grounding_hdim": 512,
+    "grounding_idim": 512,
+    "lgi_fusion_method": "mul",
+    "lgi_global_nl_drop_prob": 0.0,
+    "lgi_global_nl_idim": 512,
+    "lgi_global_nl_nheads": 1,
+    "lgi_global_nl_odim": 512,
+    "lgi_global_nl_use_bias": true,
+    "lgi_global_nl_use_local_mask": false,
+    "lgi_global_num_nl_block": 1,
+    "lgi_global_satt_att_cand_dim": 512,
+    "lgi_global_satt_att_edim": -1,
+    "lgi_global_satt_att_hdim": 256,
+    "lgi_global_satt_att_n": 1,
+    "lgi_global_satt_att_use_embedding": false,
+    "lgi_global_type": "nl",
+    "lgi_hp_hdim": 512,
+    "lgi_hp_idim_1": 512,
+    "lgi_hp_idim_2": 512,
+    "lgi_local_do_downsample": false,
+    "lgi_local_num_res_blocks": 1,
+    "lgi_local_res_block_1d_hdim": 256,
+    "lgi_local_res_block_1d_idim": 512,
+    "lgi_local_res_block_1d_ksize": 15,
+    "lgi_local_res_block_1d_odim": 512,
+    "lgi_local_type": "res_block",
+    "loc_word_emb_vocab_size": 1140,
+    "model_type": "LGI",
+    "num_semantic_entity": 3,
+    "query_enc_emb_idim": 1140,
+    "query_enc_emb_odim": 300,
+    "query_enc_rnn_bidirectional": true,
+    "query_enc_rnn_dropout": 0.5,
+    "query_enc_rnn_hdim": 256,
+    "query_enc_rnn_idim": 300,
+    "query_enc_rnn_nlayer": 2,
+    "query_enc_rnn_type": "LSTM",
+    "resume": false,
+    "sqan_att_cand_dim": 512,
+    "sqan_att_drop_prob": 0.0,
+    "sqan_att_hdim": 256,
+    "sqan_att_key_dim": 512,
+    "sqan_qdim": 512,
+    "tag_weight": 1.0,
+    "use_distinct_query_attention_loss": true,
+    "use_gpu": true,
+    "use_temporal_attention_guidance_loss": true,
+    "use_video_encoder": false,
+    "video_enc_pemb_idim": 128,
+    "video_enc_pemb_odim": 512,
+    "video_enc_use_position": true,
+    "video_enc_vemb_idim": 1024,
+    "video_enc_vemb_odim": 512,
+    "dataset": "charades"
+  },
+  "optimize": {
+    "decay_factor": 0.5,
+    "decay_step": -1,
+    "init_lr": 0.0004,
+    "num_step": 500,
+    "optimizer_type": "Adam",
+    "scheduler_type": ""
+  },
+  "test_loader": {
+    "batch_size": 100,
+    "data_dir": "data/charades",
+    "dataset": "charades",
+    "feature_type": "I3D",
+    "in_memory": true,
+    "max_length": 15,
+    "num_segment": 128,
+    "split": "test",
+    "video_feature_path": "data/charades/i3d_finetuned/{}.npy",
+    "word_frequency_threshold": 1
+  },
+  "train_loader": {
+    "batch_size": 100,
+    "data_dir": "data/charades",
+    "dataset": "charades",
+    "feature_type": "I3D",
+    "in_memory": true,
+    "max_length": 15,
+    "num_segment": 128,
+    "split": "train",
+    "video_feature_path": "data/charades/i3d_finetuned/{}.npy",
+    "word_frequency_threshold": 1
+  }
+}
+QuerySequenceEncoder -  query_enc_
+Attention -  sqan_
+Local-Global Video-Text Interactions module -  
+Hadamard Product -  lgi_
+Attentive Poolig -  lgi_global_satt_
+Non-Local Block -  lgi_global_
+Attention-based Location Regressor -  
+Attentive Poolig -  grounding_
+Temporal Attention Guidance Loss -  
+Distinct Query Attention Loss -  
+===> We train [video_enc|query_enc|vti_fn|ta_reg_fn|criterion|sqan]
+Create directory: results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints
+Create directory: results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/status
+Create directory: results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/qualitative
+=====> # of iteration per one epoch: 193
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 1 epoch 192 iter, TOTAL LOSS = 236.5327, VSE LOSS = 162.7407, NLL LOSS = 2.6777
+Create directory: results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch001.json
+pred: [[0.5849 0.8144]]	gt: [0.7491 0.9947]	tIoU: 0.1593
+Create directory: results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch001.json
+pred: [[0.2447 0.621 ]]	gt: [0.6287 1.0202]	tIoU: 0.0000
+Iteration 0: New best score 0.240841
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/epoch001.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/best.pkl
+Saving Model with Best Scores:  0.2408405172413793
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 2 epoch 192 iter, TOTAL LOSS = 121.2476, VSE LOSS = 50.7128, NLL LOSS = 2.3585
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch002.json
+pred: [[0.2779 0.5645]]	gt: [0.     0.3112]	tIoU: 0.0589
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch002.json
+pred: [[0.187  0.4636]]	gt: [0.     0.4753]	tIoU: 0.5819
+Iteration 0: New best score 0.331088
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/epoch002.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/best.pkl
+Saving Model with Best Scores:  0.3310883620689655
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 3 epoch 192 iter, TOTAL LOSS = 103.3165, VSE LOSS = 30.7340, NLL LOSS = 2.6107
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch003.json
+pred: [[0.1787 0.4787]]	gt: [0.1113 0.3405]	tIoU: 0.4406
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch003.json
+pred: [[0.5127 0.7885]]	gt: [0.8401 1.042 ]	tIoU: 0.0000
+Iteration 0: New best score 0.332974
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/epoch003.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/best.pkl
+Saving Model with Best Scores:  0.3329741379310345
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 4 epoch 192 iter, TOTAL LOSS = 74.3960, VSE LOSS = 11.3718, NLL LOSS = 2.0402
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch004.json
+pred: [[0.4708 0.7659]]	gt: [0.6576 0.8445]	tIoU: 0.2898
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch004.json
+pred: [[0.1781 0.4795]]	gt: [0.     0.4988]	tIoU: 0.6043
+Iteration 0: New best score 0.370151
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/epoch004.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/best.pkl
+Saving Model with Best Scores:  0.3701508620689655
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 5 epoch 192 iter, TOTAL LOSS = 75.1657, VSE LOSS = 10.3882, NLL LOSS = 2.2706
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch005.json
+pred: [[0.     0.3067]]	gt: [0.     0.4345]	tIoU: 0.7059
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch005.json
+pred: [[0.0952 0.3592]]	gt: [0.2083 0.4911]	tIoU: 0.3812
+Iteration 0: New best score 0.434537
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/epoch005.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/best.pkl
+Saving Model with Best Scores:  0.4345366379310345
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 6 epoch 192 iter, TOTAL LOSS = 79.7667, VSE LOSS = 10.4385, NLL LOSS = 2.4580
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch006.json
+pred: [[0.2621 0.6625]]	gt: [0.     0.2011]	tIoU: 0.0000
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch006.json
+pred: [[0.7662 1.0895]]	gt: [0.8055 1.0357]	tIoU: 0.7119
+Iteration 0: New best score 0.438039
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/epoch006.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/best.pkl
+Saving Model with Best Scores:  0.4380387931034483
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 7 epoch 192 iter, TOTAL LOSS = 78.2516, VSE LOSS = 10.8659, NLL LOSS = 2.5280
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch007.json
+pred: [[0.1406 0.415 ]]	gt: [0.0099 0.3255]	tIoU: 0.4563
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch007.json
+pred: [[0.2347 0.4994]]	gt: [0.2014 0.3862]	tIoU: 0.5085
+Iteration 0: New best score 0.438847
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/epoch007.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/best.pkl
+Saving Model with Best Scores:  0.43884698275862066
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 8 epoch 192 iter, TOTAL LOSS = 82.7445, VSE LOSS = 14.9060, NLL LOSS = 2.4380
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch008.json
+pred: [[0.5078 0.8339]]	gt: [0.4949 0.8165]	tIoU: 0.9108
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch008.json
+pred: [[0.8102 1.1118]]	gt: [0.6462 1.0462]	tIoU: 0.5068
+Iteration 0: New best score 0.450700
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/epoch008.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/best.pkl
+Saving Model with Best Scores:  0.45070043103448276
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 9 epoch 192 iter, TOTAL LOSS = 88.8198, VSE LOSS = 22.1803, NLL LOSS = 2.3439
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch009.json
+pred: [[0.529  0.8327]]	gt: [0.7125 1.045 ]	tIoU: 0.2329
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch009.json
+pred: [[0.1263 0.3708]]	gt: [0.1547 0.2945]	tIoU: 0.5716
+Iteration 0: Current score 0.435884
+Iteration 0: Current best score 0.450700
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 10 epoch 192 iter, TOTAL LOSS = 70.2149, VSE LOSS = 8.6092, NLL LOSS = 2.1446
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch010.json
+pred: [[0.0097 0.2747]]	gt: [0.     0.3714]	tIoU: 0.7137
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch010.json
+pred: [[0.0687 0.2566]]	gt: [0.0109 0.2578]	tIoU: 0.7610
+Iteration 0: New best score 0.473330
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/epoch010.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/best.pkl
+Saving Model with Best Scores:  0.47332974137931033
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 11 epoch 192 iter, TOTAL LOSS = 84.0808, VSE LOSS = 18.5602, NLL LOSS = 2.4151
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch011.json
+pred: [[0.6693 1.0684]]	gt: [0.7757 1.0237]	tIoU: 0.6212
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch011.json
+pred: [[0.4458 0.7207]]	gt: [0.5627 0.7812]	tIoU: 0.4710
+Iteration 0: New best score 0.487338
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/epoch011.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/best.pkl
+Saving Model with Best Scores:  0.4873383620689655
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 12 epoch 192 iter, TOTAL LOSS = 90.9200, VSE LOSS = 31.1924, NLL LOSS = 2.0831
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch012.json
+pred: [[0.4089 0.6844]]	gt: [0.3671 0.6512]	tIoU: 0.7637
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch012.json
+pred: [[0.8757 1.0763]]	gt: [0.7805 1.0407]	tIoU: 0.5576
+Iteration 0: Current score 0.476024
+Iteration 0: Current best score 0.487338
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 13 epoch 192 iter, TOTAL LOSS = 90.7109, VSE LOSS = 29.0954, NLL LOSS = 2.2542
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch013.json
+pred: [[0.     0.1854]]	gt: [0.     0.3905]	tIoU: 0.4749
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch013.json
+pred: [[0.     0.3164]]	gt: [0.1388 0.4049]	tIoU: 0.4386
+Iteration 0: New best score 0.514009
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/epoch013.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/best.pkl
+Saving Model with Best Scores:  0.5140086206896551
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 14 epoch 192 iter, TOTAL LOSS = 70.8630, VSE LOSS = 9.3748, NLL LOSS = 2.2296
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch014.json
+pred: [[0.4347 0.7327]]	gt: [0.488  0.6618]	tIoU: 0.5833
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch014.json
+pred: [[0.5293 0.8056]]	gt: [0.4542 0.7244]	tIoU: 0.5551
+Iteration 0: Current score 0.468750
+Iteration 0: Current best score 0.514009
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 15 epoch 192 iter, TOTAL LOSS = 79.3674, VSE LOSS = 19.8917, NLL LOSS = 2.0016
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch015.json
+pred: [[0.2323 0.4539]]	gt: [0.1039 0.4612]	tIoU: 0.6204
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch015.json
+pred: [[0.4671 0.7646]]	gt: [0.8708 1.0316]	tIoU: 0.0000
+Iteration 0: Current score 0.508082
+Iteration 0: Current best score 0.514009
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 16 epoch 192 iter, TOTAL LOSS = 85.8683, VSE LOSS = 24.1990, NLL LOSS = 2.0975
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch016.json
+pred: [[0.8439 0.9743]]	gt: [0.6988 1.0513]	tIoU: 0.3699
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch016.json
+pred: [[0.4368 0.6492]]	gt: [0.5354 0.8305]	tIoU: 0.2890
+Iteration 0: Current score 0.505657
+Iteration 0: Current best score 0.514009
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 17 epoch 192 iter, TOTAL LOSS = 78.9288, VSE LOSS = 16.5201, NLL LOSS = 2.2222
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch017.json
+pred: [[0.5112 0.8592]]	gt: [0.5043 0.7073]	tIoU: 0.5525
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch017.json
+pred: [[0.8619 1.004 ]]	gt: [0.8577 1.0336]	tIoU: 0.8078
+Iteration 0: Current score 0.500808
+Iteration 0: Current best score 0.514009
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 18 epoch 192 iter, TOTAL LOSS = 74.1143, VSE LOSS = 16.1010, NLL LOSS = 2.1038
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch018.json
+pred: [[0.6465 0.9009]]	gt: [0.6238 0.9238]	tIoU: 0.8478
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch018.json
+pred: [[0.     0.2373]]	gt: [0.0316 0.3   ]	tIoU: 0.6857
+Iteration 0: Current score 0.474677
+Iteration 0: Current best score 0.514009
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 19 epoch 192 iter, TOTAL LOSS = 83.0768, VSE LOSS = 25.8388, NLL LOSS = 1.9519
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch019.json
+pred: [[0.0729 0.3632]]	gt: [0.0774 0.2365]	tIoU: 0.5477
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch019.json
+pred: [[0.5034 0.7566]]	gt: [0.7345 0.9922]	tIoU: 0.0453
+Iteration 0: New best score 0.526940
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/epoch019.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/best.pkl
+Saving Model with Best Scores:  0.5269396551724138
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 20 epoch 192 iter, TOTAL LOSS = 82.8355, VSE LOSS = 23.7692, NLL LOSS = 2.0111
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch020.json
+pred: [[0.     0.4972]]	gt: [0.    0.452]	tIoU: 0.9090
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch020.json
+pred: [[0.5749 0.824 ]]	gt: [0.     0.4858]	tIoU: 0.0000
+Iteration 0: Current score 0.519935
+Iteration 0: Current best score 0.526940
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 21 epoch 192 iter, TOTAL LOSS = 73.6865, VSE LOSS = 15.6899, NLL LOSS = 1.9184
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch021.json
+pred: [[0.0453 0.3451]]	gt: [0.0832 0.3462]	tIoU: 0.8704
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch021.json
+pred: [[0.2509 0.5221]]	gt: [0.5967 0.9912]	tIoU: 0.0000
+Iteration 0: Current score 0.526670
+Iteration 0: Current best score 0.526940
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 22 epoch 192 iter, TOTAL LOSS = 70.9150, VSE LOSS = 12.1201, NLL LOSS = 2.0673
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch022.json
+pred: [[0.2155 0.5227]]	gt: [0.183  0.5512]	tIoU: 0.8346
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch022.json
+pred: [[0.6664 1.0158]]	gt: [0.7935 1.0128]	tIoU: 0.6277
+Iteration 0: Current score 0.512662
+Iteration 0: Current best score 0.526940
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 23 epoch 192 iter, TOTAL LOSS = 94.4937, VSE LOSS = 37.1029, NLL LOSS = 1.9371
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch023.json
+pred: [[0.2974 0.6026]]	gt: [0.2137 0.6689]	tIoU: 0.6703
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch023.json
+pred: [[0.2881 0.6758]]	gt: [0.1692 0.643 ]	tIoU: 0.7005
+Iteration 0: Current score 0.501886
+Iteration 0: Current best score 0.526940
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 24 epoch 192 iter, TOTAL LOSS = 82.2783, VSE LOSS = 24.7650, NLL LOSS = 2.0492
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch024.json
+pred: [[0.7018 0.9365]]	gt: [0.7433 0.9133]	tIoU: 0.7243
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch024.json
+pred: [[0.     0.2365]]	gt: [0.     0.1492]	tIoU: 0.6308
+Iteration 0: New best score 0.528825
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/epoch024.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/best.pkl
+Saving Model with Best Scores:  0.5288254310344828
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 25 epoch 192 iter, TOTAL LOSS = 70.0677, VSE LOSS = 13.9335, NLL LOSS = 1.8470
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch025.json
+pred: [[0.3381 0.6664]]	gt: [0.4105 0.5627]	tIoU: 0.4638
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch025.json
+pred: [[0.14   0.3205]]	gt: [0.2081 0.6016]	tIoU: 0.2434
+Iteration 0: Current score 0.499461
+Iteration 0: Current best score 0.528825
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 26 epoch 192 iter, TOTAL LOSS = 66.0064, VSE LOSS = 10.1487, NLL LOSS = 1.7954
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch026.json
+pred: [[0.5947 1.0127]]	gt: [0.5596 1.0409]	tIoU: 0.8685
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch026.json
+pred: [[0.     0.2822]]	gt: [0.     0.2989]	tIoU: 0.9442
+Iteration 0: New best score 0.535291
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/epoch026.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/best.pkl
+Saving Model with Best Scores:  0.5352909482758621
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 27 epoch 192 iter, TOTAL LOSS = 70.9862, VSE LOSS = 14.9909, NLL LOSS = 1.7173
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch027.json
+pred: [[0.649 0.986]]	gt: [0.6449 1.0306]	tIoU: 0.8739
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch027.json
+pred: [[0.7634 0.9418]]	gt: [0.2977 0.4528]	tIoU: 0.0000
+Iteration 0: Current score 0.509159
+Iteration 0: Current best score 0.535291
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 28 epoch 192 iter, TOTAL LOSS = 85.4607, VSE LOSS = 27.5766, NLL LOSS = 1.8929
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch028.json
+pred: [[0.     0.1323]]	gt: [0.     0.1298]	tIoU: 0.9816
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch028.json
+pred: [[0.4327 0.7326]]	gt: [0.5194 0.6969]	tIoU: 0.5920
+Iteration 0: Current score 0.519666
+Iteration 0: Current best score 0.535291
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 29 epoch 192 iter, TOTAL LOSS = 83.7767, VSE LOSS = 24.9533, NLL LOSS = 1.8708
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch029.json
+pred: [[0.     0.2726]]	gt: [0.    0.237]	tIoU: 0.8693
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch029.json
+pred: [[0.0453 0.3788]]	gt: [0.159  0.3429]	tIoU: 0.5514
+Iteration 0: New best score 0.537177
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/epoch029.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/best.pkl
+Saving Model with Best Scores:  0.537176724137931
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 30 epoch 192 iter, TOTAL LOSS = 68.5618, VSE LOSS = 11.2198, NLL LOSS = 2.0032
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch030.json
+pred: [[0.2082 0.4467]]	gt: [0.2253 0.516 ]	tIoU: 0.7193
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch030.json
+pred: [[0.     0.2537]]	gt: [0.0295 0.275 ]	tIoU: 0.8154
+Iteration 0: Current score 0.521013
+Iteration 0: Current best score 0.537177
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 31 epoch 192 iter, TOTAL LOSS = 66.7214, VSE LOSS = 10.4631, NLL LOSS = 1.8344
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch031.json
+pred: [[0.6943 0.9378]]	gt: [0.6598 1.0017]	tIoU: 0.7120
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch031.json
+pred: [[0.0274 0.3308]]	gt: [0.     0.5004]	tIoU: 0.6062
+Iteration 0: Current score 0.522091
+Iteration 0: Current best score 0.537177
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 32 epoch 192 iter, TOTAL LOSS = 70.9603, VSE LOSS = 17.0344, NLL LOSS = 1.7631
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch032.json
+pred: [[0.2218 0.566 ]]	gt: [0.167  0.5294]	tIoU: 0.7710
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch032.json
+pred: [[0.4183 0.7038]]	gt: [0.5561 0.7481]	tIoU: 0.4477
+Iteration 0: New best score 0.538254
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/epoch032.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/best.pkl
+Saving Model with Best Scores:  0.5382543103448276
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 33 epoch 192 iter, TOTAL LOSS = 61.0742, VSE LOSS = 6.5873, NLL LOSS = 1.8409
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch033.json
+pred: [[0.0441 0.3716]]	gt: [0.     0.4113]	tIoU: 0.7963
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch033.json
+pred: [[0.1701 0.5371]]	gt: [0.2039 0.707 ]	tIoU: 0.6205
+Iteration 0: Current score 0.522360
+Iteration 0: Current best score 0.538254
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 34 epoch 192 iter, TOTAL LOSS = 126.0206, VSE LOSS = 72.3456, NLL LOSS = 1.7176
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch034.json
+pred: [[0.6495 0.8425]]	gt: [0.6803 0.8539]	tIoU: 0.7932
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch034.json
+pred: [[0.   0.39]]	gt: [0.    0.407]	tIoU: 0.9583
+Iteration 0: Current score 0.529095
+Iteration 0: Current best score 0.538254
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 35 epoch 192 iter, TOTAL LOSS = 76.5521, VSE LOSS = 24.4187, NLL LOSS = 1.7469
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch035.json
+pred: [[0.4852 0.659 ]]	gt: [0.5082 0.6787]	tIoU: 0.7793
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch035.json
+pred: [[0.     0.3582]]	gt: [0.     0.2602]	tIoU: 0.7264
+Iteration 0: Current score 0.511584
+Iteration 0: Current best score 0.538254
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 36 epoch 192 iter, TOTAL LOSS = 57.5605, VSE LOSS = 2.8007, NLL LOSS = 1.7955
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch036.json
+pred: [[0.     0.2269]]	gt: [0.0131 0.3368]	tIoU: 0.6348
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch036.json
+pred: [[0.6658 0.9262]]	gt: [0.1554 0.3854]	tIoU: 0.0000
+Iteration 0: Current score 0.510237
+Iteration 0: Current best score 0.538254
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 37 epoch 192 iter, TOTAL LOSS = 56.0047, VSE LOSS = 4.3198, NLL LOSS = 1.6556
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch037.json
+pred: [[0.     0.3859]]	gt: [0.  0.4]	tIoU: 0.9649
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch037.json
+pred: [[0.1135 0.3116]]	gt: [0.62   0.8318]	tIoU: 0.0000
+Iteration 0: New best score 0.538524
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/epoch037.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/best.pkl
+Saving Model with Best Scores:  0.5385237068965517
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 38 epoch 192 iter, TOTAL LOSS = 59.0864, VSE LOSS = 4.5957, NLL LOSS = 1.6410
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch038.json
+pred: [[0.1664 0.3027]]	gt: [0.1791 0.2871]	tIoU: 0.7920
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch038.json
+pred: [[0.1053 0.3591]]	gt: [0.1567 0.563 ]	tIoU: 0.4422
+Iteration 0: Current score 0.512662
+Iteration 0: Current best score 0.538524
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 39 epoch 192 iter, TOTAL LOSS = 55.5985, VSE LOSS = 2.2060, NLL LOSS = 1.5861
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch039.json
+pred: [[0.0041 0.2397]]	gt: [0.0943 0.2768]	tIoU: 0.5334
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch039.json
+pred: [[0.6612 0.8519]]	gt: [0.     0.1775]	tIoU: 0.0000
+Iteration 0: Current score 0.514547
+Iteration 0: Current best score 0.538524
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 40 epoch 192 iter, TOTAL LOSS = 58.9334, VSE LOSS = 5.1257, NLL LOSS = 1.6373
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch040.json
+pred: [[0.6013 0.7854]]	gt: [0.6122 0.774 ]	tIoU: 0.8789
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch040.json
+pred: [[0.7152 0.9534]]	gt: [0.8103 1.0245]	tIoU: 0.4625
+Iteration 0: Current score 0.522899
+Iteration 0: Current best score 0.538524
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 41 epoch 192 iter, TOTAL LOSS = 59.2209, VSE LOSS = 6.4355, NLL LOSS = 1.5651
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch041.json
+pred: [[0.8415 1.0756]]	gt: [0.8846 1.0407]	tIoU: 0.6669
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch041.json
+pred: [[0.5603 0.8843]]	gt: [0.6522 0.872 ]	tIoU: 0.6783
+Iteration 0: Current score 0.502963
+Iteration 0: Current best score 0.538524
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 42 epoch 192 iter, TOTAL LOSS = 122.0235, VSE LOSS = 65.5729, NLL LOSS = 1.9257
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch042.json
+pred: [[0.0464 0.404 ]]	gt: [0.     0.4014]	tIoU: 0.8787
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch042.json
+pred: [[0.6296 0.8984]]	gt: [0.6622 0.8766]	tIoU: 0.7978
+Iteration 0: Current score 0.524515
+Iteration 0: Current best score 0.538524
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 43 epoch 192 iter, TOTAL LOSS = 56.9995, VSE LOSS = 5.6745, NLL LOSS = 1.5556
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch043.json
+pred: [[0.     0.2353]]	gt: [0.0133 0.2696]	tIoU: 0.8234
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch043.json
+pred: [[0.4552 0.926 ]]	gt: [0.     0.3892]	tIoU: 0.0000
+Iteration 0: Current score 0.537446
+Iteration 0: Current best score 0.538524
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 44 epoch 192 iter, TOTAL LOSS = 56.3717, VSE LOSS = 2.2476, NLL LOSS = 1.6770
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch044.json
+pred: [[0.8158 0.9984]]	gt: [0.8108 0.9749]	tIoU: 0.8481
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch044.json
+pred: [[0.0978 0.3297]]	gt: [0.1818 0.3871]	tIoU: 0.5116
+Iteration 0: Current score 0.536907
+Iteration 0: Current best score 0.538524
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 45 epoch 192 iter, TOTAL LOSS = 54.2388, VSE LOSS = 1.8043, NLL LOSS = 1.5216
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch045.json
+pred: [[0.     0.1641]]	gt: [0.     0.1222]	tIoU: 0.7447
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch045.json
+pred: [[0.6765 1.0286]]	gt: [0.5126 0.7886]	tIoU: 0.2172
+Iteration 0: Current score 0.532328
+Iteration 0: Current best score 0.538524
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 46 epoch 192 iter, TOTAL LOSS = 54.2881, VSE LOSS = 0.9525, NLL LOSS = 1.7111
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch046.json
+pred: [[0.3196 0.6799]]	gt: [0.3608 0.6687]	tIoU: 0.8544
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch046.json
+pred: [[0.     0.3262]]	gt: [0.0316 0.3   ]	tIoU: 0.8230
+Iteration 0: Current score 0.531250
+Iteration 0: Current best score 0.538524
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 47 epoch 192 iter, TOTAL LOSS = 53.5533, VSE LOSS = 2.1739, NLL LOSS = 1.4911
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch047.json
+pred: [[0.     0.1726]]	gt: [0.     0.1335]	tIoU: 0.7735
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch047.json
+pred: [[0.     0.3675]]	gt: [0.     0.2793]	tIoU: 0.7599
+Iteration 0: New best score 0.541756
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/epoch047.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/best.pkl
+Saving Model with Best Scores:  0.5417564655172413
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 48 epoch 192 iter, TOTAL LOSS = 53.9646, VSE LOSS = 1.6900, NLL LOSS = 1.5581
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch048.json
+pred: [[0.1936 0.3905]]	gt: [0.1709 0.4208]	tIoU: 0.7883
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch048.json
+pred: [[0.501  0.7391]]	gt: [0.4506 0.6201]	tIoU: 0.4130
+Iteration 0: Current score 0.533944
+Iteration 0: Current best score 0.541756
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 49 epoch 192 iter, TOTAL LOSS = 55.2467, VSE LOSS = 1.9527, NLL LOSS = 1.4917
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch049.json
+pred: [[0.4635 0.8694]]	gt: [0.4318 0.9313]	tIoU: 0.8127
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch049.json
+pred: [[0.5085 0.8528]]	gt: [0.4025 0.7844]	tIoU: 0.6124
+Iteration 0: Current score 0.530172
+Iteration 0: Current best score 0.541756
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 50 epoch 192 iter, TOTAL LOSS = 53.2421, VSE LOSS = 4.9078, NLL LOSS = 1.3102
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch050.json
+pred: [[0.     0.1699]]	gt: [0.     0.1468]	tIoU: 0.8640
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch050.json
+pred: [[0.3385 0.6057]]	gt: [0.8208 1.0268]	tIoU: 0.0000
+Iteration 0: Current score 0.530172
+Iteration 0: Current best score 0.541756
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 51 epoch 192 iter, TOTAL LOSS = 99.5874, VSE LOSS = 46.2608, NLL LOSS = 1.7898
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch051.json
+pred: [[0.125  0.4096]]	gt: [0.1706 0.3783]	tIoU: 0.7298
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch051.json
+pred: [[0.5932 0.9275]]	gt: [0.3198 0.6866]	tIoU: 0.1538
+Iteration 0: Current score 0.539601
+Iteration 0: Current best score 0.541756
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 52 epoch 192 iter, TOTAL LOSS = 54.8931, VSE LOSS = 4.5156, NLL LOSS = 1.4524
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch052.json
+pred: [[0.1459 0.3988]]	gt: [0.1099 0.4077]	tIoU: 0.8495
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch052.json
+pred: [[0.1962 0.4556]]	gt: [0.3698 0.5482]	tIoU: 0.2438
+Iteration 0: Current score 0.533944
+Iteration 0: Current best score 0.541756
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 53 epoch 192 iter, TOTAL LOSS = 55.2083, VSE LOSS = 2.3000, NLL LOSS = 1.4410
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch053.json
+pred: [[0.3884 0.6621]]	gt: [0.4588 0.6941]	tIoU: 0.6647
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch053.json
+pred: [[0.    0.269]]	gt: [0.     0.1989]	tIoU: 0.7395
+Iteration 0: New best score 0.551724
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/epoch053.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/best.pkl
+Saving Model with Best Scores:  0.5517241379310345
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 54 epoch 192 iter, TOTAL LOSS = 50.3336, VSE LOSS = 1.0096, NLL LOSS = 1.3407
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch054.json
+pred: [[0.4769 0.7069]]	gt: [0.4507 0.6716]	tIoU: 0.7602
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch054.json
+pred: [[0.     0.1277]]	gt: [0.     0.1132]	tIoU: 0.8865
+Iteration 0: Current score 0.537446
+Iteration 0: Current best score 0.551724
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 55 epoch 192 iter, TOTAL LOSS = 53.2146, VSE LOSS = 1.7476, NLL LOSS = 1.4200
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch055.json
+pred: [[0.6825 0.9439]]	gt: [0.7672 0.9536]	tIoU: 0.6520
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch055.json
+pred: [[0.2488 0.6221]]	gt: [0.1692 0.643 ]	tIoU: 0.7880
+Iteration 0: Current score 0.534483
+Iteration 0: Current best score 0.551724
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 56 epoch 192 iter, TOTAL LOSS = 53.6780, VSE LOSS = 0.6755, NLL LOSS = 1.4768
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch056.json
+pred: [[0.     0.4174]]	gt: [0.     0.3947]	tIoU: 0.9456
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch056.json
+pred: [[0.5467 0.7192]]	gt: [0.5625 0.7946]	tIoU: 0.6320
+Iteration 0: Current score 0.530442
+Iteration 0: Current best score 0.551724
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 57 epoch 192 iter, TOTAL LOSS = 50.3080, VSE LOSS = 1.0123, NLL LOSS = 1.2763
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch057.json
+pred: [[0.1483 0.5205]]	gt: [0.1149 0.5862]	tIoU: 0.7898
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch057.json
+pred: [[0.021  0.2075]]	gt: [0.     0.1871]	tIoU: 0.8008
+Iteration 0: Current score 0.542026
+Iteration 0: Current best score 0.551724
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 58 epoch 192 iter, TOTAL LOSS = 50.6781, VSE LOSS = 1.9988, NLL LOSS = 1.1947
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch058.json
+pred: [[0.0793 0.3267]]	gt: [0.0587 0.3366]	tIoU: 0.8900
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch058.json
+pred: [[0.5892 0.9178]]	gt: [0.5098 0.8673]	tIoU: 0.6814
+Iteration 0: Current score 0.522899
+Iteration 0: Current best score 0.551724
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 59 epoch 192 iter, TOTAL LOSS = 48.2453, VSE LOSS = 1.1557, NLL LOSS = 1.3588
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch059.json
+pred: [[0.6988 0.8975]]	gt: [0.7212 0.8798]	tIoU: 0.7985
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch059.json
+pred: [[0.4506 0.9014]]	gt: [0.     0.3892]	tIoU: 0.0000
+Iteration 0: Current score 0.527478
+Iteration 0: Current best score 0.551724
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 60 epoch 192 iter, TOTAL LOSS = 92.4231, VSE LOSS = 39.3998, NLL LOSS = 1.6570
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch060.json
+pred: [[0.1112 0.3227]]	gt: [0.0976 0.2962]	tIoU: 0.8216
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch060.json
+pred: [[0.0662 0.3293]]	gt: [0.     0.2251]	tIoU: 0.4825
+Iteration 0: Current score 0.531789
+Iteration 0: Current best score 0.551724
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 61 epoch 192 iter, TOTAL LOSS = 53.9735, VSE LOSS = 4.3033, NLL LOSS = 1.4627
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch061.json
+pred: [[0.     0.1878]]	gt: [0.     0.1739]	tIoU: 0.9261
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch061.json
+pred: [[0.4992 0.8806]]	gt: [0.     0.4783]	tIoU: 0.0000
+Iteration 0: New best score 0.553610
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/epoch061.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/best.pkl
+Saving Model with Best Scores:  0.5536099137931034
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 62 epoch 192 iter, TOTAL LOSS = 52.5013, VSE LOSS = 1.7706, NLL LOSS = 1.2048
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch062.json
+pred: [[0.0845 0.2942]]	gt: [0.0874 0.2778]	tIoU: 0.9080
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch062.json
+pred: [[0.4887 0.7209]]	gt: [0.1995 0.4795]	tIoU: 0.0000
+Iteration 0: Current score 0.543103
+Iteration 0: Current best score 0.553610
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 63 epoch 192 iter, TOTAL LOSS = 50.5479, VSE LOSS = 0.4403, NLL LOSS = 1.2752
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch063.json
+pred: [[0.0498 0.1827]]	gt: [0.0555 0.1908]	tIoU: 0.9026
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch063.json
+pred: [[0.4364 0.7718]]	gt: [0.6824 0.8797]	tIoU: 0.2017
+Iteration 0: Current score 0.539062
+Iteration 0: Current best score 0.553610
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 64 epoch 192 iter, TOTAL LOSS = 47.8252, VSE LOSS = 0.8072, NLL LOSS = 1.3293
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch064.json
+pred: [[0.     0.3568]]	gt: [0.     0.4363]	tIoU: 0.8178
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch064.json
+pred: [[0.6737 1.0205]]	gt: [0.6839 1.0323]	tIoU: 0.9386
+Iteration 0: Current score 0.539062
+Iteration 0: Current best score 0.553610
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 65 epoch 192 iter, TOTAL LOSS = 48.2981, VSE LOSS = 0.6484, NLL LOSS = 1.1018
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch065.json
+pred: [[0.6652 0.8422]]	gt: [0.7149 0.8879]	tIoU: 0.5717
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch065.json
+pred: [[0.4181 0.7295]]	gt: [0.131  0.3461]	tIoU: 0.0000
+Iteration 0: Current score 0.545259
+Iteration 0: Current best score 0.553610
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 66 epoch 192 iter, TOTAL LOSS = 50.6440, VSE LOSS = 0.9320, NLL LOSS = 1.2540
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch066.json
+pred: [[0.     0.3533]]	gt: [0.    0.341]	tIoU: 0.9649
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch066.json
+pred: [[0.4184 0.7422]]	gt: [0.5161 0.6992]	tIoU: 0.5655
+Iteration 0: New best score 0.555765
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/epoch066.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/best.pkl
+Saving Model with Best Scores:  0.5557650862068966
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 67 epoch 192 iter, TOTAL LOSS = 52.3730, VSE LOSS = 1.1196, NLL LOSS = 1.3644
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch067.json
+pred: [[0.0776 0.4354]]	gt: [0.0859 0.4859]	tIoU: 0.8558
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch067.json
+pred: [[0.     0.2272]]	gt: [0.     0.2542]	tIoU: 0.8938
+Iteration 0: Current score 0.542565
+Iteration 0: Current best score 0.555765
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 68 epoch 192 iter, TOTAL LOSS = 48.1862, VSE LOSS = 0.5511, NLL LOSS = 1.2501
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch068.json
+pred: [[0.    0.217]]	gt: [0.     0.2124]	tIoU: 0.9788
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch068.json
+pred: [[0.0574 0.5595]]	gt: [0.1536 0.6334]	tIoU: 0.7047
+Iteration 0: Current score 0.552532
+Iteration 0: Current best score 0.555765
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 69 epoch 192 iter, TOTAL LOSS = 52.8387, VSE LOSS = 3.6119, NLL LOSS = 1.1649
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch069.json
+pred: [[0.1174 0.3327]]	gt: [0.0926 0.3174]	tIoU: 0.8327
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch069.json
+pred: [[0.0326 0.2776]]	gt: [0.0645 0.2363]	tIoU: 0.7015
+Iteration 0: Current score 0.534752
+Iteration 0: Current best score 0.555765
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 70 epoch 192 iter, TOTAL LOSS = 85.8679, VSE LOSS = 37.5075, NLL LOSS = 1.3040
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch070.json
+pred: [[0.1656 0.5702]]	gt: [0.123  0.5679]	tIoU: 0.8996
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch070.json
+pred: [[0.4704 0.8638]]	gt: [0.5002 0.9869]	tIoU: 0.7040
+Iteration 0: Current score 0.531250
+Iteration 0: Current best score 0.555765
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 71 epoch 192 iter, TOTAL LOSS = 52.9425, VSE LOSS = 3.7077, NLL LOSS = 1.2094
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch071.json
+pred: [[0.5816 0.996 ]]	gt: [0.5774 1.0374]	tIoU: 0.9007
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch071.json
+pred: [[0.545  0.8029]]	gt: [0.3202 0.5466]	tIoU: 0.0032
+Iteration 0: Current score 0.539871
+Iteration 0: Current best score 0.555765
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 72 epoch 192 iter, TOTAL LOSS = 49.2937, VSE LOSS = 1.4735, NLL LOSS = 1.1921
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch072.json
+pred: [[0.     0.2179]]	gt: [0.     0.2147]	tIoU: 0.9855
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch072.json
+pred: [[0.0931 0.3561]]	gt: [0.0161 0.2089]	tIoU: 0.3408
+Iteration 0: Current score 0.543103
+Iteration 0: Current best score 0.555765
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 73 epoch 192 iter, TOTAL LOSS = 48.6756, VSE LOSS = 0.9984, NLL LOSS = 1.1632
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch073.json
+pred: [[0.     0.3482]]	gt: [0.     0.3181]	tIoU: 0.9136
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch073.json
+pred: [[0.1176 0.5621]]	gt: [0.0863 0.3222]	tIoU: 0.4299
+Iteration 0: Current score 0.539871
+Iteration 0: Current best score 0.555765
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 74 epoch 192 iter, TOTAL LOSS = 49.3915, VSE LOSS = 0.8826, NLL LOSS = 1.1839
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch074.json
+pred: [[0.0934 0.346 ]]	gt: [0.0847 0.3256]	tIoU: 0.8885
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch074.json
+pred: [[0.4101 0.7085]]	gt: [0.3726 0.6737]	tIoU: 0.7849
+Iteration 0: Current score 0.543642
+Iteration 0: Current best score 0.555765
+========= UPDATE LR RATE AT 8e-05 =========
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 75 epoch 192 iter, TOTAL LOSS = 47.6930, VSE LOSS = 0.1560, NLL LOSS = 0.9407
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch075.json
+pred: [[0.4853 0.8065]]	gt: [0.4509 0.8463]	tIoU: 0.8123
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch075.json
+pred: [[0.3794 0.7078]]	gt: [0.3995 0.8847]	tIoU: 0.6099
+Iteration 0: Current score 0.547953
+Iteration 0: Current best score 0.555765
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 76 epoch 192 iter, TOTAL LOSS = 44.7455, VSE LOSS = 0.2875, NLL LOSS = 0.8123
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch076.json
+pred: [[0.2827 0.4956]]	gt: [0.3015 0.5155]	tIoU: 0.8337
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch076.json
+pred: [[0.5931 0.8671]]	gt: [0.6057 1.0309]	tIoU: 0.5971
+Iteration 0: Current score 0.552263
+Iteration 0: Current best score 0.555765
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 77 epoch 192 iter, TOTAL LOSS = 44.6141, VSE LOSS = 0.1547, NLL LOSS = 0.7813
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch077.json
+pred: [[0.1873 0.5082]]	gt: [0.1703 0.506 ]	tIoU: 0.9431
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch077.json
+pred: [[0.3651 0.838 ]]	gt: [0.4226 0.7137]	tIoU: 0.6155
+Iteration 0: New best score 0.557112
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/epoch077.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/best.pkl
+Saving Model with Best Scores:  0.5571120689655172
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 78 epoch 192 iter, TOTAL LOSS = 43.6001, VSE LOSS = 0.2155, NLL LOSS = 0.8055
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch078.json
+pred: [[0.0244 0.2183]]	gt: [0.0286 0.2031]	tIoU: 0.9001
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch078.json
+pred: [[0.     0.1741]]	gt: [0.     0.1032]	tIoU: 0.5930
+Iteration 0: Current score 0.547953
+Iteration 0: Current best score 0.557112
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 79 epoch 192 iter, TOTAL LOSS = 42.5582, VSE LOSS = 0.1497, NLL LOSS = 0.7819
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch079.json
+pred: [[0.0589 0.2389]]	gt: [0.0709 0.2642]	tIoU: 0.8185
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch079.json
+pred: [[0.5547 0.8369]]	gt: [0.589  0.9054]	tIoU: 0.7071
+Iteration 0: Current score 0.549030
+Iteration 0: Current best score 0.557112
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 80 epoch 192 iter, TOTAL LOSS = 43.6011, VSE LOSS = 0.1109, NLL LOSS = 0.8582
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch080.json
+pred: [[0.4465 0.6946]]	gt: [0.4369 0.7117]	tIoU: 0.9029
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch080.json
+pred: [[0.6069 0.995 ]]	gt: [0.0152 0.475 ]	tIoU: 0.0000
+Iteration 0: Current score 0.557112
+Iteration 0: Current best score 0.557112
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 81 epoch 192 iter, TOTAL LOSS = 43.1744, VSE LOSS = 0.1465, NLL LOSS = 0.8290
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch081.json
+pred: [[0.1366 0.2917]]	gt: [0.1284 0.2945]	tIoU: 0.9336
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch081.json
+pred: [[0.     0.3216]]	gt: [0.     0.2938]	tIoU: 0.9135
+Iteration 0: New best score 0.559267
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/epoch081.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/best.pkl
+Saving Model with Best Scores:  0.5592672413793104
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 82 epoch 192 iter, TOTAL LOSS = 43.5157, VSE LOSS = 0.0768, NLL LOSS = 0.8509
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch082.json
+pred: [[0.     0.3212]]	gt: [0.    0.325]	tIoU: 0.9882
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch082.json
+pred: [[0.1134 0.2741]]	gt: [0.1161 0.2583]	tIoU: 0.8847
+Iteration 0: Current score 0.555496
+Iteration 0: Current best score 0.559267
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 83 epoch 192 iter, TOTAL LOSS = 44.7601, VSE LOSS = 0.1251, NLL LOSS = 0.8161
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch083.json
+pred: [[0.3905 0.7212]]	gt: [0.3793 0.713 ]	tIoU: 0.9432
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch083.json
+pred: [[0.     0.2583]]	gt: [0.     0.4559]	tIoU: 0.5666
+Iteration 0: Current score 0.554418
+Iteration 0: Current best score 0.559267
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 84 epoch 192 iter, TOTAL LOSS = 47.8985, VSE LOSS = 0.0977, NLL LOSS = 0.9519
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch084.json
+pred: [[0.7031 0.8756]]	gt: [0.6891 0.877 ]	tIoU: 0.9180
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch084.json
+pred: [[0.0955 0.2619]]	gt: [0.1161 0.2583]	tIoU: 0.8545
+Iteration 0: Current score 0.555496
+Iteration 0: Current best score 0.559267
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 85 epoch 192 iter, TOTAL LOSS = 45.1249, VSE LOSS = 0.1008, NLL LOSS = 0.9483
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch085.json
+pred: [[0.907  1.0295]]	gt: [0.893  1.0377]	tIoU: 0.8465
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch085.json
+pred: [[0.1813 0.4095]]	gt: [0.1818 0.3871]	tIoU: 0.8998
+Iteration 0: Current score 0.550108
+Iteration 0: Current best score 0.559267
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 86 epoch 192 iter, TOTAL LOSS = 44.6154, VSE LOSS = 0.1593, NLL LOSS = 0.8478
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch086.json
+pred: [[0.4601 0.7281]]	gt: [0.4717 0.7372]	tIoU: 0.9252
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch086.json
+pred: [[0.2538 0.6483]]	gt: [0.1307 0.3594]	tIoU: 0.2039
+Iteration 0: Current score 0.557112
+Iteration 0: Current best score 0.559267
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 87 epoch 192 iter, TOTAL LOSS = 45.2747, VSE LOSS = 0.2352, NLL LOSS = 0.8344
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch087.json
+pred: [[0.0962 0.372 ]]	gt: [0.1253 0.321 ]	tIoU: 0.7093
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch087.json
+pred: [[0.4959 0.7161]]	gt: [0.2204 0.4683]	tIoU: 0.0000
+Iteration 0: Current score 0.554149
+Iteration 0: Current best score 0.559267
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 88 epoch 192 iter, TOTAL LOSS = 44.8636, VSE LOSS = 0.1752, NLL LOSS = 0.7277
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch088.json
+pred: [[0.3664 0.5642]]	gt: [0.361  0.5561]	tIoU: 0.9334
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch088.json
+pred: [[0.669  1.0221]]	gt: [0.     0.3892]	tIoU: 0.0000
+Iteration 0: Current score 0.553071
+Iteration 0: Current best score 0.559267
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 89 epoch 192 iter, TOTAL LOSS = 45.6808, VSE LOSS = 0.1003, NLL LOSS = 0.9184
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch089.json
+pred: [[0.2055 0.5527]]	gt: [0.1788 0.5722]	tIoU: 0.8827
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch089.json
+pred: [[0.1279 0.3419]]	gt: [0.1119 0.2503]	tIoU: 0.5320
+Iteration 0: Current score 0.554688
+Iteration 0: Current best score 0.559267
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 90 epoch 192 iter, TOTAL LOSS = 44.2674, VSE LOSS = 0.1663, NLL LOSS = 0.8509
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch090.json
+pred: [[0.504 0.766]]	gt: [0.4806 0.7744]	tIoU: 0.8920
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch090.json
+pred: [[0.     0.2426]]	gt: [0.     0.1989]	tIoU: 0.8199
+Iteration 0: Current score 0.553879
+Iteration 0: Current best score 0.559267
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 91 epoch 192 iter, TOTAL LOSS = 44.0457, VSE LOSS = 0.2615, NLL LOSS = 0.8022
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch091.json
+pred: [[0.5948 0.7331]]	gt: [0.5735 0.6988]	tIoU: 0.6518
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch091.json
+pred: [[0.3567 0.8016]]	gt: [0.4226 0.7137]	tIoU: 0.6541
+Iteration 0: Current score 0.550377
+Iteration 0: Current best score 0.559267
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 92 epoch 192 iter, TOTAL LOSS = 44.5862, VSE LOSS = 0.0880, NLL LOSS = 0.7889
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch092.json
+pred: [[0.4471 0.806 ]]	gt: [0.4026 0.8106]	tIoU: 0.8798
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch092.json
+pred: [[0.566  1.0751]]	gt: [0.6262 0.9867]	tIoU: 0.7082
+Iteration 0: New best score 0.560614
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/epoch092.pkl
+Checkpoint [video_enc | query_enc | vti_fn | ta_reg_fn | sqan] is saved in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/checkpoints/best.pkl
+Saving Model with Best Scores:  0.560614224137931
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 93 epoch 192 iter, TOTAL LOSS = 44.5217, VSE LOSS = 0.3157, NLL LOSS = 0.8496
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch093.json
+pred: [[0.4911 0.7135]]	gt: [0.4924 0.7123]	tIoU: 0.9887
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch093.json
+pred: [[0.     0.3391]]	gt: [0.7229 1.0463]	tIoU: 0.0000
+Iteration 0: Current score 0.554957
+Iteration 0: Current best score 0.560614
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 94 epoch 192 iter, TOTAL LOSS = 44.1063, VSE LOSS = 0.2595, NLL LOSS = 0.7886
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch094.json
+pred: [[0.6022 1.0173]]	gt: [0.5934 1.0214]	tIoU: 0.9698
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch094.json
+pred: [[0.2124 0.4741]]	gt: [0.3943 0.7617]	tIoU: 0.1453
+Iteration 0: Current score 0.552802
+Iteration 0: Current best score 0.560614
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 95 epoch 192 iter, TOTAL LOSS = 46.5063, VSE LOSS = 0.3393, NLL LOSS = 0.8612
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch095.json
+pred: [[0.0919 0.3534]]	gt: [0.1056 0.3492]	tIoU: 0.9313
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch095.json
+pred: [[0.605  1.0224]]	gt: [0.586  1.0224]	tIoU: 0.9565
+Iteration 0: Current score 0.553071
+Iteration 0: Current best score 0.560614
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 96 epoch 192 iter, TOTAL LOSS = 45.4911, VSE LOSS = 0.2012, NLL LOSS = 0.7965
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch096.json
+pred: [[0.4454 0.8184]]	gt: [0.418  0.8281]	tIoU: 0.9095
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch096.json
+pred: [[0.3243 0.5603]]	gt: [0.2338 0.4675]	tIoU: 0.4387
+Iteration 0: Current score 0.557920
+Iteration 0: Current best score 0.560614
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 97 epoch 192 iter, TOTAL LOSS = 42.4557, VSE LOSS = 0.1886, NLL LOSS = 0.7829
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch097.json
+pred: [[0.6675 0.8882]]	gt: [0.6871 0.902 ]	tIoU: 0.8577
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch097.json
+pred: [[0.6544 0.8357]]	gt: [0.62   0.8318]	tIoU: 0.8227
+Iteration 0: Current score 0.555496
+Iteration 0: Current best score 0.560614
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 98 epoch 192 iter, TOTAL LOSS = 42.7341, VSE LOSS = 0.2307, NLL LOSS = 0.7960
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch098.json
+pred: [[0.8043 1.0478]]	gt: [0.8034 1.0169]	tIoU: 0.8702
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch098.json
+pred: [[0.1109 0.3807]]	gt: [0.079  0.3619]	tIoU: 0.8319
+Iteration 0: Current score 0.555765
+Iteration 0: Current best score 0.560614
+Shuffling batch with 193 iterations 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+Step 0 grounding = 0.0000, tag = 0.0000, dqa = 0.0000, 
+total_loss = 0.0000, 
+[== VMPT ALL ==][Train] 99 epoch 192 iter, TOTAL LOSS = 43.4864, VSE LOSS = 0.4761, NLL LOSS = 0.7997
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Train/epoch099.json
+pred: [[0.5172 0.7562]]	gt: [0.5043 0.7204]	tIoU: 0.8062
+Write json file in results/charades/tgn_lgi/LGI_bidir_attn_weightloss_2020-07-26/predictions/Valid/epoch099.json
+pred: [[0.1682 0.5582]]	gt: [0.3529 0.5631]	tIoU: 0.5200
+Iteration 0: Current score 0.552532
+Iteration 0: Current best score 0.560614
