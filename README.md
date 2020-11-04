@@ -1,10 +1,10 @@
-Temporal Grounding through Video Pivoted Machine Translation
+#Temporal Grounding through Video Pivoted Machine Translation
 (VPMT)
 
-# Environment Setup 
+## Environment Setup 
 参考 LGI (src/anaconda_environment.md)
 
-# Folder and Files 
+## Folder and Files 
 - data : 
 	folder for data. Download from src/scripts/prepare_data.sh 
 	- charades 
@@ -34,7 +34,7 @@ Temporal Grounding through Video Pivoted Machine Translation
 	containing config file (.ymls) as config input to LGI model 
 
 
-# VPMT Pipeline python files 
+## VPMT Pipeline python files 
 - trainer.py:
 	supervised trainer启动代码，包括data loader, train, validate, save checkpoint  
 - VPMT.py:
@@ -46,7 +46,7 @@ Temporal Grounding through Video Pivoted Machine Translation
 - vpmt_config.py 
 	configuration 
 
-# 启动实例 
+## Running  
 ``python trainer.py >> log_*setting*.py
 ``
 
