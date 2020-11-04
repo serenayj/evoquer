@@ -1,16 +1,13 @@
 Temporal Grounding through Video Pivoted Machine Translation
 (VPMT)
 
-Code location: 50.76.61.186:/home/yanjungao/VPMT or gitlab (http://git.corp.kuaishou.com/yanjungao/vpmt/) 
-
-
 # Environment Setup 
-参考
+参考 LGI (src/anaconda_environment.md)
 
 # Folder结构
 这部分介绍包含vpmt下的几个文件夹，这里只列出特别需要注意的(经过修改的)代码和文件，其他没有列在此的可以当作black box直接拿来用 
 - data : 
-	folder for data 
+	folder for data. Download from src/scripts/prepare_data.sh 
 	- charades 
 	- activitynet (TBD)
 - src: 
@@ -33,7 +30,7 @@ Code location: 50.76.61.186:/home/yanjungao/VPMT or gitlab (http://git.corp.kuai
 	- models
 	 	- DecoderRNN.py: RNN modules for decoder 
 - VSE : 
-	visual embedding source codes from (https://github.com/fartashf/vsepp) 
+	visual embedding source codes from (https://github.com/fartashf/vsepp), re-oraganized into vse_video_enc.py  
 - ymls:
 	containing config file (.ymls) as config input to LGI model 
 
@@ -43,10 +40,11 @@ Code location: 50.76.61.186:/home/yanjungao/VPMT or gitlab (http://git.corp.kuai
 	supervised trainer启动代码，包括data loader, train, validate, save checkpoint  
 - VPMT.py:
 	pipeline建设代码，包括主要模型：LGI, VSE, Translation, 和中间连接function，optimizer, forward, update   
+	VPMT pipeline with LGI, VSE, Translation, and miscellaneous functions (optimizer, forward, update)
 - VPCLS.py: 
-	动作，object分类器pipeline建设代码   
+	VPMT pipeline with action and object classifcation instead of translation 
 - vse_video_enc.py: 
-	RNN Encoder模块，主要为visual embedding input
+	Visual embedding modules 
 - vpmt_config.py 
 	configuration 
 
