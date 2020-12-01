@@ -167,7 +167,7 @@ if __name__ == "__main__":
 
 	global dataset 
 	#dataset = sys.argv[1] 
-	dataset = "anet"
+	dataset = "charades"
 	#sys.path.append("/Users/yanjungao/Desktop/VPMT/")
 	from src.utils import io_utils, eval_utils
 	#config_path="/Users/yanjungao/Desktop/LGI4temporalgrounding-master/pretrained_models/charades_LGI/config.yml"
@@ -185,7 +185,7 @@ if __name__ == "__main__":
 		"batch_size": 64,
 		}
 		from src.dataset.charades import * 
-		config_path = "ymls/config_4e-5.yml"
+		config_path = "ymls/config_char.yml"
 		full_config= io_utils.load_yaml(config_path)
 		config = io_utils.load_yaml(config_path)["train_loader"]
 		train_D = CharadesDataset(config)
