@@ -47,6 +47,11 @@
 	configuration 
 
 ## Running  
+If using simplified translation: prepare translation ground truth by 
+``
+python preprocess_query_simpl_trans.py 
+``
+Then run the training script: 
 ``python trainer.py >> log_*setting*.py
 ``
 
