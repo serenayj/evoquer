@@ -1,4 +1,4 @@
-#Temporal Grounding through Video Pivoted Machine Translation
+# Temporal Grounding through Video Pivoted Machine Translation
 (VPMT)
 
 ## Environment Setup 
