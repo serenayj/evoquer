@@ -2,7 +2,7 @@
 (VPMT)
 
 ## Environment Setup 
-参考 LGI (src/anaconda_environment.md)
+LGI (src/anaconda_environment.md)
 
 ## Folder and Files 
 - data : 
@@ -36,7 +36,7 @@
 
 ## VPMT Pipeline python files 
 - trainer.py:
-	supervised trainer启动代码，包括data loader, train, validate, save checkpoint  
+	supervised trainer，including: data loader, train, validate, save checkpoint  
 - VPMT.py:
 	VPMT pipeline with LGI, VSE, Translation, and miscellaneous functions (optimizer, forward, update)
 - VPCLS.py: 
@@ -47,6 +47,11 @@
 	configuration 
 
 ## Running  
+If using simplified translation: prepare translation ground truth by 
+``
+python preprocess_query_simpl_trans.py 
+``
+Then run the training script: 
 ``python trainer.py >> log_*setting*.py
 ``
 
