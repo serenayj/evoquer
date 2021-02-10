@@ -35,6 +35,7 @@ You can install the packages by typing:
 conda install -y nb_conda numpy scipy jupyter matplotlib pillow nltk tqdm pyyaml scikit-image scikit-learn h5py
 conda install -y -c conda-forge coloredlogs
 pip install moviepy
+pip install benepar
 ```
 
 
