@@ -48,7 +48,7 @@ class VPMT(nn.Module):
                 super(VPMT, self).__init__()
                 self.dataset = dataset # datset name 
                 self.arg = arg
-                self.vocab_size=5947
+                self.vocab_size=11125
                 #self.vocab_size = arg.vocab_size 
                 self.LGI_arg = arg.lgi_arg # LGI model uses its own parameters
                 #self.LGI_model = LGI(arg) 
