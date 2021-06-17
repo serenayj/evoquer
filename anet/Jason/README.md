@@ -3,21 +3,21 @@ ActivityNet(anet)
 
 ## 1. File Descriptions
 
-`VPMT_eric.py`: 
+`VPMT_eric.py`: EVOQUER Pipeline including models, optimizer, forward functions, & update
 
-`anet.py`:
+`anet.py`: Dataloader for ActivityNet Dataset
 
-`config_anet.yml`:
+`config_anet.yml`: Settings for training the nerual network
 
-`eric_mt.py`:
+`eric_mt.py`: Encoder/Decoder
 
-`pipeline_utils.py`:
+`pipeline_utils.py`: Simplfied translation functions
 
-`preprocess_query_simpl_trans.py`:
+`preprocess_query_simpl_trans.py`: Script in order to simplify input queries
 
-`test_translate_eric.py`:
+`test_translate_eric.py`: File to run in translation module
 
-`trainer_eric.py`:
+`trainer_eric.py`: File to run in order to train neural network (LGI)
 
 ## 2. Spreadsheet of Results 
 
