@@ -20,6 +20,8 @@ ActivityNet(anet)
 
 `trainer_eric.py`: File to run in order to train neural network (LGI)
 
+`jacab_sim.py`: Calculate jaccard similarity 
+
 ## 2. Spreadsheet of Results 
 
 `I've ran two experiments for ActivityNet
