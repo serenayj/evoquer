@@ -1,5 +1,5 @@
 # EVOQUER: Enhancing Temporal Grounding with Video-Pivoted BackQuery Generation
-Source code for our paper, "EVOQUER: Enhancing Temporal Grounding with Video-Pivoted BackQuery Generation" ([Link](https://arxiv.org/abs/2109.04600)). 
+Source code for our paper, "EVOQUER: Enhancing Temporal Grounding with Video-Pivoted BackQuery Generation" ([Link](https://arxiv.org/abs/2109.04600)), appeared in Visually Grounded Interaction and Language (ViGIL) Workshop 2021. 
 
 Our codebase is built on top of [LGI model](https://github.com/JonghwanMun/LGI4temporalgrounding).  
 
