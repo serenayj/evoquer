@@ -1,5 +1,8 @@
-# Temporal Grounding through Video Pivoted Machine Translation
-(VPMT)
+# EVOQUER: Enhancing Temporal Grounding with Video-Pivoted BackQuery Generation
+Source code for our paper, "EVOQUER: Enhancing Temporal Grounding with Video-Pivoted BackQuery Generation" ([Link](https://arxiv.org/abs/2109.04600)). 
+
+Our codebase is built on top of [LGI model](https://github.com/JonghwanMun/LGI4temporalgrounding).  
+
 
 ## Environment Setup 
 LGI (src/anaconda_environment.md)
@@ -8,7 +11,7 @@ LGI (src/anaconda_environment.md)
 - data : 
 	folder for data. Download from src/scripts/prepare_data.sh 
 	- charades 
-	- activitynet (TBD)
+	- activitynet 
 - src: 
 	Yanjun modified version of LGI model (orig from (https://github.com/JonghwanMun/LGI4temporalgrounding))
 	- model 
